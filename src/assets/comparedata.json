@@ -1,0 +1,1535 @@
+{
+   "result" : {
+      "changelist" : [
+         {
+            "children" : [
+               {
+                  "children" : [
+                     {
+                        "children" : [
+                           {
+                              "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "Scanogram(AP)",
+                                    "name" : "Scan mode",
+                                    "targetvalue" : "Scanogram(AP)"
+                              }
+                           },
+                           {
+                              "data":{
+                                "haschild" : "false",
+                                "mastervalue" : "200",
+                                "name" : "mA",
+                                "targetvalue" : "200"}
+                           },
+                           {
+                              "data":{
+                                "haschild" : "false",
+                                "mastervalue" : "P",
+                                "name" : "Start",
+                                "targetvalue" : "P"}
+                           },
+                           {
+                              "data":{
+                                "haschild" : "false",
+                                "mastervalue" : "0.00",
+                                "name" : "Start time (s)",
+                                "targetvalue" : "0.00"}
+                           },
+                           {
+                              "data":{
+                                "haschild" : "false",
+                                "mastervalue" : "0.00",
+                                "name" : "Wait time (s)",
+                                "targetvalue" : "0.00"}
+                           },
+                           {
+                              "data":{
+                                "haschild" : "false",
+                                "mastervalue" : "100",
+                                "name" : "kV",
+                                "targetvalue" : "100"}
+                           },
+                           {
+                              "data":{
+                                "haschild" : "false",
+                                "mastervalue" : "1300.0",
+                                "name" : "Range (mm)",
+                                "targetvalue" : "1300.0"}
+                           },
+                           {
+                              "data":{
+                                "haschild" : "false",
+                                "mastervalue" : "OUT",
+                                "name" : "Direction",
+                                "targetvalue" : "OUT"}
+                           },
+                           {
+                              "data":{
+                                "haschild" : "false",
+                                "mastervalue" : "FL03 (FL03)",
+                                "name" : "Display Filter",
+                                "targetvalue" : "FL03 (FL03)"}
+                           },
+                           {
+                              "data":{
+                                "haschild" : "false",
+                                "mastervalue" : "",
+                                "name" : "Sure IQ Patient Type",
+                                "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                                "haschild" : "false",
+                                "mastervalue" : "",
+                                "name" : "Sure IQ Organ",
+                                "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "",
+                              "name" : "Sure IQ Name",
+                              "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "",
+                              "name" : "Protocol Comment",
+                              "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "Prescan Voice",
+                              "targetvalue" : "OFF"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "Postscan Voice",
+                              "targetvalue" : "OFF"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "0",
+                              "name" : "Scano angle",
+                              "targetvalue" : "0"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "CE",
+                              "targetvalue" : "OFF"}
+                           }
+                        ],
+                        "data":{
+                            "haschild" : "true",
+                            "mastervalue" : "",
+                            "name" : "Scan Parameters",
+                            "targetvalue" : ""}
+                     }
+                  ],
+                  "data":{
+                        "haschild" : "true",
+                        "mastervalue" : "",
+                        "name" : "Scanogram(AP)",
+                        "targetvalue" : ""
+                  }
+               },
+               {
+                  "children" : [
+                     {
+                        "children" : [
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "S&V",
+                              "name" : "Scan mode",
+                              "targetvalue" : "S&V"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "50",
+                              "name" : "mA",
+                              "targetvalue" : "50"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "25",
+                              "name" : "Eff. mAs",
+                              "targetvalue" : "25"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "1",
+                              "name" : "# of scan",
+                              "targetvalue" : "1"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "P",
+                              "name" : "Start",
+                              "targetvalue" : "P"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "***",
+                              "name" : "Start time (s)",
+                              "targetvalue" : "***"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "0",
+                              "name" : "Wait time (s)",
+                              "targetvalue" : "0"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "1.0 x 4",
+                              "name" : "Collimation",
+                              "targetvalue" : "1.0 x 4"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "***",
+                              "name" : "Pitch",
+                              "targetvalue" : "***"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "120",
+                              "name" : "kV",
+                              "targetvalue" : "120"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "0.5",
+                              "name" : "Rotation time (s)",
+                              "targetvalue" : "0.5"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "0.5",
+                              "name" : "Total scan time (s)",
+                              "targetvalue" : "0.5"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "4",
+                              "name" : "Range (mm)",
+                              "targetvalue" : "4"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OUT",
+                              "name" : "Direction",
+                              "targetvalue" : "OUT"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "L",
+                              "name" : "CFOV",
+                              "targetvalue" : "L"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "CE",
+                              "targetvalue" : "OFF"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "4.7 (Body)",
+                              "name" : "CTDIvol (mGy)",
+                              "targetvalue" : "4.7 (Body)"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "1.9 (Body)",
+                              "name" : "DLP (mGy.cm)",
+                              "targetvalue" : "1.9 (Body)"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "",
+                              "name" : "Sure Exposure Patient Type",
+                              "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "",
+                              "name" : "Sure Exposure Organ",
+                              "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "",
+                              "name" : "Sure Exposure Name",
+                              "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "***",
+                              "name" : "Couch Speed",
+                              "targetvalue" : "***"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OUT   4.0",
+                              "name" : "Couch Movement",
+                              "targetvalue" : "OUT   4.0"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "***",
+                              "name" : "# of Rotations",
+                              "targetvalue" : "***"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "39.2",
+                              "name" : "Z-Axis Efficiency",
+                              "targetvalue" : "39.2"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "***",
+                              "name" : "RT Stack Mode",
+                              "targetvalue" : "***"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "Backside Exp.",
+                              "targetvalue" : "OFF"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "Respiratory",
+                              "targetvalue" : "OFF"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "",
+                              "name" : "Protocol Comment",
+                              "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "Prescan Voice",
+                              "targetvalue" : "OFF"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "Postscan Voice",
+                              "targetvalue" : "OFF"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "Small",
+                              "name" : "Focus",
+                              "targetvalue" : "Small"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "",
+                              "name" : "Comment 1",
+                              "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "",
+                              "name" : "Comment 2",
+                              "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "Injector",
+                              "targetvalue" : "OFF"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "Hand SW",
+                              "targetvalue" : "OFF"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "***",
+                              "name" : "Insta View",
+                              "targetvalue" : "***"}
+                           }
+                        ],
+                        "data":{
+                        "haschild" : "true",
+                        "mastervalue" : "",
+                        "name" : "Scan Parameters",
+                        "targetvalue" : ""}
+                     },
+                     {
+                        "children" : [
+                           {
+                              "children" : [
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "1.0 mm",
+                                    "name" : "Slice Thickness",
+                                    "targetvalue" : "1.0 mm"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "***",
+                                    "name" : "Slice interval",
+                                    "targetvalue" : "***"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "OFF",
+                                    "name" : "Urgent Recon",
+                                    "targetvalue" : "OFF"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "YES",
+                                    "name" : "Vari-Area",
+                                    "targetvalue" : "YES"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "400",
+                                    "name" : "D-FOV",
+                                    "targetvalue" : "400"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "256, 256",
+                                    "name" : "Center X , Y",
+                                    "targetvalue" : "256, 256"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "0.0",
+                                    "name" : "Start Position (mm)",
+                                    "targetvalue" : "0.0"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "0.0",
+                                    "name" : "End Position (mm)",
+                                    "targetvalue" : "0.0"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "",
+                                    "name" : "Series Description",
+                                    "targetvalue" : ""}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "4",
+                                    "name" : "# Of Images",
+                                    "targetvalue" : "4"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "",
+                                    "name" : "Sure IQ Patient Type",
+                                    "targetvalue" : ""}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "",
+                                    "name" : "Sure IQ Organ",
+                                    "targetvalue" : ""}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "",
+                                    "name" : "Sure IQ Name",
+                                    "targetvalue" : ""}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "OFF",
+                                    "name" : "Filming",
+                                    "targetvalue" : "OFF"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "13",
+                                    "name" : "FC",
+                                    "targetvalue" : "13"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "VFF",
+                                    "name" : "Viewing",
+                                    "targetvalue" : "VFF"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "OFF",
+                                    "name" : "OSR",
+                                    "targetvalue" : "OFF"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "OFF",
+                                    "name" : "Recon Process",
+                                    "targetvalue" : "OFF"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "OFF",
+                                    "name" : "Boost3D",
+                                    "targetvalue" : "OFF"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "***",
+                                    "name" : "Interp",
+                                    "targetvalue" : "***"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "OFF",
+                                    "name" : "SEMAR",
+                                    "targetvalue" : "OFF"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "OFF",
+                                    "name" : "Filter",
+                                    "targetvalue" : "OFF"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "3500",
+                                    "name" : "WW1",
+                                    "targetvalue" : "3500"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "1600",
+                                    "name" : "WW2",
+                                    "targetvalue" : "1600"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "400",
+                                    "name" : "WW3",
+                                    "targetvalue" : "400"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "350",
+                                    "name" : "WL1",
+                                    "targetvalue" : "350"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "-600",
+                                    "name" : "WL2",
+                                    "targetvalue" : "-600"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "40",
+                                    "name" : "WL3",
+                                    "targetvalue" : "40"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "FULL",
+                                    "name" : "Recon Type",
+                                    "targetvalue" : "FULL"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "OFF",
+                                    "name" : "Moving Correction",
+                                    "targetvalue" : "OFF"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "",
+                                    "name" : "Time Interval (mm)",
+                                    "targetvalue" : ""}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "ON",
+                                    "name" : "Auto-View",
+                                    "targetvalue" : "ON"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "4",
+                                    "name" : "TotalImages",
+                                    "targetvalue" : "4"}
+                                 }
+                              ],
+                              "data":{
+                              "haschild" : "true",
+                              "mastervalue" : "",
+                              "name" : "Axial1",
+                              "targetvalue" : ""}
+                           }
+                        ],
+                        "data":{
+                        "haschild" : "true",
+                        "mastervalue" : "",
+                        "name" : "Recon Parameters",
+                        "targetvalue" : ""}
+                     }
+                  ],
+                  "data":{
+                  "haschild" : "true",
+                  "mastervalue" : "",
+                  "name" : "S&V",
+                  "targetvalue" : ""}
+               }
+            ],
+            "data":{
+                "haschild" : "true",
+                "mastervalue" : "",
+                "name" : "ScanList",
+                "targetvalue" : ""}
+         },
+         {
+            "children" : [
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "User",
+                  "name" : "EP Type",
+                  "targetvalue" : "User"}
+               },
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "K13 Forklædetest",
+                  "name" : "EP Name",
+                  "targetvalue" : "K13 Forklædetest"}
+               },
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "Adult",
+                  "name" : "Patient Type",
+                  "targetvalue" : "Adult"}
+               },
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "Leg",
+                  "name" : "Organ",
+                  "targetvalue" : "Leg"}
+               },
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "249",
+                  "name" : "EP No",
+                  "targetvalue" : "249"}
+               },
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "",
+                  "name" : "Master",
+                  "targetvalue" : ""}
+               },
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "FF",
+                  "name" : "Patient Insertion Direction",
+                  "targetvalue" : "FF"}
+               },
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "SU",
+                  "name" : "Patient Position",
+                  "targetvalue" : "SU"}
+               },
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "0",
+                  "name" : "Base Position",
+                  "targetvalue" : "0"}
+               },
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "",
+                  "name" : "Icon Protocol",
+                  "targetvalue" : ""}
+               }
+            ],
+            "data":{
+                "haschild" : "true",
+                "mastervalue" : "",
+                "name" : "Common",
+                "targetvalue" : ""}
+         }
+      ],
+      "flag" : false,
+      "issameorgan" : true,
+      "leftcompareflag" : 0,
+      "leftprotocol" : "",
+      "list" : [
+         {
+            "children" : [
+               {
+                  "children" : [
+                     {
+                        "children" : [
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "Scanogram(AP)",
+                              "name" : "Scan mode",
+                              "targetvalue" : "Scanogram(AP)"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "200",
+                              "name" : "mA",
+                              "targetvalue" : "200"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "P",
+                              "name" : "Start",
+                              "targetvalue" : "P"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "0.00",
+                              "name" : "Start time (s)",
+                              "targetvalue" : "0.00"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "0.00",
+                              "name" : "Wait time (s)",
+                              "targetvalue" : "0.00"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "100",
+                              "name" : "kV",
+                              "targetvalue" : "100"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "1300.0",
+                              "name" : "Range (mm)",
+                              "targetvalue" : "1300.0"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OUT",
+                              "name" : "Direction",
+                              "targetvalue" : "OUT"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "FL03 (FL03)",
+                              "name" : "Display Filter",
+                              "targetvalue" : "FL03 (FL03)"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "",
+                              "name" : "Sure IQ Patient Type",
+                              "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "",
+                              "name" : "Sure IQ Organ",
+                              "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "",
+                              "name" : "Sure IQ Name",
+                              "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "",
+                              "name" : "Protocol Comment",
+                              "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "Prescan Voice",
+                              "targetvalue" : "OFF"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "Postscan Voice",
+                              "targetvalue" : "OFF"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "0",
+                              "name" : "Scano angle",
+                              "targetvalue" : "0"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "CE",
+                              "targetvalue" : "OFF"}
+                           }
+                        ],
+                        "data":{
+                        "haschild" : "true",
+                        "mastervalue" : "",
+                        "name" : "Scan Parameters",
+                        "targetvalue" : ""}
+                     }
+                  ],
+                  "data":{
+                  "haschild" : "true",
+                  "mastervalue" : "",
+                  "name" : "Scanogram(AP)",
+                  "targetvalue" : ""}
+               },
+               {
+                  "children" : [
+                     {
+                        "children" : [
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "S&V",
+                              "name" : "Scan mode",
+                              "targetvalue" : "S&V"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "50",
+                              "name" : "mA",
+                              "targetvalue" : "50"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "25",
+                              "name" : "Eff. mAs",
+                              "targetvalue" : "25"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "1",
+                              "name" : "# of scan",
+                              "targetvalue" : "1"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "P",
+                              "name" : "Start",
+                              "targetvalue" : "P"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "***",
+                              "name" : "Start time (s)",
+                              "targetvalue" : "***"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "0",
+                              "name" : "Wait time (s)",
+                              "targetvalue" : "0"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "1.0 x 4",
+                              "name" : "Collimation",
+                              "targetvalue" : "1.0 x 4"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "***",
+                              "name" : "Pitch",
+                              "targetvalue" : "***"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "120",
+                              "name" : "kV",
+                              "targetvalue" : "120"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "0.5",
+                              "name" : "Rotation time (s)",
+                              "targetvalue" : "0.5"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "0.5",
+                              "name" : "Total scan time (s)",
+                              "targetvalue" : "0.5"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "4",
+                              "name" : "Range (mm)",
+                              "targetvalue" : "4"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OUT",
+                              "name" : "Direction",
+                              "targetvalue" : "OUT"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "L",
+                              "name" : "CFOV",
+                              "targetvalue" : "L"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "CE",
+                              "targetvalue" : "OFF"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "4.7 (Body)",
+                              "name" : "CTDIvol (mGy)",
+                              "targetvalue" : "4.7 (Body)"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "1.9 (Body)",
+                              "name" : "DLP (mGy.cm)",
+                              "targetvalue" : "1.9 (Body)"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "",
+                              "name" : "Sure Exposure Patient Type",
+                              "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "",
+                              "name" : "Sure Exposure Organ",
+                              "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "",
+                              "name" : "Sure Exposure Name",
+                              "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "***",
+                              "name" : "Couch Speed",
+                              "targetvalue" : "***"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OUT   4.0",
+                              "name" : "Couch Movement",
+                              "targetvalue" : "OUT   4.0"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "***",
+                              "name" : "# of Rotations",
+                              "targetvalue" : "***"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "39.2",
+                              "name" : "Z-Axis Efficiency",
+                              "targetvalue" : "39.2"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "***",
+                              "name" : "RT Stack Mode",
+                              "targetvalue" : "***"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "Backside Exp.",
+                              "targetvalue" : "OFF"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "Respiratory",
+                              "targetvalue" : "OFF"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "",
+                              "name" : "Protocol Comment",
+                              "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "Prescan Voice",
+                              "targetvalue" : "OFF"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "Postscan Voice",
+                              "targetvalue" : "OFF"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "Small",
+                              "name" : "Focus",
+                              "targetvalue" : "Small"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "",
+                              "name" : "Comment 1",
+                              "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "",
+                              "name" : "Comment 2",
+                              "targetvalue" : ""}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "Injector",
+                              "targetvalue" : "OFF"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "OFF",
+                              "name" : "Hand SW",
+                              "targetvalue" : "OFF"}
+                           },
+                           {
+                              "data":{
+                              "haschild" : "false",
+                              "mastervalue" : "***",
+                              "name" : "Insta View",
+                              "targetvalue" : "***"}
+                           }
+                        ],
+                        "data":{
+                        "haschild" : "true",
+                        "mastervalue" : "",
+                        "name" : "Scan Parameters",
+                        "targetvalue" : ""}
+                     },
+                     {
+                        "children" : [
+                           {
+                              "children" : [
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "1.0 mm",
+                                    "name" : "Slice Thickness",
+                                    "targetvalue" : "1.0 mm"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "***",
+                                    "name" : "Slice interval",
+                                    "targetvalue" : "***"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "OFF",
+                                    "name" : "Urgent Recon",
+                                    "targetvalue" : "OFF"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "YES",
+                                    "name" : "Vari-Area",
+                                    "targetvalue" : "YES"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "400",
+                                    "name" : "D-FOV",
+                                    "targetvalue" : "400"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "256, 256",
+                                    "name" : "Center X , Y",
+                                    "targetvalue" : "256, 256"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "0.0",
+                                    "name" : "Start Position (mm)",
+                                    "targetvalue" : "0.0"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "0.0",
+                                    "name" : "End Position (mm)",
+                                    "targetvalue" : "0.0"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "",
+                                    "name" : "Series Description",
+                                    "targetvalue" : ""}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "4",
+                                    "name" : "# Of Images",
+                                    "targetvalue" : "4"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "",
+                                    "name" : "Sure IQ Patient Type",
+                                    "targetvalue" : ""}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "",
+                                    "name" : "Sure IQ Organ",
+                                    "targetvalue" : ""}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "",
+                                    "name" : "Sure IQ Name",
+                                    "targetvalue" : ""}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "OFF",
+                                    "name" : "Filming",
+                                    "targetvalue" : "OFF"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "13",
+                                    "name" : "FC",
+                                    "targetvalue" : "13"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "VFF",
+                                    "name" : "Viewing",
+                                    "targetvalue" : "VFF"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "OFF",
+                                    "name" : "OSR",
+                                    "targetvalue" : "OFF"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "OFF",
+                                    "name" : "Recon Process",
+                                    "targetvalue" : "OFF"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "OFF",
+                                    "name" : "Boost3D",
+                                    "targetvalue" : "OFF"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "***",
+                                    "name" : "Interp",
+                                    "targetvalue" : "***"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "OFF",
+                                    "name" : "SEMAR",
+                                    "targetvalue" : "OFF"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "OFF",
+                                    "name" : "Filter",
+                                    "targetvalue" : "OFF"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "3500",
+                                    "name" : "WW1",
+                                    "targetvalue" : "3500"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "1600",
+                                    "name" : "WW2",
+                                    "targetvalue" : "1600"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "400",
+                                    "name" : "WW3",
+                                    "targetvalue" : "400"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "350",
+                                    "name" : "WL1",
+                                    "targetvalue" : "350"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "-600",
+                                    "name" : "WL2",
+                                    "targetvalue" : "-600"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "40",
+                                    "name" : "WL3",
+                                    "targetvalue" : "40"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "FULL",
+                                    "name" : "Recon Type",
+                                    "targetvalue" : "FULL"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "OFF",
+                                    "name" : "Moving Correction",
+                                    "targetvalue" : "OFF"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "",
+                                    "name" : "Time Interval (mm)",
+                                    "targetvalue" : ""}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "ON",
+                                    "name" : "Auto-View",
+                                    "targetvalue" : "ON"}
+                                 },
+                                 {
+                                    "data":{
+                                    "haschild" : "false",
+                                    "mastervalue" : "4",
+                                    "name" : "TotalImages",
+                                    "targetvalue" : "4"}
+                                 }
+                              ],
+                              "data":{
+                              "haschild" : "true",
+                              "mastervalue" : "",
+                              "name" : "Axial1",
+                              "targetvalue" : ""}
+                           }
+                        ],
+                        "data":{
+                        "haschild" : "true",
+                        "mastervalue" : "",
+                        "name" : "Recon Parameters",
+                        "targetvalue" : ""}
+                     }
+                  ],
+                  "data":{
+                  "haschild" : "true",
+                  "mastervalue" : "",
+                  "name" : "S&V",
+                  "targetvalue" : ""}
+               }
+            ],
+            "data":{
+                "haschild" : "true",
+                "mastervalue" : "",
+                "name" : "ScanList",
+                "targetvalue" : ""}
+         },
+         {
+            "children" : [
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "User",
+                  "name" : "EP Type",
+                  "targetvalue" : "User"}
+               },
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "K13 Forklædetest",
+                  "name" : "EP Name",
+                  "targetvalue" : "K13 Forklædetest"}
+               },
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "Adult",
+                  "name" : "Patient Type",
+                  "targetvalue" : "Adult"}
+               },
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "Leg",
+                  "name" : "Organ",
+                  "targetvalue" : "Leg"}
+               },
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "249",
+                  "name" : "EP No",
+                  "targetvalue" : "249"}
+               },
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "",
+                  "name" : "Master",
+                  "targetvalue" : ""}
+               },
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "FF",
+                  "name" : "Patient Insertion Direction",
+                  "targetvalue" : "FF"}
+               },
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "SU",
+                  "name" : "Patient Position",
+                  "targetvalue" : "SU"}
+               },
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "0",
+                  "name" : "Base Position",
+                  "targetvalue" : "0"}
+               },
+               {
+                  "data":{
+                  "haschild" : "false",
+                  "mastervalue" : "",
+                  "name" : "Icon Protocol",
+                  "targetvalue" : ""}
+               }
+            ],
+            "data":{
+                "haschild" : "true",
+                "mastervalue" : "",
+                "name" : "Common",
+                "targetvalue" : ""}
+         }
+      ],
+      "rightcompareflag" : 5,
+      "rightprotocol" : {
+         "createremark" : "",
+         "epname" : "K13 Forklædetest",
+         "epno" : "249",
+         "filepath" : "ProtocolPool/AquilionPrime/Requests/ExamPlan/ep_249.xml",
+         "machinename" : "MN1032898",
+         "modelname" : "Aquilion PRIME(2Con-Main)/V7.0SP0311G",
+         "organ" : "Leg",
+         "patienttype" : "Adult",
+         "protocoleptype" : "User",
+         "protocoltype" : "ExamPlan",
+         "remark" : "",
+         "status" : "APPROVAL_REQUESTED",
+         "time" : "2016/10/13 16:20",
+         "uid" : "",
+         "version" : "1.0"
+      }
+   },
+   "total" : 1
+}

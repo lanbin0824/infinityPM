@@ -1,0 +1,73 @@
+<div class="request-list-cls">
+<p-dataTable #dt id="dt" [value]="requestList" [scrollable]="scrollable" [scrollHeight]="scrollheight" [alwaysShowPaginator]="false" tableStyleClass="request-list-style-cls-full" [rows]="rowsPerPage" selectionMode="single" (onRowSelect)="onRowSelect($event,dt)" dataKey="protocolname" [paginator]="paginator" [totalRecords]="totalRecords" rowHover="true" [responsive]="true" [resizableColumns]="true">
+    <p-header>
+        <span>Request</span>
+        <div [hidden]="isSelected" style="position:absolute; top:0.2em; right:0.5em">
+            <button pButton type="button" (click)="onButtonClick()" icon="fa-backward" label="Back" ></button>
+        </div>
+    </p-header>
+    <!--<p-footer>Footer</p-footer>-->
+    <p-column field="status" [header]="header.status" sortable="true" [style]="{'width':'5%'}"  filter="true">
+       <ng-template let-col let-row="rowData" let-rowIndex="rowIndex" pTemplate="body">
+           <div #approveDiv *ngIf="isTrue; then approveButton else notSureButton"></div>
+           <!--<span [pTooltip]="row[col.field]" [appendTo]="approveDiv"> {{row[col.field]}} </span>-->
+           <ng-template #approveButton>
+               <button pButton type="button" icon="fa-refresh"></button>
+           </ng-template>
+           <ng-template #notSureButton>
+               <button pButton type="button" icon="fa-search"></button>
+           </ng-template>  
+        </ng-template>
+             
+    </p-column>
+    <p-column field="type" [header]="header.type" sortable="true" filter="true" filterMatchMode="equals">
+        <template pTemplate="body" let-col let-row="rowData"> 
+             <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span> 
+        </template>
+        <template pTemplate="header"> 
+             <span pTooltip="<patienttype>" escape="false" positionStyle="fixed"> {{header.type}} </span> 
+        </template>
+    </p-column>
+    <p-column field="patienttype" [header]="header.patienttype" sortable="true" filter="true">
+        <template pTemplate="body" let-col let-row="rowData"> 
+             <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span> 
+        </template>
+    </p-column>
+    <p-column field="protocolname" [header]="header.protocolname" [style]="{'width':'20%'}"  sortable="true" filter="true">
+        <template pTemplate="body" let-col let-row="rowData"> 
+             <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span> 
+        </template>
+    </p-column>
+    <p-column field="version" [header]="header.version" sortable="true" filter="true">
+        <template pTemplate="body" let-col let-row="rowData"> 
+             <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span> 
+        </template>
+    </p-column>
+    <p-column field="lastupddt" [header]="header.lastupddt" sortable="true" filter="true">
+        <template pTemplate="body" let-col let-row="rowData"> 
+             <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span>            
+        </template>
+    </p-column>
+    <p-column field="displaymachinename" [header]="header.displaymachinename" sortable="true" filter="true">
+        <template pTemplate="body" let-col let-row="rowData"> 
+             <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span> 
+        </template>
+    </p-column>
+    <p-column field="applicant" [header]="header.applicant" sortable="true" filter="true">
+        <template pTemplate="body" let-col let-row="rowData"> 
+             <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span> 
+        </template>
+    </p-column>
+    <!--<p-column [field]="col.field" [header]="col.header" [sortable]="col.sortable" [filter]="col.filter"></p-column>    -->
+</p-dataTable>
+</div>
+<div [hidden]="isSelected">
+    <p-treeTable [value]="compareData" styleClass="compare-panel-cls">
+        <p-header>Compare Panel</p-header>
+        <p-column field="name" header=""></p-column>
+        <p-column field="targetvalue" [header]="epname"></p-column>
+        <p-column field="mastervalue" [header]="epname"></p-column>
+        <!--<p-column field="Mastervalue" [header]="rightprotocol.epname"></p-column>-->
+    </p-treeTable>
+    <button pButton type="button" icon="fa-search"></button>
+</div>

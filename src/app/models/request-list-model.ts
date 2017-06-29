@@ -1,0 +1,19 @@
+export interface RequestList {
+    applicant;
+    displaymachinename;
+    epno;
+    filepath;
+    lastupddt;
+    machinename;
+    modelname;
+    oldepno;
+    organ;
+    patienttype;
+    protocoleptype;
+    protocolname;
+    softwareversion;
+    status;
+    type;
+    uid;
+    version
+}
