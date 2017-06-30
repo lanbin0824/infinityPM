@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import { TabViewModule, ButtonModule, DataTableModule, SharedModule, DropdownModule, TooltipModule, TieredMenuModule, TreeTableModule, SplitButtonModule, MenuModule} from 'primeng/primeng';
+import { TabViewModule, ButtonModule, DataTableModule, SharedModule, DropdownModule, TooltipModule, TieredMenuModule, TreeTableModule, SplitButtonModule, MenuModule, PanelModule} from 'primeng/primeng';
 import { RequestListService } from './services/request-list.service';
 // import { SortTipsComponent } from './components/sort-tips/sort-tips.component';
 
@@ -27,7 +27,8 @@ import { RequestListService } from './services/request-list.service';
     TooltipModule,
     TieredMenuModule,
     TreeTableModule,
-    MenuModule
+    MenuModule,
+    PanelModule
   ],
   providers: [ RequestListService ],
   bootstrap: [AppComponent]

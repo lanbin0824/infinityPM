@@ -2,7 +2,7 @@
 @import "../node_modules/primeng/resources/primeng.min.css";
 @import "../node_modules/primeng/resources/themes/omega/theme.css";
 @import "../node_modules/font-awesome/css/font-awesome.min.css";
-/*body{
+body{
     padding: 0px;
 	background:transparent;
 	font-size:13pt;	
@@ -11,23 +11,64 @@
 	-khtml-user-select:none;	
 	user-select:none;
 	-ms-user-select:none;
-}*/
+}
 .entry-div{
     height:99vh;
     overflow-y: hidden;
 }
 .request-list-cls{
-    width:98vw;
+    /*width:98vw;*/
     overflow-x: auto;
 }
 .compare-panel-cls{
-    height:40vh !important;
+    height:42vh !important;
     overflow: auto;
+    border: 1px solid #D5D5D5;
+    /*background:#4286f4;*/
 }
 
 .ui-datatable table{
     table-layout: auto !important; /**table-layout: adjust table style**/
 }
+
+.compare-panel-header-cls{
+    height:3vh;
+    border: 1px solid #D5D5D5;
+    border-bottom: 0;
+    background:linear-gradient(to bottom, #f6f7f9 0%, #ebedf0 100%);
+}
+
+.compare-panel-footer{
+    height:5vh;
+    border: 1px solid #D5D5D5;
+    background:linear-gradient(to bottom, #f6f7f9 0%, #ebedf0 100%);
+}
+
+.ui-treetable table{
+    border:0;
+    background:transparent;
+}
+
+.button-align-right-cls{
+    top:0.7em; 
+}
+/*.ui-button-danger:hover{
+    background:#D82621 !important;
+    border:1px solid #D82621 !important;
+}
+.ui-button-danger:active {
+    background:#d9534f !important;
+    border:1px solid #d9534f !important;
+}*/
+
+/*.button-align-right-cls:hover{
+    background:  
+}*/
+.buttons-container-cls{
+    float: right;
+    border: 0;
+}
+
 
 /**responsive styles**/
 /*PC*/

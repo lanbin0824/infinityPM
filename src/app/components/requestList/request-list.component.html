@@ -3,7 +3,7 @@
     <p-header>
         <span>Request</span>
         <div [hidden]="isSelected" style="position:absolute; top:0.2em; right:0.5em">
-            <button pButton type="button" (click)="onButtonClick()" icon="fa-backward" label="Back" ></button>
+            <button pButton type="button" (click)="onButtonClick()" class="ui-button-primary" icon="fa-backward" label="Back" ></button>
         </div>
     </p-header>
     <!--<p-footer>Footer</p-footer>-->
@@ -58,16 +58,25 @@
              <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span> 
         </template>
     </p-column>
-    <!--<p-column [field]="col.field" [header]="col.header" [sortable]="col.sortable" [filter]="col.filter"></p-column>    -->
 </p-dataTable>
 </div>
 <div [hidden]="isSelected">
+    <div class="compare-panel-header-cls">
+        <button pButton type="button" label="Collapse All" class="ui-button-primary" style="float:right"></button>
+        <button pButton type="button" label="Show Differences Only" class="ui-button-primary" style="float:right"></button>
+    </div>
     <p-treeTable [value]="compareData" styleClass="compare-panel-cls">
-        <p-header>Compare Panel</p-header>
         <p-column field="name" header=""></p-column>
-        <p-column field="targetvalue" [header]="epname"></p-column>
-        <p-column field="mastervalue" [header]="epname"></p-column>
-        <!--<p-column field="Mastervalue" [header]="rightprotocol.epname"></p-column>-->
+        <p-column field="targetvalue">
+            <ng-template let-col let-row="rowData" pTemplate="header">
+                <span *ngFor="let epname of epnames">{{epname}}</span>
+            </ng-template>
+        </p-column>
     </p-treeTable>
-    <button pButton type="button" icon="fa-search"></button>
+    <div class="compare-panel-footer">
+        <div class="buttons-container-cls">
+            <button pButton type="button" label=" Delete" class="ui-button-danger button-align-right-cls" disabled="true" icon="fa fa-trash-o fa-lg"></button>
+            <button pButton type="button" label=" Reject" class="ui-button-warning button-align-right-cls" icon="fa fa-ban"></button>
+        </div>
+    </div>
 </div>

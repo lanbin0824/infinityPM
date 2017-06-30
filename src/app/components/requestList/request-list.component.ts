@@ -25,7 +25,7 @@ export class RequestListComponent implements OnInit {
     scrollable: boolean = true;
     paginator: boolean = true;
     scrollheight: string = "";
-    epname: string = "";
+    epnames: any[];
     tablecellHeight: number = 5;
 
     isSelected: boolean = true;
@@ -71,10 +71,11 @@ export class RequestListComponent implements OnInit {
         this.isSelected  = false;
         let currentTarget = event.originalEvent.currentTarget;
         this.requestListService.getCompareData().then(compareData => {
-            this.epname=compareData.result.rightprotocol.epname;
+            // this.epname=[];
+            this.epnames=[...compareData.result.rightprotocol.epname,compareData.result.rightprotocol.modelname,'V'+compareData.result.rightprotocol.version+' '+compareData.result.rightprotocol.time];
             this.compareData = compareData.result.changelist;
             this.scrollToSelectionPrimeNgDataTable(currentTarget);
-            console.log(this.compareData);        
+            console.log(compareData);        
         });            
     }
 
