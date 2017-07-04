@@ -1,0 +1,17 @@
+<div *ngIf="scanmodes">
+  <div  *ngIf="scanmodes.contrastparameter">
+    <app-single-scan-mode-cmp [scanmode]="scanmodes.contrastparameter" [name]="contrastparameter"></app-single-scan-mode-cmp>
+  </div>
+  <div  *ngIf="scanmodes.spparameter">
+    <app-single-scan-mode-cmp [scanmode]="scanmodes.spparameter" [name]="spparameter"></app-single-scan-mode-cmp>
+  </div>
+  <div  *ngIf="scanmodes.sureexpparameter">
+    <app-single-scan-mode-cmp [scanmode]="scanmodes.sureexpparameter" [name]="sureexpparameter"></app-single-scan-mode-cmp>
+  </div>
+  <div  *ngIf="scanmodes.sureiqparameter">
+    <app-single-scan-mode-cmp [scanmode]="scanmodes.sureiqparameter" [name]="sureiqparameter"></app-single-scan-mode-cmp>
+  </div>
+  <div  *ngIf="scanmodes.voicepresetparameter">
+    <app-single-scan-mode-cmp [scanmode]="scanmodes.voicepresetparameter" [name]="voicepresetparameter"></app-single-scan-mode-cmp>
+  </div>
+</div>

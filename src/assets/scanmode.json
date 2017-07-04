@@ -1,0 +1,108 @@
+{
+   "contrastparameter" : [
+      {
+         "index" : 0,
+         "masterKey" : "Adult_Manual/master0",
+         "masterName" : "Adult_Manual",
+         "selected" : 1,
+         "targetKey" : "Adult_Manual/target0",
+         "targetName" : "Adult_Manual"
+      }
+   ],
+   "spparameter" : [
+      {
+         "index" : 0,
+         "masterKey" : "Dual Scano(Lat)/master0",
+         "masterName" : "Dual Scano(Lat)",
+         "selected" : 1,
+         "targetKey" : "Dual Scano(Lat)/target0",
+         "targetName" : "Dual Scano(Lat)"
+      },
+      {
+         "index" : 1,
+         "masterKey" : "Dual Scano(AP)/master1",
+         "masterName" : "Dual Scano(AP)",
+         "selected" : 1,
+         "targetKey" : "Dual Scano(AP)/target1",
+         "targetName" : "Dual Scano(AP)"
+      },
+      {
+         "index" : 2,
+         "masterKey" : "Helical/master2",
+         "masterName" : "Helical",
+         "selected" : 1,
+         "targetKey" : "Helical/target2",
+         "targetName" : "Helical"
+      },
+      {
+         "index" : 3,
+         "masterKey" : "S&V/master3",
+         "masterName" : "S&V",
+         "selected" : 1,
+         "targetKey" : "S&V/target3",
+         "targetName" : "S&V"
+      },
+      {
+         "index" : 4,
+         "masterKey" : "SureStart/master4",
+         "masterName" : "SureStart",
+         "selected" : 1,
+         "targetKey" : "SureStart/target4",
+         "targetName" : "SureStart"
+      },
+      {
+         "index" : 5,
+         "masterKey" : "Helical/master5",
+         "masterName" : "Helical",
+         "selected" : 1,
+         "targetKey" : "Helical/target5",
+         "targetName" : "Helical"
+      }
+   ],
+   "sureexpparameter" : [
+      {
+         "index" : 0,
+         "masterKey" : "Adult_Neck/master",
+         "masterName" : "Adult_Neck",
+         "selected" : 1,
+         "targetKey" : "Adult_Neck/target",
+         "targetName" : "Adult_Neck"
+      }
+   ],
+   "sureiqparameter" : [
+      {
+         "index" : 0,
+         "masterKey" : "Scano/master",
+         "masterName" : "Scano",
+         "selected" : 1,
+         "targetKey" : "Scano/target",
+         "targetName" : "Scano"
+      },
+      {
+         "index" : 1,
+         "masterKey" : "CTA/master",
+         "masterName" : "CTA",
+         "selected" : 1,
+         "targetKey" : "CTA/target",
+         "targetName" : "CTA"
+      },
+      {
+         "index" : 2,
+         "masterKey" : "Neck/master",
+         "masterName" : "Neck",
+         "selected" : 1,
+         "targetKey" : "Neck/target",
+         "targetName" : "Neck"
+      }
+   ],
+   "voicepresetparameter" : [
+      {
+         "index" : 0,
+         "masterKey" : "English/master",
+         "masterName" : "English",
+         "selected" : 1,
+         "targetKey" : "English/target",
+         "targetName" : "English"
+      }
+   ]
+}

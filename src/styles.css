@@ -5,7 +5,7 @@
 body{
     padding: 0px;
 	background:transparent;
-	font-size:13pt;	
+	/*font-size:13pt;	*/
 	-webkit-user-select:none;
 	-moz-user-select:none;
 	-khtml-user-select:none;	
@@ -21,7 +21,8 @@ body{
     overflow-x: auto;
 }
 .compare-panel-cls{
-    height:42vh !important;
+    height:40vh !important;
+    width:97vw;
     overflow: auto;
     border: 1px solid #D5D5D5;
     /*background:#4286f4;*/
@@ -32,7 +33,9 @@ body{
 }
 
 .compare-panel-header-cls{
-    height:3vh;
+    /*height:4vh;*/
+    min-height: 5vh;
+    width:97vw;
     border: 1px solid #D5D5D5;
     border-bottom: 0;
     background:linear-gradient(to bottom, #f6f7f9 0%, #ebedf0 100%);
@@ -40,6 +43,7 @@ body{
 
 .compare-panel-footer{
     height:5vh;
+    width:97vw;
     border: 1px solid #D5D5D5;
     background:linear-gradient(to bottom, #f6f7f9 0%, #ebedf0 100%);
 }
@@ -51,6 +55,20 @@ body{
 
 .button-align-right-cls{
     top:0.7em; 
+}
+
+.parameter-list-cls .ui-treetable table thead{
+    height:0px !important;
+    border:0px;
+    padding:0px;
+    margin:'0 0 0 0';
+}
+
+.parameter-list-cls .ui-treetable table thead th{
+    height:0px !important;
+    border:0px;
+    padding:0px;
+    margin:'0 0 0 0';
 }
 /*.ui-button-danger:hover{
     background:#D82621 !important;
@@ -69,30 +87,65 @@ body{
     border: 0;
 }
 
+.ui-treetable tbody .ui-treetable-row td{
+    border-bottom: 1px solid #d9d9d9;
+    border-left: 0px;
+    border-right:0px;
+    border-top:0px;
+}
+
+.ui-treetable tbody .ui-treetable-row td:even{
+    background-color: #eeeeee
+}
+.ui-treetable tbody .ui-treetable-row td:odd{
+    background-color: #ffffff
+}
+
+.float-right-button{
+    float:right;
+    top:0.6em;
+}
+
+.parameter-list-cls thead {
+    display: none;
+}
+
+.toogle-button-cls .ui-togglebutton .ui-state-defaul{
+    border: 1px solid #1f89ce;
+    background: #1f89ce !important;
+    font-weight: normal;
+    color: #1f89ce;
+}
+
+.ui-dialog .ui-dialog-footer{
+    border:0;
+}
+
+.ui-chkbox-box.ui-state-active, .ui-radiobutton-box.ui-state-active{
+    color:#186ba0 !important;
+}
+ /*.ui-dialog{
+     width:90% !important;
+ }*/
+
 
 /**responsive styles**/
-/*PC*/
-@media screen and (min-width: 1200px) {
-
-}
-/**tablet with large size**/
-@media screen and(min-width: 960px) and (max-width: 1199px) {
-
-}
-
-@media screen and(min-width: 768px) and (max-width: 959px) {
-
-}
-/**tablet(exclude ipad pro)**/
-@media screen and(min-width: 480px) and (max-width: 767px) {
-
-}
-@media screen and (max-width: 479px) {
-
-}
-@media (max-width: 35em){
+/**Small devices like phones**/
+@media screen and (max-width: 40em){ /**640px**/
     .ui-datatable table {
         table-layout: inherit;
     }
+}
+/**Medium sized devices such as tablets**/
+@media screen and (min-width: 40.063em) and (max-width: 64em){/**641px~1024px**/
+    
+}
+/**Devices with large screen like desktops**/
+@media screen and (min-width: 64.063em) and (max-width: 90em){/**1025px~1440px**/
+    
+}
+/**Big screen monitors**/
+@media screen and (min-width: 90.063em) {
+    
 }
 

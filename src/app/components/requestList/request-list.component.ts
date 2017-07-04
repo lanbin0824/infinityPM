@@ -12,7 +12,7 @@ import { TreeNode } from 'primeng/primeng';
 
 export class RequestListComponent implements OnInit {
     requestList: any;
-    compareData: any;
+    compareData: any[];
     cols: any[];
     header: object;
 
@@ -25,10 +25,13 @@ export class RequestListComponent implements OnInit {
     scrollable: boolean = true;
     paginator: boolean = true;
     scrollheight: string = "";
-    epnames: any[];
+    epnames: object;
     tablecellHeight: number = 5;
 
     isSelected: boolean = true;
+    hiddenthirdColumn: boolean = false;
+    display: boolean = false;
+    collapsestate: string = "Collapse All";
 
     constructor(private requestListService: RequestListService,
                 // private treeNode: TreeNode
@@ -67,16 +70,43 @@ export class RequestListComponent implements OnInit {
     }
 
     onRowSelect(event, dt){
-        this.scrollheight = "30vh";
+        this.scrollheight = "27vh";
         this.isSelected  = false;
         let currentTarget = event.originalEvent.currentTarget;
         this.requestListService.getCompareData().then(compareData => {
-            // this.epname=[];
-            this.epnames=[...compareData.result.rightprotocol.epname,compareData.result.rightprotocol.modelname,'V'+compareData.result.rightprotocol.version+' '+compareData.result.rightprotocol.time];
             this.compareData = compareData.result.changelist;
-            this.scrollToSelectionPrimeNgDataTable(currentTarget);
-            console.log(compareData);        
+            this.epnames=compareData.result.rightprotocol;
+            this.scrollToSelectionPrimeNgDataTable(currentTarget);       
         });            
+    }
+
+    private processDatatoNode(node, dataObj){
+        dataObj.forEach(data=>{
+            if(data.haschild){
+                node.expanded=true;
+                node.data={
+                    name:data.name,
+                    mastervalue:data.mastervalue,
+                    targetvalue:data.targetvalue
+                };
+                if(data.childlist && data.childlist!=""){
+                    node.children=data.childlist;
+                    node.children.forEach( childNode => {
+                        this.processDatatoNode(childNode, data.childlist);
+                    });
+                    // this.processDatatoNode(singleNode.children,data.childlist);
+                }else{
+                    node.children=data.childlist;
+                    node.expanded=true;
+                    node.data={
+                        name:data.name,
+                        mastervalue:data.mastervalue,
+                        targetvalue:data.targetvalue
+                    };
+                }
+            }
+            // this.compareData.push(node);
+        })
     }
 
     public scrollToSelectionPrimeNgDataTable(target) { 
@@ -87,13 +117,49 @@ export class RequestListComponent implements OnInit {
         }
     }
 
-    rowTrackBy (index:number, row:any){
-        console.log(index);
-        console.log(row);
-    }
+    // rowTrackBy (index:number, row:any){
+    //     console.log(index);
+    //     console.log(row);
+    // }
 
     onButtonClick(){
         this.isSelected  = true;
         this.scrollheight = "";
+    }
+
+    onCollapseAllClick(event,treetable){
+        let isExpanded = treetable.value[0].expanded;
+        if(isExpanded){
+            this.collapsestate = "Expand All";
+        }else{
+            this.collapsestate = "Collapse All";
+        }
+        this.compareData.forEach( node => this.expandRecursive(node, !isExpanded))
+    }
+
+    onHeaderClick(event, treetable){
+        if(!this.hiddenthirdColumn){
+            this.hiddenthirdColumn = true;
+        } else {
+            this.display=true;
+            console.log('second click')
+        }
+    }
+
+    onCancelButton(){
+        this.display=false;
+    }
+
+    onOKButton(){
+        this.display=false;
+    }
+
+    private expandRecursive(node, isExpand:boolean){
+        node.expanded = isExpand;
+        if(node.children){
+            node.children.forEach( childNode => {
+                this.expandRecursive(childNode, isExpand);
+            } );
+        }
     }
 }

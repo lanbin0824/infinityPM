@@ -1,0 +1,21 @@
+.blue-panel-cls{
+    height:2vh !important;
+    width:100%;
+    background:linear-gradient(to bottom, #f6f7f9 0%, #ebedf0 100%);
+}
+.parameter-list-header-cls{
+    height: 4vh;
+    border: 1px solid #D5D5D5;
+    background:linear-gradient(to bottom, #f6f7f9 0%, #ebedf0 100%);
+}
+.toogle-button-cls.ui-togglebutton.ui-button.ui-state-defaul{
+    border: 1px solid #1f89ce;
+    background: #1f89ce;
+    font-weight: normal;
+    color: #1f89ce;
+}    
+.border-div-cls{
+    height:33vh !important;
+    overflow: auto;
+    border: 1px solid #D5D5D5;
+}

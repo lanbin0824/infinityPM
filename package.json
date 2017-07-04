@@ -25,7 +25,8 @@
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4",
     "primeng": "^4.0.0-rc.4",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "ng-treetable": "^1.2.3"
   },
   "devDependencies": {
     "@angular/cli": "1.1.1",

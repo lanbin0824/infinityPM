@@ -1,0 +1,72 @@
+[
+   {
+      "epno" : "054",
+      "filepath" : "ProtocolPool/CTRoom/Histories/ExamPlan/1.2.840.51431.40280689954998019237136004185203095143119198/V1.0/ep_054.xml",
+      "lastupddt" : "2017/06/07 12:53",
+      "modelname" : "Aquilion ONE/ViSION 320/V7.0SP0000E",
+      "organ" : "Neck",
+      "patienttype" : "Adult",
+      "protocoleptype" : "User",
+      "protocolname" : "Carotid CTA  ",
+      "status" : "APPROVAL_ACCEPTED",
+      "type" : "ExamPlan",
+      "uid" : "1.2.840.51431.40280689954998019237136004185203095143119198",
+      "version" : "1.0"
+   },
+   {
+      "epno" : "056",
+      "filepath" : "ProtocolPool/CTRoom/Histories/ExamPlan/1.2.840.51431.01434893633933019026190033196059063182196029/V1.0/ep_056.xml",
+      "lastupddt" : "2017/06/07 12:53",
+      "modelname" : "Aquilion ONE/ViSION 320/V7.0SP0000E",
+      "organ" : "Neck",
+      "patienttype" : "Adult",
+      "protocoleptype" : "User",
+      "protocolname" : "Carotid CTA - Sure Subtraction",
+      "status" : "APPROVAL_ACCEPTED",
+      "type" : "ExamPlan",
+      "uid" : "1.2.840.51431.01434893633933019026190033196059063182196029",
+      "version" : "1.0"
+   },
+   {
+      "epno" : "049",
+      "filepath" : "ProtocolPool/CTRoom/Histories/ExamPlan/1.2.840.51431.33407087735050516911141186144203120032098019/V1.0/ep_049.xml",
+      "lastupddt" : "2017/06/07 12:53",
+      "modelname" : "Aquilion ONE/ViSION 320/V7.0SP0000E",
+      "organ" : "Neck",
+      "patienttype" : "Adult",
+      "protocoleptype" : "User",
+      "protocolname" : "Cervical Spine  ",
+      "status" : "APPROVAL_ACCEPTED",
+      "type" : "ExamPlan",
+      "uid" : "1.2.840.51431.33407087735050516911141186144203120032098019",
+      "version" : "1.0"
+   },
+   {
+      "epno" : "055",
+      "filepath" : "ProtocolPool/CTRoom/Histories/ExamPlan/1.2.840.51431.21537520305750318395135090077053175049048244/V1.0/ep_055.xml",
+      "lastupddt" : "2017/06/07 12:53",
+      "modelname" : "Aquilion ONE/ViSION 320/V7.0SP0000E",
+      "organ" : "Neck",
+      "patienttype" : "Adult",
+      "protocoleptype" : "User",
+      "protocolname" : "Fast Carotid CTA ",
+      "status" : "APPROVAL_ACCEPTED",
+      "type" : "ExamPlan",
+      "uid" : "1.2.840.51431.21537520305750318395135090077053175049048244",
+      "version" : "1.0"
+   },
+   {
+      "epno" : "048",
+      "filepath" : "ProtocolPool/CTRoom/Histories/ExamPlan/1.2.840.51431.10084709353882317800157096103249168163093034/V1.0/ep_048.xml",
+      "lastupddt" : "2017/06/07 12:53",
+      "modelname" : "Aquilion ONE/ViSION 320/V7.0SP0000E",
+      "organ" : "Neck",
+      "patienttype" : "Adult",
+      "protocoleptype" : "User",
+      "protocolname" : "Neck    ",
+      "status" : "APPROVAL_ACCEPTED",
+      "type" : "ExamPlan",
+      "uid" : "1.2.840.51431.10084709353882317800157096103249168163093034",
+      "version" : "1.0"
+   }
+]

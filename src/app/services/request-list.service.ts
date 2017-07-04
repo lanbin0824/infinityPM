@@ -25,10 +25,16 @@ export class RequestListService {
             .catch(this.handleError)
     }
 
-    getNodeData() {
-        return this.http.get('assets/tree-node-data.json')
+    getCompareListData() {
+        return this.http.get('assets/camparelist.json')
                     .toPromise()
-                    .then(res => res.json().data);
+                    .then(res => res.json());
+    }
+
+    getScanMode() {
+        return this.http.get('assets/scanmode.json')
+                    .toPromise()
+                    .then(res => res.json());
     }
 
     private handleError(error: any) {

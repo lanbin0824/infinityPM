@@ -1,0 +1,44 @@
+.scanmode-table-cls {
+    border: 1px solid #D5D5D5;
+    border-top: 0px;
+}
+.scanmode-table-cls thead{
+    background: #1f89ce;
+    border: 1px solid #1f89ce;
+    text-align: left;
+    color: white;
+    height:5vh;
+}
+.scanmode-table-cls thead th{
+    text-align: left;
+    height:4vh;
+}
+
+.scanmode-table-cls tbody{
+    /*background: #eeeeee;*/
+    border: 1px solid #D5D5D5;
+    text-align: left;
+    /*color: white;*/
+    height:3vh;
+}
+.scanmode-table-cls tbody tr td{
+    border: 1px solid #D5D5D5;
+}
+
+.scanmode-table-cls tbody tr:nth-child(even) td{
+    background-color: #000000;
+}
+
+.scanmode-table-cls tbody tr:nth-child(odd) td{
+    background-color: #ffffff;
+}
+
+.line-td-class{
+    border:0 !important;
+    padding:0 !important;
+    margin: 0 !important;
+}
+div.line-div-class{
+	height:1px;
+    background: #1f89ce;
+}

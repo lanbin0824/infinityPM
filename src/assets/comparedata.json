@@ -2,10 +2,13 @@
    "result" : {
       "changelist" : [
          {
+           "expanded": true,
             "children" : [
                {
+                 "expanded": true,
                   "children" : [
                      {
+                       "expanded": true,
                         "children" : [
                            {
                               "data":{
@@ -143,8 +146,10 @@
                   }
                },
                {
+                 "expanded": true,
                   "children" : [
                      {
+                       "expanded": true,
                         "children" : [
                            {
                               "data":{
@@ -413,8 +418,10 @@
                         "targetvalue" : ""}
                      },
                      {
+                       "expanded": true,
                         "children" : [
                            {
+                             "expanded": true,
                               "children" : [
                                  {
                                     "data":{
@@ -676,6 +683,7 @@
                 "targetvalue" : ""}
          },
          {
+           "expanded": true,
             "children" : [
                {
                   "data":{
