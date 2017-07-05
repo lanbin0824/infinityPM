@@ -34,7 +34,7 @@ body{
 
 .compare-panel-header-cls{
     /*height:4vh;*/
-    min-height: 5vh;
+    min-height: 50px;
     width:97vw;
     border: 1px solid #D5D5D5;
     border-bottom: 0;

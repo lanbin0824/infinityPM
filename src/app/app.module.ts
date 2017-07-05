@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 
 import { AppComponent } from './app.component';
 import { TabViewModule, ButtonModule, DataTableModule, SharedModule, DropdownModule, TooltipModule, TreeTableModule, TieredMenuModule, SplitButtonModule, MenuModule, PanelModule, DialogModule, ToggleButtonModule, RadioButtonModule} from 'primeng/primeng';
@@ -24,6 +25,8 @@ import { SingleScanModeCmpComponent } from './components/single-scan-mode-cmp/si
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
     TabViewModule,
     HttpModule,
     ButtonModule,

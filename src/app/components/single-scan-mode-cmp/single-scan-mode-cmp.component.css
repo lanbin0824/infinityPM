@@ -42,3 +42,7 @@ div.line-div-class{
 	height:1px;
     background: #1f89ce;
 }
+
+.radio-button-cls{
+    width:100% !important;
+}

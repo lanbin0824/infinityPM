@@ -3,16 +3,16 @@
     <thead>
         <th colspan="3">{{name}}</th>
     </thead>
-    <tbody *ngFor="let mode of scanmode">
+    <tbody *ngFor="let mode of scanmode; trackBy:trackByFn">
       <tr>
-        <td class="ui-sm-5 ui-md-5 ui-lg-5 ui-xl-5">
-          <p-radioButton [name]="name" value="val1" [label]="mode.masterName"></p-radioButton>
+        <td class="ui-sm-5 ui-md-5 ui-lg-5 ui-xl-5 left-td-cls">
+          <p-radioButton #leftRdBt [name]="name" (onClick)="onLeftRadioButtonClick(leftRdBt,rightRdBt,linediv)" styleClass="radio-button-cls" [value]="mode.masterName" [label]="mode.masterName"></p-radioButton>
         </td>
         <td class="ui-sm-2 ui-md-2 ui-lg-2 ui-xl-2 line-td-class">
-          <div class="line-div-class"></div>
+          <div #linediv class="line-div-class"></div>
         </td>
-        <td class="ui-sm-5 ui-md-5 ui-lg-5 ui-xl-5">
-          <p-radioButton [name]="name" value="val2" [label]="mode.targetName"></p-radioButton>
+        <td class="ui-sm-5 ui-md-5 ui-lg-5 ui-xl-5 right-td-cls">
+          <p-radioButton #rightRdBt [name]="name" (onClick)="onRightRadioButtonClick(leftRdBt,rightRdBt,linediv)" styleClass="radio-button-cls" [value]="mode.masterName" [label]="mode.targetName"></p-radioButton>
         </td>
       </tr>
     </tbody>

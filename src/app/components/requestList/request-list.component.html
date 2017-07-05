@@ -61,7 +61,7 @@
 </p-dataTable>
 </div>
 <div [hidden]="isSelected">
-    <div class="compare-panel-header-cls">
+    <div class="compare-panel-header-cls" >
         <button pButton type="button" label="Show Differences Only" disabled="true" class="ui-button-primary" style="float:right;top:0.6em;right:0.5em"></button>
         <button pButton type="button" [label]="collapsestate" (click)="onCollapseAllClick(event,tt)" class="ui-button-primary" style="float:right;top:0.6em;right:1.5em"></button>
     </div>
@@ -101,7 +101,7 @@
         </div>
     </div>
 </div>
-<p-dialog modal="true" [(visible)]="display" width="1024" height="960">
+<p-dialog modal="true" [(visible)]="display" width="1024" height="900">
     <p-header>Select Compared Protocol</p-header>
     <app-comparedetailpanel></app-comparedetailpanel>
     <p-footer>

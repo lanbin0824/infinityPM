@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ScanModeSelectComponent implements OnInit {
   contrastparameter:string="ContrastPreset";
-  spparameter:string="Example";
+  spparameter:string="ExamPlan";
   sureexpparameter:string="SureExposure";
   sureiqparameter:string="SureIQ";
   voicepresetparameter:string="VoicePreset";
