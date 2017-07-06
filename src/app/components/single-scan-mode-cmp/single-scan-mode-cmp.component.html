@@ -3,16 +3,17 @@
     <thead>
         <th colspan="3">{{name}}</th>
     </thead>
-    <tbody *ngFor="let mode of scanmode; trackBy:trackByFn">
+    <tbody #tb *ngFor="let mode of scanmode; let i=index;">
       <tr>
         <td class="ui-sm-5 ui-md-5 ui-lg-5 ui-xl-5 left-td-cls">
-          <p-radioButton #leftRdBt [name]="name" (onClick)="onLeftRadioButtonClick(leftRdBt,rightRdBt,linediv)" styleClass="radio-button-cls" [value]="mode.masterName" [label]="mode.masterName"></p-radioButton>
+          <p-checkbox #leftRdBt [name]="name+name" [binary]="true" [(ngModel)]="leftcheckbox[i]" (onChange)="onLeftRadioButtonClick($event,linediv,leftRdBt)" styleClass="radio-button-cls" [label]="mode.masterName"></p-checkbox>
         </td>
         <td class="ui-sm-2 ui-md-2 ui-lg-2 ui-xl-2 line-td-class">
-          <div #linediv class="line-div-class"></div>
+          <div #linediv class="line-div-class" [id]="i"></div>
+          <!--<span>{{i}}</span>-->
         </td>
         <td class="ui-sm-5 ui-md-5 ui-lg-5 ui-xl-5 right-td-cls">
-          <p-radioButton #rightRdBt [name]="name" (onClick)="onRightRadioButtonClick(leftRdBt,rightRdBt,linediv)" styleClass="radio-button-cls" [value]="mode.masterName" [label]="mode.targetName"></p-radioButton>
+          <p-checkbox #rightRdBt [name]="name" [binary]="true" [(ngModel)]="rightcheckbox[i]" (onChange)="onRightRadioButtonClick($event,linediv,rightRdBt)" styleClass="radio-button-cls" [label]="rightValue[i]"></p-checkbox>
         </td>
       </tr>
     </tbody>

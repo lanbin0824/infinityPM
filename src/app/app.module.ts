@@ -6,7 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 
 import { AppComponent } from './app.component';
-import { TabViewModule, ButtonModule, DataTableModule, SharedModule, DropdownModule, TooltipModule, TreeTableModule, TieredMenuModule, SplitButtonModule, MenuModule, PanelModule, DialogModule, ToggleButtonModule, RadioButtonModule} from 'primeng/primeng';
+import { TabViewModule, ButtonModule, DataTableModule, SharedModule, DropdownModule, TooltipModule, TreeTableModule, TieredMenuModule, SplitButtonModule, MenuModule, PanelModule, DialogModule, ToggleButtonModule, CheckboxModule} from 'primeng/primeng';
 // import { TreeTableModule } from 'ng-treetable';
 import { RequestListService } from './services/request-list.service';
 import { ComparedetailpanelComponent } from './components/comparedetailpanel/comparedetailpanel.component';
@@ -41,7 +41,7 @@ import { SingleScanModeCmpComponent } from './components/single-scan-mode-cmp/si
     PanelModule,
     DialogModule,
     ToggleButtonModule,
-    RadioButtonModule
+    CheckboxModule
   ],
   providers: [ RequestListService ],
   bootstrap: [AppComponent]
