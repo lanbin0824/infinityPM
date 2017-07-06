@@ -1,13 +1,16 @@
 <!--The whole content below can be removed with the new code.-->
 <div class="entry-div">
-<p-tabView>
-  <p-tabPanel header="requestList"><request-list></request-list></p-tabPanel>
-  <p-tabPanel header="History List"></p-tabPanel>
-  <p-tabPanel header="Protocol Position"></p-tabPanel>
-  <!--<p-splitButton label="Save" icon="fa-check" style="position:absolute; top:1.2em; right:1.5em" (onClick)="save()" [model]="items"></p-splitButton>-->
-  <p-menu #menu popup="popup" [model]="items"></p-menu>
-  <button pButton type="button" icon="fa fa-list" label="Settings" class="ui-button-primary" (click)="menu.toggle($event)" style="position:absolute; top:1.2em; right:1.5em"></button>
-</p-tabView>
+  <p-tabView>
+    <p-tabPanel header="requestList">
+      <request-list></request-list>
+    </p-tabPanel>
+    <p-tabPanel header="History List"></p-tabPanel>
+    <p-tabPanel header="Protocol Position"></p-tabPanel>
+    <!--<p-splitButton label="Save" icon="fa-check" style="position:absolute; top:1.2em; right:1.5em" (onClick)="save()" [model]="items"></p-splitButton>-->
+    <p-menu #menu popup="popup" [model]="items"></p-menu>
+    <button pButton type="button" icon="fa fa-list" label="Settings" class="ui-button-primary" (click)="menu.toggle($event)"
+      style="position:absolute; top:1.2em; right:1.5em"></button>
+  </p-tabView>
 </div>
 <!--<p-splitButton label="Save" icon="fa-check"></p-splitButton>-->
 

@@ -1,110 +1,113 @@
 <div class="request-list-cls">
-<p-dataTable #dt id="dt" [value]="requestList" [scrollable]="scrollable" [scrollHeight]="scrollheight" [alwaysShowPaginator]="false" tableStyleClass="request-list-style-cls-full" [rows]="rowsPerPage" selectionMode="single" (onRowSelect)="onRowSelect($event,dt)" dataKey="protocolname" [paginator]="paginator" [totalRecords]="totalRecords" rowHover="true" [responsive]="true" [resizableColumns]="true">
+  <p-dataTable #dt id="dt" [value]="requestList" [scrollable]="scrollable" [scrollHeight]="scrollheight" [alwaysShowPaginator]="false"
+    tableStyleClass="request-list-style-cls-full" [rows]="rowsPerPage" selectionMode="single" (onRowSelect)="onRowSelect($event,dt)"
+    dataKey="protocolname" [paginator]="paginator" [totalRecords]="totalRecords" rowHover="true" [responsive]="true" [resizableColumns]="true">
     <p-header>
-        <span>Request</span>
-        <div [hidden]="isSelected" style="position:absolute; top:0.2em; right:0.5em">
-            <button pButton type="button" (click)="onButtonClick()" class="ui-button-primary" icon="fa-backward" label="Back" ></button>
-        </div>
+      <span>Request</span>
+      <div [hidden]="isSelected" style="position:absolute; top:0.2em; right:0.5em">
+        <button pButton type="button" (click)="onButtonClick()" class="ui-button-primary" icon="fa-backward" label="Back"></button>
+      </div>
     </p-header>
     <!--<p-footer>Footer</p-footer>-->
-    <p-column field="status" [header]="header.status" sortable="true" [style]="{'width':'5%'}"  filter="true">
-       <ng-template let-col let-row="rowData" let-rowIndex="rowIndex" pTemplate="body">
-           <div #approveDiv *ngIf="isTrue; then approveButton else notSureButton"></div>
-           <!--<span [pTooltip]="row[col.field]" [appendTo]="approveDiv"> {{row[col.field]}} </span>-->
-           <ng-template #approveButton>
-               <button pButton type="button" icon="fa-refresh"></button>
-           </ng-template>
-           <ng-template #notSureButton>
-               <button pButton type="button" icon="fa-search"></button>
-           </ng-template>  
+    <p-column field="status" [header]="header.status" sortable="true" [style]="{'width':'5%'}" filter="true">
+      <ng-template let-col let-row="rowData" let-rowIndex="rowIndex" pTemplate="body">
+        <div #approveDiv *ngIf="isTrue; then approveButton else notSureButton"></div>
+        <!--<span [pTooltip]="row[col.field]" [appendTo]="approveDiv"> {{row[col.field]}} </span>-->
+        <ng-template #approveButton>
+          <button pButton type="button" icon="fa-refresh"></button>
         </ng-template>
-             
+        <ng-template #notSureButton>
+          <button pButton type="button" icon="fa-search"></button>
+        </ng-template>
+      </ng-template>
+
     </p-column>
     <p-column field="type" [header]="header.type" sortable="true" filter="true" filterMatchMode="equals">
-        <ng-template pTemplate="body" let-col let-row="rowData"> 
-             <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span> 
-        </ng-template>
-        <ng-template pTemplate="header"> 
-             <span pTooltip="patienttype" escape="false" positionStyle="fixed"> {{header.type}} </span> 
-        </ng-template>
+      <ng-template pTemplate="body" let-col let-row="rowData">
+        <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span>
+      </ng-template>
+      <ng-template pTemplate="header">
+        <span pTooltip="patienttype" escape="false" positionStyle="fixed"> {{header.type}} </span>
+      </ng-template>
     </p-column>
     <p-column field="patienttype" [header]="header.patienttype" sortable="true" filter="true">
-        <ng-template pTemplate="body" let-col let-row="rowData"> 
-             <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span> 
-        </ng-template>
+      <ng-template pTemplate="body" let-col let-row="rowData">
+        <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span>
+      </ng-template>
     </p-column>
-    <p-column field="protocolname" [header]="header.protocolname" [style]="{'width':'20%'}"  sortable="true" filter="true">
-        <ng-template pTemplate="body" let-col let-row="rowData"> 
-             <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span> 
-        </ng-template>
+    <p-column field="protocolname" [header]="header.protocolname" [style]="{'width':'20%'}" sortable="true" filter="true">
+      <ng-template pTemplate="body" let-col let-row="rowData">
+        <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span>
+      </ng-template>
     </p-column>
     <p-column field="version" [header]="header.version" sortable="true" filter="true">
-        <ng-template pTemplate="body" let-col let-row="rowData"> 
-             <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span> 
-        </ng-template>
+      <ng-template pTemplate="body" let-col let-row="rowData">
+        <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span>
+      </ng-template>
     </p-column>
     <p-column field="lastupddt" [header]="header.lastupddt" sortable="true" filter="true">
-        <ng-template pTemplate="body" let-col let-row="rowData"> 
-             <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span>            
-        </ng-template>
+      <ng-template pTemplate="body" let-col let-row="rowData">
+        <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span>
+      </ng-template>
     </p-column>
     <p-column field="displaymachinename" [header]="header.displaymachinename" sortable="true" filter="true">
-        <ng-template pTemplate="body" let-col let-row="rowData"> 
-             <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span> 
-        </ng-template>
+      <ng-template pTemplate="body" let-col let-row="rowData">
+        <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span>
+      </ng-template>
     </p-column>
     <p-column field="applicant" [header]="header.applicant" sortable="true" filter="true">
-        <ng-template pTemplate="body" let-col let-row="rowData"> 
-             <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span> 
-        </ng-template>
+      <ng-template pTemplate="body" let-col let-row="rowData">
+        <span [pTooltip]="row[col.field]" positionStyle="fixed"> {{row[col.field]}} </span>
+      </ng-template>
     </p-column>
-</p-dataTable>
+  </p-dataTable>
 </div>
 <div [hidden]="isSelected">
-    <div class="compare-panel-header-cls" >
-        <button pButton type="button" label="Show Differences Only" disabled="true" class="ui-button-primary" style="float:right;top:0.6em;right:0.5em"></button>
-        <button pButton type="button" [label]="collapsestate" (click)="onCollapseAllClick(event,tt)" class="ui-button-primary" style="float:right;top:0.6em;right:1.5em"></button>
-    </div>
-    <p-treeTable #tt [value]="compareData" styleClass="compare-panel-cls" toggleColumnIndex="1" (onNodeExpand)="nodeExpand($event,tt)">
-        <p-column field="name" header="" styleClass="tree-table-row-cls"></p-column>
-        <p-column *ngIf="epnames" field="targetvalue" styleClass="tree-table-row-cls" [header]="">
-            <ng-template pTemplate="body" let-col let-row="rowData" let-ri="rowIndex"> 
-                <span> {{row.data.targetvalue}} </span> 
-            </ng-template>
-            <ng-template pTemplate="header" let-col>
-                <div *ngIf="epnames" (click)="onHeaderClick(event,tt)"> 
-                    <span> {{epnames.epname}} </span><br>
-                    <span> {{epnames.modelname}} </span><br> 
-                    <span> V{{epnames.version}} {{epnames.time}} </span><br>
-                </div>  
-            </ng-template>
-        </p-column>
-        <div [hidden]="hiddenthirdColumn">
-        <p-column *ngIf="hiddenthirdColumn" field="mastervalue" styleClass="tree-table-row-cls" [header]="">
-            <ng-template pTemplate="body" let-col let-row="rowData" let-ri="rowIndex"> 
-                <span> {{row.data.targetvalue}} </span> 
-            </ng-template>
-            <ng-template pTemplate="header" let-col>
-                <div *ngIf="epnames"> 
-                    <span> {{epnames.epname}} </span><br>
-                    <span> {{epnames.modelname}} </span><br> 
-                    <span> V{{epnames.version}} {{epnames.time}} </span><br>
-                </div>  
-            </ng-template>
-        </p-column>
+  <div class="compare-panel-header-cls">
+    <button pButton type="button" label="Show Differences Only" disabled="true" class="ui-button-primary" style="float:right;top:0.6em;right:0.5em"></button>
+    <button pButton type="button" [label]="collapsestate" (click)="onCollapseAllClick(event,tt)" class="ui-button-primary" style="float:right;top:0.6em;right:1.5em"></button>
+  </div>
+  <p-treeTable #tt [value]="compareData" styleClass="compare-panel-cls" toggleColumnIndex="1" (onNodeExpand)="nodeExpand($event,tt)">
+    <p-column field="name" header="" styleClass="tree-table-row-cls"></p-column>
+    <p-column *ngIf="epnames" field="targetvalue" styleClass="tree-table-row-cls" [header]="">
+      <ng-template pTemplate="body" let-col let-row="rowData" let-ri="rowIndex">
+        <span> {{row.data.targetvalue}} </span>
+      </ng-template>
+      <ng-template pTemplate="header" let-col>
+        <div *ngIf="epnames" (click)="onHeaderClick(event,tt)">
+          <span> {{epnames.epname}} </span><br>
+          <span> {{epnames.modelname}} </span><br>
+          <span> V{{epnames.version}} {{epnames.time}} </span><br>
         </div>
-    </p-treeTable>
-    <div class="compare-panel-footer">
-        <div class="buttons-container-cls">
-            <button pButton type="button" label=" Delete" class="ui-button-danger button-align-right-cls" disabled="true" icon="fa fa-trash-o fa-lg"></button>
-            <button pButton type="button" label=" Reject" class="ui-button-warning button-align-right-cls" icon="fa fa-ban"></button>
-        </div>
+      </ng-template>
+    </p-column>
+    <div [hidden]="hiddenthirdColumn">
+      <p-column *ngIf="hiddenthirdColumn" field="mastervalue" styleClass="tree-table-row-cls" [header]="">
+        <ng-template pTemplate="body" let-col let-row="rowData" let-ri="rowIndex">
+          <span> {{row.data.targetvalue}} </span>
+        </ng-template>
+        <ng-template pTemplate="header" let-col>
+          <div *ngIf="epnames">
+            <span> {{epnames.epname}} </span><br>
+            <span> {{epnames.modelname}} </span><br>
+            <span> V{{epnames.version}} {{epnames.time}} </span><br>
+          </div>
+        </ng-template>
+      </p-column>
     </div>
+  </p-treeTable>
+  <div class="compare-panel-footer">
+    <div class="buttons-container-cls">
+      <button pButton type="button" label=" Delete" class="ui-button-danger button-align-right-cls" disabled="true" icon="fa fa-trash-o fa-lg"></button>
+      <button pButton type="button" label=" Reject" class="ui-button-warning button-align-right-cls" icon="fa fa-ban"></button>
+    </div>
+  </div>
 </div>
 <p-dialog modal="true" [(visible)]="display" width="1024" height="900">
-    <p-header>Select Compared Protocol</p-header>
-    <app-comparedetailpanel></app-comparedetailpanel>
-    <p-footer>
-        <button pButton type="button" label="Cancel" (click)="onCancelButton()" class="ui-button-primary" style="float:right;top:-0.1em;right:0.5em"></button>
-        <button pButton type="button" label="OK" disabled="true" (click)="onOKButton()" class="ui-button-primary" style="float:right;top:-0.1em;right:1.5em"></button></p-footer>
-</p-dialog>  
+  <p-header>Select Compared Protocol</p-header>
+  <app-comparedetailpanel></app-comparedetailpanel>
+  <p-footer>
+    <button pButton type="button" label="Cancel" (click)="onCancelButton()" class="ui-button-primary" style="float:right;top:-0.1em;right:0.5em"></button>
+    <button pButton type="button" label="OK" disabled="true" (click)="onOKButton()" class="ui-button-primary" style="float:right;top:-0.1em;right:1.5em"></button></p-footer>
+</p-dialog>
+
