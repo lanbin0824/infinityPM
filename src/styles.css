@@ -32,6 +32,10 @@ body{
     table-layout: auto !important; /**table-layout: adjust table style**/
 }
 
+.ui-datatable table tbody tr{
+    height:40px;
+}
+
 .compare-panel-header-cls{
     /*height:4vh;*/
     min-height: 50px;
@@ -123,6 +127,11 @@ body{
 
 .ui-chkbox-box.ui-state-active, .ui-radiobutton-box.ui-state-active{
     color:#186ba0 !important;
+}
+
+.fa-exclamation .fa-stack-1x
+{
+    left: 5px;
 }
  /*.ui-dialog{
      width:90% !important;

@@ -1,6 +1,8 @@
 # InfinityPM
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
+Node version: >4.X
+NPM version: >3.X 
 
 ## Development server
 

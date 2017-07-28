@@ -1,0 +1,128 @@
+.panelTabView
+{
+	padding:0px;
+	border:0px;
+	background-color:transparent;
+}
+.panel-NoborderPadding
+{
+	padding:0px;
+	border:0px;
+}
+.panel-NoborderPadding-transparent
+{
+	padding:0px;
+	border:0px;
+	background-color:transparent;
+}
+
+.panel-Color-NoborderPadding
+{
+	padding:0px;
+	border:0px;
+	background:#E1EAF7;
+}
+.panel-ScrollBorder-NoPadding
+{
+	padding:0px;	
+	border:0px;	
+	overflow-x:hidden;
+	overflow-y:scroll;
+	background:#EDF0F7;
+	border-left:1px solid #ABC0E2;
+	border-bottom:1px solid #ABC0E2;
+	border-right:1px solid #ABC0E2;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+}
+.panel-ScrollBorder-xy-NoPadding
+{
+	padding:0px;	
+	border:0px;	
+	overflow-x:scroll;
+	overflow-y:scroll;
+	background:#EDF0F7;
+	border-left:1px solid #ABC0E2;
+	border-bottom:1px solid #ABC0E2;
+	border-right:1px solid #ABC0E2;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+}
+.compare-ColorPadding-Noborder
+{
+	padding:0px;
+	border:0px;
+	background:#EDF0F7;
+}
+
+.grid-Color-NoborderPadding
+{
+	padding:0px;
+	border:0px;
+	background:#EDF0F7;
+}
+.grid-ColorPadding-Noborder
+{
+	padding-top:0px;
+	padding-left:12px;
+	padding-right:12px;
+	padding-bottom:12px;
+	border:0px;
+	background:#EDF0F7;
+}
+.button-Color-NoborderPadding
+{
+	padding:0px;
+	border:0px;
+	background-image: -moz-linear-gradient(left, #CEDCF2, #D3E1F6);
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #CEDCF2), color-stop(1, #D3E1F6));
+    background: -ms-linear-gradient(top, #CEDCF2 0%,#D3E1F6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CEDCF2, endColorstr=#D3E1F6, GradientType=1);
+}
+span.spanGridColumn
+{
+	padding-left:12px;
+	padding-right:12px;
+	font-size: 13pt;
+	color:#FFFFFF;
+}
+
+span.spanGridValue
+{
+	padding-left:7px;
+
+	padding-right:5px;
+	font-size: 13pt;
+	color: #1E3246;
+}
+
+span.spanGridValueForNewColor
+{
+	padding-left:7px;
+
+	padding-right:5px;
+	font-size: 13pt;
+	/*color: #ed9646;*/
+}
+
+.panel-Noborder-Padding-transparent
+{
+	padding:0px;
+	border-top:0px;
+	border-left:1px solid #ABC0E2;
+	border-bottom:1px solid #ABC0E2;
+	border-right:1px solid #ABC0E2;
+	background-color:#FFF;
+}
+
+.div-history-data
+{
+	overflow:hidden;
+	position: relative;
+}
+span.transfer-title
+{
+	font-size: 13pt;
+}

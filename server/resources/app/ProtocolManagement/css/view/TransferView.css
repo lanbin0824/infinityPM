@@ -1,0 +1,56 @@
+.x-tree-icon-parent{width:0px;}
+.x-tree-icon {width:0px;}
+
+.SpanFont {
+	font-size: 12pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 24px;
+	cursor: pointer;
+}
+
+.SpanFont-after {
+	padding-left: 18px;
+}
+
+.region-pic-area-panel
+{
+	padding:0px;
+	border:0px;
+	padding-left:10px;
+	background-color:transparent;
+}
+
+table.Transfer-Table{
+	table-layout	:fixed;
+	border-collapse	:separate;
+	border-spacing	:0px 0px;
+	padding			:0px;	
+	background-color:transparent;
+	width:100%;	
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;	
+	user-select:none;
+	-ms-user-select:none;
+}
+
+TD.Transfer-Item-Td
+{
+	width:50%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;	
+
+	padding:0px;
+	text-align: left;
+	padding-left: 30px;
+}
+
+span.Transfer-Item_Span
+{
+	color:black;
+	text-align : left;
+	font-size: 12pt;
+}

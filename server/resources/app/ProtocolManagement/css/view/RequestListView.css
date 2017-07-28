@@ -1,0 +1,426 @@
+table.RequestList-Table{
+	table-layout	:fixed;
+	border-collapse	:separate;
+	border-spacing	:0px 0px;
+	padding			:0px;	
+	background-color:#F7F9FF;
+	width:100%;	
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;	
+	user-select:none;
+	-ms-user-select:none;
+}
+
+table.RequestList-Header{
+	table-layout	:fixed;
+	border-collapse	:separate;
+	border-spacing	:0px 0px;
+	padding			:0px;	
+	background-color:#93AEDB;
+	width:100%;	
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;	
+	user-select:none;
+	-ms-user-select:none;
+}
+
+table.RequestList-Header tr
+{
+    background-color:#93AEDB;
+}
+
+tr.RequestList-Tr {
+	border			:0px;
+	padding			:0px;
+	background-color:#F7F9FF;
+}
+tr.RequestList-Tr-S {
+	border			:0px;
+	padding			:0px;
+	background-color:#EBF1FA;
+}
+tr.RequestList-Tr-Space {
+	border			:0px;
+	padding			:0px;
+	background-color:#F7F9FF;
+}
+tr.RequestList-Tr-S-Space {
+	border			:0px;
+	padding			:0px;
+	background-color:#EBF1FA;
+}
+tr.RequestList-Tr:hover {
+	background-color:#C0E0FA;
+}
+tr.RequestList-Tr-S:hover{
+	background-color:#C0E0FA;
+}
+tr.RequestList-Tr-Select {
+	border			:0px;
+	padding			:0px;
+	background-color:#C0E0FA;	
+}
+/* Status */
+td.Td-RequestList-Status
+{	
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	border-right:1px solid #ABC0E2;
+	/* border-bottom:1px solid #ABC0E2; */
+	cursor:pointer;
+	padding:0px;
+	height:31px;
+	text-align: center;
+	background-color:transparent;
+}
+/* Type */
+td.Td-RequestList-Model
+{
+	border-right:1px solid #ABC0E2;
+	/* border-bottom:1px solid #ABC0E2; */
+	cursor:pointer;
+	padding:0px;
+	height:31px;
+	text-align: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+
+/* Type */
+td.Td-RequestList-Type
+{
+	border-right:1px solid #ABC0E2;
+	/* border-bottom:1px solid #ABC0E2; */
+	cursor:pointer;
+	padding:0px;
+	height:31px;
+	text-align: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+
+/* PatientType */
+td.Td-RequestList-PatientType
+{
+	border-right:1px solid #ABC0E2;
+	/* border-bottom:1px solid #ABC0E2; */
+	cursor:pointer;
+	padding:0px;
+	height:31px;
+	text-align: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+
+/* Name */
+td.Td-RequestList-Name
+{
+	overflow: hidden;
+	white-space: pre;
+	text-overflow:ellipsis;
+	border-right:1px solid #ABC0E2;
+	/* border-bottom:1px solid #ABC0E2; */
+	cursor:pointer;
+	padding:0px;
+	height:31px;
+	text-align: left;	
+}
+
+/* Version */
+td.Td-RequestList-Version
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	border-right:1px solid #ABC0E2;
+	/* border-bottom:1px solid #ABC0E2; */
+	cursor:pointer;
+	padding:0px;
+	height:31px;
+	text-align: left;
+	/* width:100px; */
+}
+
+/* Machine */
+td.Td-RequestList-Machine
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	border-right:1px solid #ABC0E2;
+	/* border-bottom:1px solid #ABC0E2; */
+	cursor:pointer;
+	padding:0px;
+	height:31px;
+	text-align: left;
+	/* width:180px; */
+}
+/* Applicant */
+td.Td-RequestList-Applicant
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;	
+	/* border-bottom:1px solid #ABC0E2; */
+	cursor:pointer;
+	padding:0px;
+	height:31px;
+	text-align: left;
+}
+
+/* Time */
+td.Td-RequestList-Time
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	border-right:1px solid #ABC0E2;
+	/* border-bottom:1px solid #ABC0E2; */
+	cursor:pointer;
+	padding:0px;
+	height:31px;
+	text-align: left;
+}
+
+/* Applicant */
+td.Td-RequestList-Cell-Space
+{
+	border-right:1px solid #ABC0E2;
+}
+
+/* Column Status */
+td.Td-Column-Status
+{	
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	padding:0px;
+	height:27px;
+	text-align: center;
+	background-color:transparent;
+}
+/* Column Type */
+td.Td-Column-Type
+{
+	padding:0px;
+	height:27px;
+	text-align: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:pointer;
+	padding-bottom:1px;
+}
+/* Column Patient Type */
+td.Td-Column-PatientType
+{
+	padding:0px;
+	height:27px;
+	text-align: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:pointer;
+	padding-bottom:1px;
+}
+/* Column Name */
+td.Td-Column-Name
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:pointer;
+	padding:0px;
+	height:27px;
+	text-align: left;	
+	padding-bottom:1px;
+}
+
+/* Column Version */
+td.Td-Column-Version
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:pointer;
+	padding:0px;
+	height:27px;
+	text-align: left;
+	padding-bottom:1px;
+}
+
+/* Column Machine */
+td.Td-Column-Machine
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:pointer;
+	padding:0px;
+	height:27px;
+	text-align: left;
+	padding-bottom:1px;
+}
+/* Column Applicant */
+td.Td-Column-Applicant
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:pointer;
+	padding:0px;
+	height:27px;
+	text-align: left;
+	padding-bottom:1px;
+}
+/* Column Time */
+td.Td-Column-Time
+{
+	cursor:pointer;
+	padding:0px;
+	height:27px;
+	text-align: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	padding-bottom:1px;
+}
+
+/* Column Name Sort */
+td.Td-Column-Type-Sort
+{
+	cursor:pointer;
+	padding:0px;
+	padding-right:5px;
+	height:27px;
+	text-align: left;
+	width:28px;	
+}
+
+/* Column Patient Type Sort */
+td.Td-Column-PatientType-Sort
+{
+	cursor:pointer;
+	padding:0px;
+	padding-right:5px;
+	height:27px;
+	text-align: left;
+	width:28px;	
+}
+
+/* Column Name Sort */
+td.Td-Column-Name-Sort
+{
+	cursor:pointer;
+	padding:0px;
+	padding-right:5px;
+	height:27px;
+	text-align: left;
+	width:28px;	
+}
+
+/* Column Version Sort */
+td.Td-Column-Version-Sort
+{
+	cursor:pointer;
+	padding:0px;
+	padding-right:5px;
+	height:27px;
+	text-align: left;
+	width:28px;	
+}
+
+/* Column Machine Sort */
+td.Td-Column-Machine-Sort
+{
+	cursor:pointer;
+	padding:0px;
+	padding-right:5px;
+	height:27px;
+	text-align: left;
+	width:28px;	
+}
+/* Column Applicant Sort */
+td.Td-Column-Applicant-Sort
+{
+	cursor:pointer;
+	padding:0px;
+	padding-right:5px;
+	height:27px;
+	text-align: left;
+	width:28px;	
+}
+
+/* Column Time Sort */
+td.Td-Column-Time-Sort
+{
+	cursor:pointer;
+	padding:0px;
+	padding-right:5px;
+	height:27px;
+	text-align: left;
+	width:28px;	
+}
+
+img.Img-RequestList-Type
+{
+	padding:0px;
+	margin-top:-2px;
+	vertical-align:middle;
+}
+img.Img-RequestList-PatientType
+{
+	padding:0px;
+	margin-top:-2px;
+	vertical-align:middle;
+}
+img.Img-RequestList-Name
+{
+	padding:0px;
+	margin-top:-2px;
+	vertical-align:middle;
+}
+img.Img-RequestList-Version
+{
+	padding:0px;
+	margin-top:-2px;
+	vertical-align:middle;
+}
+img.Img-RequestList-Date
+{
+	padding:0px;
+	margin-top:-2px;
+	vertical-align:middle;
+}
+img.Img-RequestList-Machine
+{
+	padding:0px;
+	margin-top:-2px;
+	vertical-align:middle;
+}
+img.Img-RequestList-Applicant
+{
+	padding:0px;
+	margin-top:-2px;
+	vertical-align:middle;
+}
+
+img.Img-RequestList-Status
+{
+	padding:0px;
+	margin-top:-2px;
+	vertical-align:middle;
+}
+.panel-btn-refresh
+{
+	padding:0px;
+	border:0px;
+	background-color:transparent;
+	padding-top:4px;
+}

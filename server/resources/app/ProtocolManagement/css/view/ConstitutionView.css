@@ -1,0 +1,446 @@
+table.Constitution-Table{
+    table-layout    :fixed;
+    border-collapse    :separate;
+    border-spacing    :0px 0px;
+    padding            :0px;
+    background-color:#93AEDB;
+    width:100%;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    user-select:none;
+    -ms-user-select:none;
+    color: #1E3246;
+}
+
+table.Constitution-Table-Deep-Color{
+    table-layout    :fixed;
+    border-collapse    :separate;
+    border-spacing    :0px 0px;
+    padding            :0px;
+    background-color: #2F5988;
+    width:100%;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    user-select:none;
+    -ms-user-select:none;
+    color: #1E3246;
+}
+
+table.Constitution-List-Table
+{
+    table-layout    :fixed;
+    border-collapse :separate;
+    border-spacing  :0px 0px;
+    padding         :0px;
+    background-color:#FFFFFF;
+    width:100%;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    user-select:none;
+    -ms-user-select:none;
+    color: #1E3246;
+}
+
+/* title Column sort */
+td.History-Column-Sort
+{
+    color : #FFFFFF;
+    cursor:pointer;
+    padding:0px;
+    height:35px;
+    text-align: left;
+    width:28px;
+    background-color:#93AEDB;
+}
+
+/* tr style*/
+Table.Constitution-List-Table TR:nth-child(odd)
+{
+    background-color : #EBF1FA;
+    cursor:pointer;
+}
+Table.Constitution-List-Table TR:nth-child(even)
+{
+    background-color : #F7F9FF;
+    cursor:pointer;
+}
+Table.Constitution-List-Table TR.spa:nth-child(odd)
+{
+    background-color : #EBF1FA;
+    cursor:default;
+}
+Table.Constitution-List-Table TR.spa:nth-child(even)
+{
+    background-color : #F7F9FF;
+    cursor:default;
+}
+Table.Constitution-List-Table TR.selected
+{
+    background-color : #C0E0FA;
+    cursor:pointer;
+}
+
+/* TD */
+TD.History-Column-Title
+{
+    color : #FFFFFF;
+    cursor:pointer;
+    padding:0px;
+    height:35px;
+    text-align: left;
+    background-color:#93AEDB;
+    padding-bottom:0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+
+TD.History-Column-Value
+{
+    border-right: 1px solid #ABC0E2;
+    padding:0px;
+    height:30px;
+    text-align: left;
+    overflow: hidden;
+    white-space: pre;
+    text-overflow:ellipsis;
+}
+
+td.Td-Constitution-Machine-title {
+
+    color : #FFFFFF;
+    border-right:1px solid #ABC0E2;
+    padding:0px;
+    height:16px;
+    text-align: center;
+    width:189px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color:#2F5988;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    cursor:pointer;
+}
+td.Td-Constitution-Machine-title-noborder {
+
+    color : #FFFFFF;
+    padding:0px;
+    height:16px;
+    text-align: center;
+    width:132px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    background-color:#2F5988;
+    cursor:pointer;
+}
+img.Img-Constitution-Machine
+{
+    vertical-align:middle;
+    margin-top: 0px;
+    height: 27px;
+    width: 28px;
+    background-color: #2F5988;
+}
+
+td.Td-Constitution-Machine-title-sort
+{
+    color : #FFFFFF;
+    cursor:pointer;
+    padding:0px;
+
+    height:32px;
+    text-align: left;
+    width:28px;
+    background-color:#2F5988;
+    border-right: 1px solid #ABC0E2;
+}
+td.Td-Constitution-Machine-title-sort-noborder
+{
+    color : #FFFFFF;
+    cursor:pointer;
+    padding:0px;
+
+    height:32px;
+    text-align: left;
+    width:28px;
+    background-color:#2F5988;
+    border: 0px;
+}
+
+/* td style */
+td.Td-Constitution-Machine
+{
+    border-right:1px solid #ABC0E2;
+    padding:0px;
+    height:30px;
+    text-align: center;
+    width:189px;
+}
+td.Td-Constitution-Machine-noborder
+{
+    padding:0px;
+    height:30px;
+    text-align: center;
+    width:189px;
+}
+
+/* history css*/
+
+table.conHistory-Table-header{
+    table-layout    :fixed;
+    border-collapse    :separate;
+    border-spacing    :0px 0px;
+    padding            :0px;
+    background-color:#93AEDB;
+    width:100%;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    user-select:none;
+    -ms-user-select:none;
+    font-size: 14pt;
+    height:35px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+table.conHistory-Table{
+    table-layout    :fixed;
+    border-collapse    :separate;
+    border-spacing    :0px 0px;
+    padding            :0px;
+    background-color:#93AEDB;
+    width:100%;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    user-select:none;
+    -ms-user-select:none;
+}
+
+tr.conHistory-Tr {
+    background-color:#F7F9FF;
+}
+tr.conHistory-Tr-S {
+    background-color:#EBF1FA;
+}
+tr.conHistory-Tr-space {
+    background-color:#F7F9FF;
+}
+tr.conHistory-Tr-space-S {
+    background-color:#EBF1FA;
+}
+/*tr.conHistory-Tr:hover {
+    background-color:#C0E0FA;
+}*/
+tr.conHistory-Tr-S:hover{
+    background-color:#C0E0FA;
+}
+tr.conHistory-Tr-Select {
+    background-color:#C0E0FA;
+}
+
+.PM-Search-field
+{
+    border: none;
+    background: white;
+}
+
+/* other */
+.panel-Scroll-NoPadding
+{
+    padding:0px;
+    border:0px;
+    overflow:auto;
+    background:#EDF0F7;
+    border-bottom:1px solid #ABC0E2;
+}
+
+.padding-Top-Left-Right{
+    padding-top    : 12px;
+    padding-left : 0px;
+    padding-right: 0px;
+}
+.padding-Bottom-Left-Right{
+    padding-left : 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+
+/* order */
+img.Img-Constitution-History-Date
+{
+    vertical-align:middle;
+    margin-top: -5px;
+    width: 27px;
+    height: 27px;
+}
+img.Img-Constitution-History-Name
+{
+    vertical-align:middle;
+    margin-top: -5px;
+    width: 27px;
+    height: 27px;
+}
+img.Img-Constitution-Date
+{
+    vertical-align:middle;
+    margin-top: 0px;
+    height: 27px;
+    width: 28px;
+}
+img.Img-Constitution-Patienttype
+{
+    vertical-align:middle;
+    margin-top: 0px;
+    height: 27px;
+    width: 28px;
+    background-color: #93AEDB;
+}
+
+img.Img-Constitution-Type
+{
+    vertical-align:middle;
+    margin-top: 0px;
+    height: 27px;
+    width: 28px;
+}
+img.Img-Constitution-Name
+{
+    vertical-align:middle;
+    margin-top: 0px;
+    height: 27px;
+    width: 28px;
+}
+
+.ConstitutionView-Search
+{
+    height: 24px;
+    margin-top:5px;
+    border:none;
+    background: white;
+    border-width:0px;
+    border-color:white;
+}
+.ConstitutionView-Search-empty
+{
+    border: none;
+    background: white;
+    border-width: 0px;
+    border-color: white;
+}
+.ConstitutionView-Search-Img
+{
+    margin-top: 5px;
+    border-color:white;
+    background: white;
+    cursor: pointer;
+}
+
+.panelHeader-body-panel
+{
+    border:0px;
+    background-image: -moz-linear-gradient(top, rgb(132, 171, 236), rgb(92, 136, 216));
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(132, 171, 236)), color-stop(1, rgb(92, 136, 216)));
+    background: -ms-linear-gradient(top, rgb(132,171, 236) 0%,rgb(92, 136, 216) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#89A1E5, endColorstr=#5C88D8, GradientType=0);
+}
+
+
+/* radlex */
+.radlex-View-Search-empty
+{
+    border: 0;
+    background: white;
+}
+.x-radlex-View-Search-empty{
+    border: 0;
+    background: white;
+}
+
+.radlex-View-Search-Img
+{
+    border: 1px solid #ABC0E2;
+    border-left: 0;
+    margin-top: 5px;
+    background: white;
+    cursor: pointer;
+    padding:4px;
+    margin-top:10px;
+}
+
+.radlex-table-header
+{
+    padding:0;
+    margin:0;
+    border: 0;
+}
+
+.transfer-table-header-body
+{
+    background: transparent !important;
+}
+
+.transfer-table-header-body-label
+{
+    height: 33px;
+    width: 400px;
+    font-size: 14pt;
+}
+
+.transfer-table-header-body-label-request
+{
+    height: 66px;
+    width: 600px;
+    font-size: 13pt;
+}
+
+.table-body
+{
+    overflow-y:auto;
+    padding:0;
+    margin:0;
+    border:1px solid #ABC0E2;
+    border-top:0;
+}
+
+
+/* history list */
+.history-panel-ScrollBorder-NoPadding
+{
+    padding:0px;
+    padding-bottom:12px solid !important;
+    margin-bottom:12px !important;
+    border:0px;
+    overflow-x:hidden;
+    background:white;
+    border-left:1px solid #ABC0E2;
+    border-bottom:1px solid #ABC0E2;
+    border-right:1px solid #ABC0E2;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+}
+td.Td-History-Column-Time
+{
+    cursor:pointer;
+    text-align: left;
+    padding-left : 5px;
+    height:35px;
+    background-color:#93AEDB;
+}
+
+td.Td-History-Column-Time-Sort
+{
+    cursor:pointer;
+    padding:0px;
+    padding-right:5px;
+    text-align: left;
+    width:28px;
+    height:35px;
+    background-color:#93AEDB;
+}

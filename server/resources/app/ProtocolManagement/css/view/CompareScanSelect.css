@@ -1,0 +1,145 @@
+table.CompareScanSelect-Table{
+	table-layout	:fixed;
+	border-collapse	:separate;
+	border-spacing	:0px 0px;
+	padding	:0px;
+	background-color:transparent;
+	width:100%;	
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;	
+	user-select:none;
+	-ms-user-select:none;
+	border:0px;
+}
+
+tr.CompareScanSelect-Tr {
+	background-color:#F7F9FF;
+}
+tr.CompareScanSelect-Tr-S {
+	background-color:#EBF1FA;
+}
+
+td.TD-width-radio
+{
+	width:40px;
+	height:0px;
+}
+td.TD-width-name
+{
+	height:0px;
+}
+td.TD-width-line
+{
+	width:100px;
+	height:0px;
+}
+
+td.Td-CompareScanSelect-header
+{	
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	border-top:1px solid #ABC0E2;
+	border-left:1px solid #ABC0E2;
+	border-right:1px solid #ABC0E2;
+	padding:0px;
+	padding-left:10px;
+	height:30px;
+	text-align: left;	
+	background-color:#93AEDB;
+}
+
+/* radio */
+td.Td-CompareScanSelect-radio,td.Td-CompareScanSelect-radio-right
+{		
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	border-top:1px solid #ABC0E2;
+	border-left:1px solid #ABC0E2;
+	border-right:1px solid #ABC0E2;
+	cursor:pointer;
+	padding:0px;
+	height:30px;
+	text-align: center;	
+	background-color:transparent;
+}
+
+/* name */
+td.Td-CompareScanSelect-name,td.Td-CompareScanSelect-name-right
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	border-top:1px solid #ABC0E2;
+	border-right:1px solid #ABC0E2;
+	cursor:pointer;
+	padding:0px;
+	height:30px;
+	text-align: left;	
+}
+
+/* line */
+td.Td-CompareScanSelect-line
+{	
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:14px;
+	padding-bottom:15px;
+	height:30px;
+	background-color:#FFFFFF;
+}
+td.Td-CompareScanSelect-line-border
+{	
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:14px;
+	padding-bottom:15px;
+	height:30px;
+	background-color:#FFFFFF;
+	border-top:1px solid #ABC0E2;
+}
+
+/* space */
+td.Td-CompareScanSelect-space
+{	
+	height:15px;
+	background-color:#FFFFFF;
+	border-top:1px solid #ABC0E2;
+}
+
+div.Div-CompareScanSelect-line
+{	
+	width:100%;
+	background-color:#EFA468;
+	height:1px;
+}
+div.Div-CompareScanSelect-line-none
+{	
+	width:100px;
+	background-color:transparent;
+	height:1px;
+}
+
+img.Img-CompareScanSelect-Ridio
+{
+	vertical-align:middle;
+	margin-bottom:-2px;
+}
+
+.panel-CompareScanSelect-Scroll
+{
+	padding:0px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	background-color:#FFFFFF;
+	border:0px solid #ABC0E2;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+	padding-left	:12px;
+	padding-right	:12px;
+	padding-top		:8px;
+	padding-bottom	:8px;
+}

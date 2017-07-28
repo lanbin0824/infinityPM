@@ -12,7 +12,6 @@ import {
 import {
   TreeNode
 } from 'primeng/primeng';
-// import { DataTableModule, SharedModule } from 'primeng/primeng';
 
 @Component({
   selector: 'request-list',
@@ -22,7 +21,7 @@ import {
 
 export class RequestListComponent implements OnInit {
   requestList: any;
-  compareData: any[];
+  compareData: Array < object >= [];
   cols: any[];
   header: object;
 
@@ -36,12 +35,13 @@ export class RequestListComponent implements OnInit {
   paginator: boolean = true;
   scrollheight: string = "";
   epnames: object;
-  tablecellHeight: number = 5;
+  tablecellHeight: number = 10;
 
   isSelected: boolean = true;
   hiddenthirdColumn: boolean = false;
   display: boolean = false;
   collapsestate: string = "Collapse All";
+  disableClick: boolean = true;
 
   constructor(private requestListService: RequestListService,
     // private treeNode: TreeNode
@@ -64,99 +64,58 @@ export class RequestListComponent implements OnInit {
       displaymachinename: 'Scanner',
       applicant: 'User'
     }
-
-    this.isTrue = false;
-
-    this.cols = [{
-        field: 'status',
-        sortable: true,
-        header: '',
-        filter: true
-      },
-      {
-        field: 'type',
-        sortable: true,
-        header: 'Protocol',
-        filter: true
-      },
-      {
-        field: 'patienttype',
-        sortable: true,
-        header: 'Patient Type',
-        filter: true
-      },
-      {
-        field: 'protocolname',
-        sortable: true,
-        header: 'Name',
-        filter: true
-      },
-      {
-        field: 'version',
-        sortable: true,
-        header: 'Version',
-        filter: true
-      },
-      {
-        field: 'lastupddt',
-        sortable: true,
-        header: 'Date',
-        filter: true
-      },
-      {
-        field: 'displaymachinename',
-        sortable: true,
-        header: 'Scanner',
-        filter: true
-      },
-      {
-        field: 'applicant',
-        sortable: true,
-        header: 'User',
-        filter: true
-      }
-    ]
+    // this.isTrue = false;
   }
 
   onRowSelect(event, dt) {
     this.scrollheight = "27vh";
     this.isSelected = false;
+    this.disableClick = event.data.status == "APPROVAL_REQUESTED" ? true : false;
+    this.hiddenthirdColumn = false;
     let currentTarget = event.originalEvent.currentTarget;
-    this.requestListService.getCompareData().then(compareData => {
-      this.compareData = compareData.result.changelist;
+    this.requestListService.getCompareData({
+        leftfilepath:  '',
+				rightversion: event.data.version,
+				rightfilepath: event.data.filepath,
+				parameterlist: '',
+				eventstatus: '',
+				eventid: '',
+				eventFlag: 'all'
+    }).then(compareData => {
+      this.compareData=this.processData2Tree(compareData.result.changelist)
       this.epnames = compareData.result.rightprotocol;
       this.scrollToSelectionPrimeNgDataTable(currentTarget);
     });
   }
 
-  private processDatatoNode(node, dataObj) {
-    dataObj.forEach(data => {
-      if (data.haschild) {
-        node.expanded = true;
-        node.data = {
-          name: data.name,
-          mastervalue: data.mastervalue,
-          targetvalue: data.targetvalue
-        };
-        if (data.childlist && data.childlist != "") {
-          node.children = data.childlist;
-          node.children.forEach(childNode => {
-            this.processDatatoNode(childNode, data.childlist);
-          });
-          // this.processDatatoNode(singleNode.children,data.childlist);
-        } else {
-          node.children = data.childlist;
-          node.expanded = true;
-          node.data = {
-            name: data.name,
-            mastervalue: data.mastervalue,
-            targetvalue: data.targetvalue
-          };
+  private processData2Tree(dataArray: any) {
+    let tree = [];
+    var parseTreeJson = function (treeNodes) {
+      if (!treeNodes || !treeNodes.length) return;
+
+      for (var i = 0, len = treeNodes.length; i < len; i++) {
+        treeNodes[i].expanded = true;
+        treeNodes[i].data = {
+          name: treeNodes[i].name,
+          mastervalue: treeNodes[i].mastervalue,
+          targetvalue: treeNodes[i].targetvalue
+        }
+        delete treeNodes[i].name;
+        delete treeNodes[i].mastervalue;
+        delete treeNodes[i].targetvalue;
+
+        treeNodes[i].children = treeNodes[i].childlist;
+        if (treeNodes[i].children && treeNodes[i].children.length > 0) {
+
+          delete treeNodes[i].childlist;
+          parseTreeJson(treeNodes[i].children);
         }
       }
-      // this.compareData.push(node);
-    })
+    };
+    parseTreeJson(dataArray);
+    return dataArray;
   }
+
 
   public scrollToSelectionPrimeNgDataTable(target) {
     let list = document.querySelectorAll('tr');
@@ -165,11 +124,6 @@ export class RequestListComponent implements OnInit {
       targetElement.scrollIntoView()
     }
   }
-
-  // rowTrackBy (index:number, row:any){
-  //     console.log(index);
-  //     console.log(row);
-  // }
 
   onButtonClick() {
     this.isSelected = true;
@@ -191,7 +145,6 @@ export class RequestListComponent implements OnInit {
       this.hiddenthirdColumn = true;
     } else {
       this.display = true;
-      console.log('second click')
     }
   }
 

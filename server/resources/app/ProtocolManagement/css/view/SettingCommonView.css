@@ -1,0 +1,57 @@
+.setting-header-panel{
+	background-color:#4F81BD;
+	color:#FFFFFF;
+	font-size: 14pt;
+	float:left;
+	padding-top:4px;
+	padding-left:15px;
+}
+
+tr.settingTable-Tr {
+	height:30px;
+	background-color:#F7F9FF;
+	border-bottom:1px solid #ABC0E2;
+}
+
+tr.settingTable-Tr-single {
+	height:26px;
+	background-color:#F7F9FF;
+	border-bottom:1px solid #ABC0E2;
+}
+
+tr.settingTable-Tr-S {
+	height:30px;
+	background-color:#EBF1FA;
+	border-bottom:1px solid #ABC0E2;
+}
+tr.settingTable-Tr-Select {
+	height:30px;
+	background-color:#C0E0FA;
+	border-bottom:1px solid #ABC0E2;
+}
+
+
+td.settingTable-Td-value{
+	color: #1E3246;
+	padding-left:15px;
+	font-size: 13pt;
+	height:30px;
+	box-sizing:content-box;
+	border-bottom: 1px solid #ABC0E2 !important;
+}
+td.settingTable-Td-value-single{
+	color: #1E3246;
+	padding-left:15px;
+	font-size: 13pt;
+	height:26px;
+}
+
+
+span.settingTable-iconMsg{
+	padding-left:2px;
+	font-size: 13pt;
+}
+
+img.settingTable-icon{
+	margin-bottom: -3px;
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<Group Name="ProtocolPoolSettings" />
+
+	<Group Name="ConsoleSettings" />
+
+	<Group Name="DistributionSettings" />
+
+	<Group Name="ApprovalSettings">
+		<Param Name="ApprovalDistribution" Value="ExamPlan"/>
+		<Param Name="ApprovalDistribution" Value="SureIQ"/>
+		<Param Name="ApprovalDistribution" Value="SureExposure"/>
+		<Param Name="ApprovalDistribution" Value="ContrastPreset"/>
+		<Param Name="ApprovalDistribution" Value="VoicePreset"/>
+		<Param Name="AutoDistribution" Value="Others"/>
+	</Group>
+	
+	<Group Name="DisplaySettings">
+		<Group Name="ExamPlan">
+			<Param Name="DisplayRoot" Value="SureIQList"/>
+			<Param Name="DisplayRoot" Value="SureExposureList"/>
+			<Param Name="DisplayRoot" Value="ContrastPresetList"/>
+			<Param Name="DisplayRoot" Value="VoicePresetList"/>
+			<Param Name="DisplayRoot" Value="ScanList"/>
+			<Param Name="DisplayRoot" Value="SureSubtractionOutput"/>
+			<Param Name="DisplayRoot" Value="Common"/>
+		</Group>
+		<Group Name="SureIQ">
+			<Param Name="DisplayRoot" Value="SureIQ"/>
+		</Group>
+		<Group Name="SureExposure">
+			<Param Name="DisplayRoot" Value="SureIQ"/>
+			<Param Name="DisplayRoot" Value="SureExposure"/>
+		</Group>
+		<Group Name="ContrastPreset">
+			<Param Name="DisplayRoot" Value="ContrastPreset"/>
+		</Group>
+		<Group Name="VoicePreset">
+            		<Param Name="DisplayRoot" Value="VoicePreset"/>
+        	</Group>
+	</Group>
+    <Group Name="OtherSettings">
+        <Param Name="RadLexRPIDSupport" Value="false"/>
+        <Param Name="ProtocolGuidelineReference" Value="false"/>
+    </Group>
+    
+	<Group Name="SupportSettings">
+        <Param Name="Position" Value="true" />
+	<Param Name="VoicePreset" Value="true" />
+        <Param Name="DICOMTransferNodes" Value="true" />
+        <Param Name="ECGModulation" Value="true" />
+        <Param Name="ExamInfoPreset" Value="true" />
+        <Param Name="HelicalPitch" Value="true" />
+        <Param Name="IconProtocol" Value="true" />
+        <Param Name="OtherPreset" Value="true" />
+        <Param Name="ScanParamConfig" Value="true" />
+        <Param Name="SeriesDescription" Value="true" />
+		<Param Name="ChangeEPGroupName" Value="true" />
+		<Param Name="ContrastSettings" Value="true" />
+	</Group>
+</root>

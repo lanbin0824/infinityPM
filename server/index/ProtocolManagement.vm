@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9')"/>
+        <base href="$baseUrl#staticUrl('/')">
+        <meta name="ping" content="#proxyUrl('/index/ping')"/>
+        <meta name="kill" content="#proxyUrl('/index/kill')"/>
+        <meta name="instanceId" content="#getApplicationInstanceId"/>
+        <meta name="proxyroot" content="#proxyUrl('/index/')"/>
+        <meta name="staticroot" content="#staticUrl('/')"/>
+
+        #if("#isMobile")
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+        <meta name="viewport" id="deviceviewport"
+              content="user-scalable = no, width=device-width, minimum-scale = 1.0, maximum-scale = 1.0"/>
+        #end
+
+        <title>Protocol Management</title>
+        <noscript>
+            <h1>common.JavascriptNeeded</h1>
+        </noscript>
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/scripts/external/extjs/resources/css/ext-all.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/controller/proMain.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/view/RequestListView.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/view/ConfirmView.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/view/FilterMenuView.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/other/buttonimage.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/other/commonPanel.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/other/mainPageHeader.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/other/gridHeader.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/other/waiting.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/view/ComparePanel.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/other/columnHeader.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/view/TabView.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/other/x-tip.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/view/ConstitutionView.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/view/CompareScanSelect.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/view/OthersView.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/view/MessageView.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/view/AppSettingView.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/view/ResizeHeaderView.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/view/SettingCommonView.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/view/TransferView.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/view/ConstitutionViewCenterPanel.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/view/MasterList.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/view/combox/MenuItemView.css')"/>
+        <link rel="stylesheet" type="text/css" href="#staticUrl('/resources/app/ProtocolManagement/css/view/UserSpecificName/UserSpecificNameView.css')"/>
+
+        <!-- JS -->
+        <script type="text/javascript" src="#staticUrl('/scripts/external/extjs/js/ext-all.js')"></script>
+
+        <!-- JS app -->
+        <script type="text/javascript" src="#staticUrl('/scripts/app/appPM.js')"></script>
+
+        <script type="text/javascript" src="#staticUrl('/scripts/app/ProtocolManagement/other/x-tip.js')"></script>
+
+        <script type="text/javascript" src="#staticUrl('/scripts/app/ProtocolManagement/global/cacheProMain.js')"></script>
+        <script type="text/javascript" src="#staticUrl('/scripts/app/ProtocolManagement/global/cacheLocalStorage.js')"></script>
+        <script type="text/javascript" src="#staticUrl('/scripts/app/ProtocolManagement/global/cacheRequestList.js')"></script>
+        <script type="text/javascript" src="#staticUrl('/scripts/app/ProtocolManagement/global/cacheConstitutionList.js')"></script>
+        <script type="text/javascript" src="#staticUrl('/scripts/app/ProtocolManagement/global/cacheAppSetting.js')"></script>
+        <script type="text/javascript" src="#staticUrl('/scripts/app/ProtocolManagement/global/cacheOthersProtocol.js')"></script>
+        <script type="text/javascript" src="#staticUrl('/scripts/app/ProtocolManagement/global/cacheMaster.js')"></script>
+
+        <script type="text/javascript" src="#staticUrl('/scripts/app/ProtocolManagement/other/Common.js')"></script>
+        <script type="text/javascript" src="#staticUrl('/scripts/app/ProtocolManagement/other/RPIDs.js')"></script>
+
+        <script type="text/javascript" src="#staticUrl('/scripts/app/ProtocolManagement/controller/httpsAlertTime.js')"></script>
+        <script type="text/javascript" src="#staticUrl('/scripts/app/ProtocolManagement/controller/MainEvent.js')"></script>
+        <script type="text/javascript" src="#staticUrl('/scripts/app/ProtocolManagement/controller/proMain.js')"></script>
+
+        <!-- ICON -->
+        <link rel="shortcut icon" href="#staticUrl('/resources/app/ProtocolManagement/favicon.ico')"/>
+        <link rel="Bookmark" href="#staticUrl('/resources/app/ProtocolManagement/favicon.ico')"/>
+    </head>
+    <body>
+    </body>
+</html>

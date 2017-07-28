@@ -1,0 +1,161 @@
+/*!
+ * LOGIN CSS
+ * Copyright :Copyright(c) 2012 TOSHIBA MEDICAL SYSTEMS CORPORATION All Rights
+ * 
+ * Company:TOSHIBA MEDICAL SYSTEMS CORPORATION
+ */
+
+input[type="checkbox"] {
+    padding:0px;
+}
+body {
+	padding: 0px;
+	background:transparent;
+	font-size:13pt;	
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;	
+	user-select:none;
+	-ms-user-select:none;
+}
+
+.x-window-header-default-top
+{
+	padding:0px 0px 0px 0px;
+	border-top-right-radius:0px;	
+	border-top-left-radius:0px;
+	border-width:0px;
+}
+.x-window-default{
+	border-color:#a2b1c5;
+	-moz-border-radius:0px 0px;
+	-webkit-border-radius:0px 0px;
+	-o-border-radius:0px 0px;
+	-ms-border-radius:0px 0px;
+	-khtml-border-radius:0px 0px;
+	border-radius:0px 0px;
+	-moz-box-shadow:#ecf2fb 0 0px 0px 0 inset, #ecf2fb 0 0px 0px 0 inset, #ecf2fb 0px 0 0px 0 inset, #ecf2fb 0px 0 0px 0 inset;
+	-webkit-box-shadow:#ecf2fb 0 0px 0px 0 inset, #ecf2fb 0 0px 0px 0 inset, #ecf2fb 0px 0 0px 0 inset, #ecf2fb 0px 0 0px 0 inset;
+	-o-box-shadow:#ecf2fb 0 0px 0px 0 inset, #ecf2fb 0 0px 0px 0 inset, #ecf2fb 0px 0 0px 0 inset, #ecf2fb 0px 0 0px 0 inset;
+	box-shadow:#ecf2fb 0 0px 0px 0 inset, #ecf2fb 0 0px 0px 0 inset, #ecf2fb 0px 0 0px 0 inset, #ecf2fb 0px 0 0px 0 inset
+}
+
+.x-window-header-text-container-default
+{
+	padding:0px;
+}
+
+sup
+{
+	vertical-align:super;
+	font-size:smaller;
+}
+
+
+.x-btn-default-small .x-btn-inner {
+	font-size:12px;
+}
+
+.x-toolbar-default
+{
+	background:transparent;
+}
+
+.x-btn-default-toolbar-small
+{
+	background-color:white;
+	border-color:rgb(102, 116, 132);
+}
+.x-btn-default-toolbar-small-over
+{
+	background-image: -moz-linear-gradient(left, #CEDCF2, #D3E1F6);
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #CEDCF2), color-stop(1, #D3E1F6));
+    background: -ms-linear-gradient(top, #CEDCF2 0%,#D3E1F6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CEDCF2, endColorstr=#D3E1F6, GradientType=1);
+	border-color:rgb(102, 116, 132);
+}
+.x-btn-default-toolbar-small-menu-active,.x-btn-default-toolbar-small-menu-pressed
+{
+	background-image: -moz-linear-gradient(left, #CEDCF2, #D3E1F6);
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #CEDCF2), color-stop(1, #D3E1F6));
+    background: -ms-linear-gradient(top, #CEDCF2 0%,#D3E1F6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CEDCF2, endColorstr=#D3E1F6, GradientType=1);
+	border-color:rgb(102, 116, 132);
+}
+.x-menu-body
+{
+	/*background:#ABC0E2 !important;*/
+	background:transparent;
+}
+
+.x-menu-icon-separator
+{
+	width:0px;
+	border:0px;	
+}
+
+.divclassMain {
+	text-align:left;
+	width: 100%;
+	MARGIN-RIGHT:auto;
+	MARGIN-LEFT:auto;
+}
+
+.divclass_ProtocolSelect {
+	padding-top:8px;
+	padding-bottom:8px;
+	float:left;
+	width: 100%;
+	min-width: 1600px;
+	min-height: 718px;
+	display:inline;
+	background-color:#E1EAF7;
+}
+
+.panelframeMain_body
+{
+	padding		: 0px;
+	background	: #EDF0F7;
+	border-left		: 1px solid rgba(135, 151, 188, 0.3);
+	border-right	: 2px solid rgba(135, 151, 188, 0.3);
+	border-bottom	: 2px solid rgba(135, 151, 188, 0.3);
+	border-top		: 0px;
+}
+.panelTab-Line
+{
+	padding		: 0px;
+	background:transparent;
+	border		: 0px;
+}
+.panelTab-Line-body
+{
+	padding		: 0px;
+	padding-left: 1px;
+	background	: rgba(135, 151, 188, 0.3);
+	border		: 0px;
+}
+.panelTab-select-Line
+{
+	padding		: 0px;
+	background	: #EDF0F7;
+	border		: 0px;
+}
+
+.x-btn-default-small
+{
+	padding:0px;
+}
+
+span.display-selected {
+    text-align: left;
+    height: 33px;
+    line-height: 40px;
+    font-size: 15pt;
+}
+
+span.display-selected-title {
+    text-align: left;
+    height: 33px;
+    line-height: 40px;
+    font-size: 15pt;
+}

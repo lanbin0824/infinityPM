@@ -1,0 +1,63 @@
+.panelHeader
+{
+	padding-top:12px;
+	padding-left:12px;
+	padding-right:12px;
+	padding-bottom:0px;
+	border:0px;
+}
+.panelHeader-body
+{
+	border-top:1px solid #ABC0E2;
+	border-left:1px solid #ABC0E2;
+	border-right:1px solid #ABC0E2;
+	border-bottom:0px;
+	background-image: -moz-linear-gradient(top, rgb(132, 171, 236), rgb(92, 136, 216));
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(132, 171, 236)), color-stop(1, rgb(92, 136, 216)));
+    background: -ms-linear-gradient(top, rgb(132, 171, 236) 0%,rgb(92, 136, 216) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#89A1E5, endColorstr=#5C88D8, GradientType=0);
+}
+
+Span.spanGridHeader
+{
+	color:#FFFFFF;
+	font-size: 14pt;
+}
+label.labelHeader
+{
+	color:#000000;
+	font-size: 14pt;
+	font-weight: 600;
+}
+Span.spanGridHeaderText
+{
+	color:#FFFFFF;
+	font-size: 14pt;
+	float:left;
+	padding-top:2px;
+	padding-left:25px;
+}
+Span.spanGridHeaderText_Count
+{
+	padding-top:4px;
+	color:#FFFFFF;
+	font-size: 14pt;
+	float:left;
+	padding-left:3px;
+}
+
+
+span.spanGridColumn-header-machine
+{
+	padding-left:1px;
+	padding-right:1px;
+	font-size: 11pt;
+	color:#FFFFFF;
+}
+
+span.spanGridColumn-header-machine-S
+{
+	padding-right:1px;
+	font-size: 9pt;
+	color:#FFFFFF;
+}

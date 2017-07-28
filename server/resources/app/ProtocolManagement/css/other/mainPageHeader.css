@@ -1,0 +1,30 @@
+/*!
+ * Page Header CSS
+ * Copyright :Copyright(c) 2012 TOSHIBA MEDICAL SYSTEMS CORPORATION All Rights
+ * 
+ * Company:TOSHIBA MEDICAL SYSTEMS CORPORATION
+ */
+.divclassHeader {
+	height:35px;
+	width: 100%;
+	min-width: 1600px;
+	background-image: -moz-linear-gradient(left, #2F5988, #2F5988);
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #2F5988), color-stop(1, #2F5988));
+    background: -ms-linear-gradient(top, #2F5988 0%,#2F5988 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#2F5988, endColorstr=#2F5988, GradientType=1);
+}
+					
+.divclassImgChild {
+	padding-top:6px;	
+	vertical-align:middle;
+	padding-left:25px;
+	display:inline;
+	float:left;
+}
+
+
+.spanclassHeader {
+	color:#FFFFFF;
+	font-size: 15pt;
+	line-height:19px;
+}

@@ -1,0 +1,541 @@
+table.Setting-Content-Table{
+	table-layout	:fixed;
+	border-collapse	:separate;
+	border-spacing	:0px 0px;
+	padding			:0px;	
+	background-color:#FFFFFF;
+	width:100%;	
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;	
+	user-select:none;
+	-ms-user-select:none;
+	color: #1E3246;
+	border:0;
+}
+table.Setting-Content-Table-noselected{
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;	
+	user-select:none;
+	-ms-user-select:none;
+}
+
+table.Setting-Content-Table tbody {
+	color: #1E3246;
+    font-size: 13pt;
+}
+
+table.Setting-Content-Table tbody tr{
+	height: 30px;
+	cursor:pointer;
+}
+
+table.Setting-Content-Table tbody td {
+	border-bottom: 1px solid #ABC0E2;
+	border-left: 1px solid #ABC0E2;
+	border-right: 1px solid #ABC0E2;
+	padding-left:15px;
+}
+
+table.Setting-Content-Table tbody tr.odd{
+	background-color : #EBF1FA;
+}
+
+table.Setting-Content-Table tbody tr.even{
+	background-color : #F7F9FF;
+}
+
+table.Setting-Content-Table tbody tr.selected{
+	background-color : #C0E0FA;
+}
+
+table.Setting-Content-Table tbody tr:hover{
+	background-color : #C0E0FA;
+}
+
+table.Setting-List-Table{
+	table-layout	:fixed;
+	border-collapse	:separate;
+	border-spacing	:0px 0px;
+	padding			:0px;	
+	background-color:#FFFFFF;
+	width:100%;	
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;	
+	user-select:none;
+	-ms-user-select:none;
+	color: #1E3246;
+	border-bottom: 1px solid #ABC0E2;
+	border-left: 1px solid #ABC0E2;
+	border-right: 1px solid #ABC0E2;
+	font-size:13pt;
+}
+table.Setting-List-Table thead tr{
+	height: 27px;
+	background-color: #93AEDB;
+	color:#FFFFFF;
+	font-size:14pt;
+}
+table.Setting-List-Table thead tr td{
+	border-right: 1px solid #ABC0E2;
+	border-bottom: 1px solid #ABC0E2;
+	padding-left:20px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+table.Setting-List-Table thead tr td.start{
+	border-right: 1px solid #ABC0E2;
+	border-bottom: 1px solid #ABC0E2;
+	border-top: 1px solid #ABC0E2;
+	padding-left:20px;
+}
+table.Setting-List-Table thead tr td.end{
+	border-right: 0;
+}
+
+table.Setting-List-Table tbody tr{
+	color: #1E3246;
+    font-size: 13pt;
+}
+table.Setting-List-Table tbody tr{
+	height: 30px;
+	cursor:pointer;
+}
+
+table.Setting-List-Table tbody tr td {
+	border-right: 1px solid #ABC0E2;
+	border-bottom: 1px solid #ABC0E2;
+	padding-left:20px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+table.Setting-List-Table tbody tr td.end {
+	border-right: 0;
+	padding-left:20px;
+}
+table.Setting-List-Table tbody tr td.endline {
+	padding-left:20px;
+	border-bottom: 0;
+}
+
+table.Setting-List-Table tbody tr.odd{
+	background-color : #EBF1FA;
+}
+
+table.Setting-List-Table tbody tr.even{
+	background-color : #F7F9FF;
+}
+
+table.Setting-List-Table tbody tr.selected{
+	background-color : #C0E0FA;
+}
+
+table.Setting-List-Table tbody tr:hover{
+	background-color : #C0E0FA;
+}
+table.Setting-List-Table-win{
+	table-layout	:fixed;
+	border-collapse	:separate;
+	border-spacing	:0px 0px;
+	padding			:0px;	
+	background-color:#FFFFFF;
+	width:100%;	
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;	
+	user-select:none;
+	-ms-user-select:none;
+	color: #1E3246;
+	border-bottom: 1px solid #ABC0E2;
+	border-left: 1px solid #ABC0E2;
+	border-right: 1px solid #ABC0E2;
+	font-size:13pt;
+}
+.Setting-List-Table-win-head{
+	table-layout	:fixed;
+	border-collapse	:separate;
+	border-spacing	:0px 0px;
+	padding			:0px;	
+	background-color:#FFFFFF;
+	width:100%;	
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;	
+	user-select:none;
+	-ms-user-select:none;
+	color: #1E3246;
+	
+	font-size:13pt;
+}
+table.Setting-List-Table-win-head thead tr{
+	height: 33px;
+	background-color: #4F81BD;
+}
+table.Setting-List-Table-win-head thead tr td{
+	padding-left:20px;
+	color:#FFFFFF;
+	font-size: 14pt;
+}
+table.Setting-List-Table-win-head thead tr td.start{
+	padding-left:20px;
+	width: 240px;
+}
+table.Setting-List-Table-win-head thead tr td.value{
+	border-left: 1px solid #ABC0E2;
+	padding-left:20px;
+}
+table.Setting-List-Table-win-head thead tr td.warning{
+	border-right: 1px solid #ABC0E2;
+	padding-left:0px;
+	width: 20px;
+}
+table.Setting-List-Table-win-head thead tr td.end{
+	/*border-left: 1px solid #ABC0E2;*/
+	border-right: 0;
+	width : 443px;
+}
+
+table.Setting-List-Table-win thead tr{
+	height: 33px;
+	/*background-color: #4F81BD;*/
+	background-color : #F7F9FF;
+	font-size:13pt;
+}
+table.Setting-List-Table-win thead tr td{
+	border-bottom: 1px solid #ABC0E2;
+	border-top: 1px solid #ABC0E2;
+	padding-left:20px;
+	font-size: 13pt;
+}
+table.Setting-List-Table-win thead tr td.start{
+	border-bottom: 1px solid #ABC0E2;
+	border-right: 1px solid #ABC0E2;
+	border-top: 1px solid #ABC0E2;
+	padding-left:20px;
+	width: 240px;
+}
+table.Setting-List-Table-win thead tr td.warning{
+	border-right: 1px solid #ABC0E2;
+	border-bottom: 1px solid #ABC0E2;
+	border-top: 1px solid #ABC0E2;
+	padding-left:20px;
+	width: 20px;
+}
+table.Setting-List-Table-win thead tr td.end{
+	border-right: 0;
+	width : 442px;
+}
+table.Setting-List-Table-win tbody tr{
+	height: 30px;
+}
+
+table.Setting-List-Table-win tbody tr td {
+	border-bottom: 1px solid #ABC0E2;
+	padding-left:20px;
+	box-sizing: content-box;
+	height: 30px;
+}
+table.Setting-List-Table-win tbody tr td.start {
+	border-right: 1px solid #ABC0E2;
+	padding-left:20px;
+	height: 30px;
+}
+table.Setting-List-Table-win tbody tr td.end {
+	border-right: 0;
+	padding-left:20px;
+	height: 30px;
+}
+table.Setting-List-Table-win tbody tr td.warning {
+	border-right: 1px solid #ABC0E2;
+	padding-left:20px;
+	height: 30px;
+}
+table.Setting-List-Table-win tbody tr td.endline {
+	padding-left:20px;
+	border-bottom: 0;
+}
+
+table.Setting-List-Table-win tbody tr.odd{
+	background-color : #EBF1FA;
+}
+
+table.Setting-List-Table-win tbody tr.even{
+	background-color : #F7F9FF;
+}
+
+table.Setting-List-Table-win tbody tr.selected{
+	background-color : #C0E0FA;
+}
+
+table.Setting-List-Table-consol{
+	border-collapse	:separate;
+	border-spacing	:0px 0px;
+	padding			:0px;	
+	background-color:#FFFFFF;
+	width:100%;	
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;	
+	user-select:none;
+	-ms-user-select:none;
+	color: #1E3246;
+	font-size:13pt;
+}
+
+table.Setting-List-Table-consol tbody tr.odd{
+	background-color : #EBF1FA;
+}
+
+table.Setting-List-Table-consol tbody tr.even{
+	background-color : #F7F9FF;
+}
+
+table.Setting-List-Table-distribution{
+	border-collapse	:separate;
+	border-spacing	:0px 0px;
+	padding			:0px;	
+	background-color:#FFFFFF;
+	width:100%;	
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;	
+	user-select:none;
+	-ms-user-select:none;
+	color: #1E3246;
+	font-size:13pt;
+}
+
+table.Setting-List-Table-distribution tbody tr.odd{
+	background-color : #EBF1FA;
+}
+
+table.Setting-List-Table-distribution tbody tr.even{
+	background-color : #F7F9FF;
+}
+
+.Setting-error-input-warning{
+	border: 1px solid red;
+	width: 220px;
+	font-size:13pt;
+}
+.Setting-error-input-default{
+	border: 1px solid #ABADB3;
+	width: 250px;
+	font-size:13pt;
+	font-weight:inherit;
+}
+
+.Setting-error-input-warning-icon {
+	width: 18px;
+	height: 18px;
+	margin-top: -2px;
+	margin-left: -21px;
+	background: no-repeat 2px 2px;
+	background-image: url('../../images/alert/exclamation.gif');
+}
+
+select {
+	margin: 0em;
+	font: normal normal normal 13pt/normal Arial;
+	color: initial;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+}
+
+.Console-Setting-error-input-warning{
+	border: 1px solid red;
+	color:#1E3246;
+	width: 240px;
+    font-size:inherit;
+	font-weight:inherit;
+}
+.Console-Setting-error-input-default{
+	color:#1E3246;
+	border: 1px solid #ABADB3;
+	width: 240px;
+    font-size:inherit;
+	font-weight:inherit;
+}
+
+.Common-Setting-error-add-waring-default{
+	width:246px;
+	height: 25px;
+	line-height: 25px;
+	padding-top:1px;
+	overflow: hidden;
+	white-space:nowrap;
+	color:red;
+	font-size:13pt;
+	text-overflow:ellipsis;
+}
+
+.Common-Setting-error-input-warning-icon {
+	width: 20px;
+	height: 16px;
+	margin-top: 0px;
+	background: no-repeat 2px 0px;
+	background-image: url('../../images/alert/exclamation.gif');
+}
+
+.Console-Setting-error-input-warning-icon {
+	width: 20px;
+	height: 20px;
+	margin-top: -4px;
+	background: no-repeat 2px 3px;
+	background-image: url('../../images/alert/exclamation.gif');
+}
+.Console-Setting-error-select-warning-icon {
+	width: 20px;
+	height: 20px;
+	margin-top: -3px;
+	background: no-repeat 2px 3px;
+	background-image: url('../../images/alert/exclamation.gif');
+}
+.console-setting-warning {
+	border-right: 1px solid #ABC0E2;
+	width:20px;
+}
+
+.Console-Setting-error-panel{
+	background-color:#D1DFF5;
+	border:0;
+	float:right;
+}
+
+.panel-Color-Padding
+{
+	padding-top:12px;
+	padding-left:12px;
+	padding-right:12px;
+	padding-bottom:12px;
+	border:0px;
+	background:#EDF0F7;
+}
+
+span.group-text{
+	height:30px;
+	padding-top:5px;
+	font-size: 13pt;
+	color:#1E3246;
+	display:block;
+}
+
+div.panel-name{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	color:#1E3246; 
+	font-size:13pt; 
+	padding-top:20px;
+	padding-left:20px;
+}
+
+div.panel-body{
+	padding:12px;
+	background-color:#EDF0F7;
+}
+
+table.Setting-List-Table-Radlex-Header{
+	table-layout	:fixed;
+	border-collapse	:separate;
+	border-spacing	:0px 0px;
+	padding			:0px;	
+	background-color:#FFFFFF;
+	width:100%;	
+	color: #1E3246;
+	border:0;
+	font-size:13pt;
+}
+table.Setting-List-Table-Radlex-Header tr{
+	height: 32px;
+	background-color: #4F81BD;
+}
+table.Setting-List-Table-Radlex-Header tr td{
+	padding-left:20px;
+	color:#FFFFFF;
+	font-size: 14pt;
+}
+
+table.Setting-List-Table-Radlex-Header tr td.start{
+	padding-left:20px;
+}
+
+table.Setting-List-Table-win-Radlex{
+	table-layout	:fixed;
+	border-collapse	:separate;
+	border-spacing	:0px 0px;
+	padding			:0px;	
+	background-color:#FFFFFF;
+	width:100%;	
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;	
+	user-select:none;
+	-ms-user-select:none;
+	color: #1E3246;
+	border-bottom: 1px solid #ABC0E2;
+	border-left: 1px solid #ABC0E2;
+	border-right: 1px solid #ABC0E2;
+	font-size:13pt;
+}
+table.Setting-List-Table-win-Radlex thead tr{
+	height: 32px;
+	background-color: #4F81BD;
+}
+table.Setting-List-Table-win-Radlex thead tr td{
+	border-bottom: 1px solid #ABC0E2;
+	border-top: 1px solid #ABC0E2;
+	padding-left:20px;
+	color:#FFFFFF;
+	font-size: 13pt;
+}
+table.Setting-List-Table-win-Radlex thead tr td.start{
+	border-bottom: 1px solid #ABC0E2;
+	border-right: 1px solid #ABC0E2;
+	border-top: 1px solid #ABC0E2;
+	padding-left:20px;
+}
+table.Setting-List-Table-win-Radlex tbody tr{
+	height: 32px;
+}
+
+table.Setting-List-Table-win-Radlex tbody tr td {
+	border-bottom: 1px solid #ABC0E2;
+	padding-left:20px;
+	box-sizing: content-box;
+	height: 32px;
+}
+table.Setting-List-Table-win-Radlex tbody tr td.start {
+	border-right: 1px solid #ABC0E2;
+	padding-left:20px;
+	height: 32px;
+}
+table.Setting-List-Table-win-Radlex tbody tr td.end {
+	border-right: 0;
+	padding-left:20px;
+	height: 32px;
+}
+table.Setting-List-Table-win-Radlex tbody tr td.endline {
+	padding-left:20px;
+	border-bottom: 0;
+}
+
+table.Setting-List-Table-win-Radlex tbody tr.odd{
+	background-color : #EBF1FA;
+}
+
+table.Setting-List-Table-win-Radlex tbody tr.even{
+	background-color : #F7F9FF;
+}
+
+
+

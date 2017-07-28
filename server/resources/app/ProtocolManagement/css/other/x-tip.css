@@ -1,0 +1,39 @@
+.x-tip
+{
+	background-color:#FDEADA;
+	border-width:0px;
+	word-wrap: normal|break-word;
+	font-size: 13pt;
+	overflow:hide;	
+	white-space:pre-wrap;
+	padding:0px;
+	border:0px;
+}
+
+li.last
+{
+	padding-left:0px;
+	margin_left:0px;
+}
+
+.label
+{
+	overflow:hidden;
+	white-space:nowrap;
+	font-size: 13pt;
+	position:absolute;
+	visibility:hidden;
+}
+
+.x-tip-header, .x-tip-body, .x-form-invalid-tip-body {
+	font-size: 13pt;
+}
+span.error-tip-header{
+	font-size: 13pt;
+}
+
+span.error-tip-content{
+	font-size: 11pt;
+	padding-top:5px;
+	display:block;
+}

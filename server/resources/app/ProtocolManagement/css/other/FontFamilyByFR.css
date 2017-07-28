@@ -1,0 +1,424 @@
+.x-body {
+	font-size	: 13pt;
+	font-family	: Segoe UI,Meiryo UI;
+}
+.x-btn-default-small .x-btn-inner
+{
+	font-family	: Segoe UI,Meiryo UI;
+}
+.x-btn-default-toolbar-small .x-btn-inner
+{
+	font-family	: Segoe UI,Meiryo UI;
+}
+.x-panel-body-default
+{
+	font-family	: Segoe UI,Meiryo UI;
+}
+.x-form-item, .x-form-field
+{
+	font-family	: Segoe UI,Meiryo UI;
+}
+span.ComboxFont
+{
+    font-family : Segoe UI,Meiryo UI;
+}
+span.span-title_Confirm
+{
+	font-size: 14pt;
+	font-family	: Segoe UI,Meiryo UI;
+}
+textarea
+{
+	font-family	: Segoe UI,Meiryo UI;
+	overflow-y:auto;
+	color:rgb(0, 0, 0);
+	border:1px solid rgb(102, 116, 132);
+}
+textarea:disabled
+{
+	color:rgba(158, 173, 186, 0.25);
+}
+.x-form-text
+{
+    font-family : Segoe UI,Meiryo UI;
+}
+span.SpanTextView
+{
+	font-size: 13pt;
+	display:block;
+	line-height:30px;
+	height:32px;
+}
+span.SpanTextView-smallbutton
+{
+	font-size: 13pt;
+	display:block;
+	padding-top:0px;
+	line-height:21px;
+	height:24px;
+}
+div.divGridHeaderCount
+{
+	display:inline;
+	padding-left:25px;
+	padding-top:2px;
+	float:left;
+}
+span.SpanTextView-restorebutton
+{
+	font-size: 13pt;
+	display:block;
+	padding-top:0px;
+	line-height:21px;
+	height:24px;
+}
+
+span.spanGridColumn-header
+{
+	line-height:16px;
+	padding-left:12px;
+	padding-right:12px;
+	font-size: 14pt;
+	color:#FFFFFF;
+}
+span.spanGridColumn-header-small
+{
+	line-height:16px;
+	padding-left:7px;
+	padding-right:5px;
+	font-size: 11pt;
+	color:#FFFFFF;
+}
+
+label.setting-text{
+	height:30px;
+	padding-top:5px;
+	font-size: 13pt;
+	color:#1E3246;
+	display:block;
+	font-family	: Segoe UI,Meiryo UI;
+}
+
+/** restore TD */
+td.Td-Constitution-restore
+{
+    border-right:1px solid #ABC0E2;
+	border-left:0px solid #ABC0E2;
+    padding:0px;
+    height:30px;
+    text-align: right;
+    width:225px;
+}
+
+/** restore BUTTON */
+.icon-button-restore-new
+{
+    width: 100px;
+    height: 24px;
+    padding-left: 16px;
+    margin-top: 2px;
+    font-size: 13pt;
+    text-align: center;
+    background:url(../../images/button/RestoreButton_new.png) !important;
+}
+.icon-button-restore-new:hover
+{
+    background:url(../../images/button/RestoreButton_over_new.png) !important;
+}
+.icon-button-restore-new:active
+{
+    background:url(../../images/button/RestoreButton_down_new.png) !important;
+}
+/** delete BUTTON */
+.icon-button-delete-new
+{
+    width: 100px;
+    height: 24px;
+    padding-left: 16px;
+    margin-top: 1px;
+    font-size: 13pt;
+    color:#1E3246;
+    cursor: pointer;
+    text-align: center;
+    background:url(../../images/button/DeleteIntable_new.png) !important;
+}
+.icon-button-delete-new:hover
+{
+    background:url(../../images/button/DeleteIntable_over_new.png) !important;
+}
+.icon-button-delete-new:active
+{
+    background:url(../../images/button/DeleteIntable_down_new.png) !important;
+}
+
+/** transfer BUTTON */
+.icon-button-transfer-new
+{
+	width: 104px;
+	height: 24px;
+	padding-left: 16px;
+	margin-top: 1px;
+	font-size: 13pt;
+	color:#1E3246;
+	cursor: pointer;
+	text-align: center;
+	background:url(../../images/button/TransferButton_new.png) !important;
+}
+.icon-button-transfer-new:hover
+{
+	background:url(../../images/button/TransferButton_over_new.png) !important;
+}
+.icon-button-transfer-new:active
+{
+	background:url(../../images/button/TransferButton_down_new.png) !important;
+}
+
+/** KeepLocally BUTTON */
+.icon-button-KeepLocally
+{
+    width:138px;
+    border:0px;
+    background:url(../../images/button/KeepLocallyButton.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-KeepLocally-pressed
+{
+    background:url(../../images/button/KeepLocallyButton_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-KeepLocally-focus
+{
+    /* background:url(../../images/button/KeepLocallyButton.png) left top no-repeat !important; */
+}
+.x-icon-button-KeepLocally-over
+{
+    background:url(../../images/button/KeepLocallyButton_over.png) left top no-repeat !important;
+}
+.icon-button-KeepLocally-disable
+{
+    background:url(../../images/button/KeepLocallyButton_disable.png) left top no-repeat !important;
+
+}
+
+/** Select compared mode BUTTON */
+.icon-button-selectcomparedmode
+{
+	width:170px;
+	border:0px solid #7FA7EA;
+	background:url(../../images/button/SelectComparedModeButton.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-selectcomparedmode-pressed
+{
+	background:url(../../images/button/SelectComparedModeButton_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-selectcomparedmode-focus
+{
+/* 	background:url(../../images/button/SelectComparedModeButton_focus.png) left top no-repeat !important; */
+}
+
+.x-icon-button-selectcomparedmode-over
+{
+	background:url(../../images/button/SelectComparedModeButton_over.png) left top no-repeat !important;
+}
+
+.icon-button-selectcomparedmode-disable
+{
+	background:url(../../images/button/SelectComparedModeButton_disable.png) left top no-repeat !important;
+}
+.icon-button-Update-ConsoleSetting
+{
+	width: 115px;
+	cursor: pointer;
+	height: 23px;
+	padding_left:22px;
+	color:#1E3246;
+	padding-top: 3px;
+	text-align:center;
+	font-size:13pt;
+	border:0px;
+	line-height: 19px;
+	background:url(../../images/button/Button_Setting_115pxWidth.png) left top no-repeat !important;
+}
+.icon-button-Update-ConsoleSetting:hover
+{
+	border:0px;
+	background:url(../../images/button/Button_Setting_115pxWidth_over.png) left top no-repeat !important;
+}
+.icon-button-Update-ConsoleSetting:active
+{
+	border:0px;
+	background:url(../../images/button/Button_Setting_115pxWidth_down.png) left top no-repeat !important;
+}
+.icon-button-Update-ConsoleSetting[disabled]
+{
+    color:#AFAFAF;
+    background:url(../../images/button/Button_Setting_115pxWidth_disable.png) left top no-repeat !important;
+}
+
+.icon-button-Delete-ConsoleSetting
+{
+	width: 115px;
+	cursor: pointer;
+	height: 23px;
+	padding_left:22px;
+	color:#1E3246;
+	text-align:center;
+	font-size:13pt;
+	border:0px;
+	line-height: 19px;
+	background:url(../../images/button/Button_Setting_115pxWidth.png) left top no-repeat !important;
+}
+.icon-button-Delete-ConsoleSetting:hover
+{
+	border:0px;
+	background:url(../../images/button/Button_Setting_115pxWidth_over.png) left top no-repeat !important;
+}
+.icon-button-Delete-ConsoleSetting:active
+{
+	border:0px;
+	background:url(../../images/button/Button_Setting_115pxWidth_down.png) left top no-repeat !important;
+}
+
+.icon-button-Add-ConsoleSetting
+{
+	border:0px;
+	background:url(../../images/button/Button_Setting_115pxWidth.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Add-ConsoleSetting-pressed
+{
+	background:url(../../images/button/Button_Setting_115pxWidth_down.png) left top no-repeat !important;
+}
+
+.x-icon-button-Add-ConsoleSetting-over
+{
+	background:url(../../images/button/Button_Setting_115pxWidth_over.png) left top no-repeat !important;
+}
+
+.icon-button-Add-ConsoleSetting-disable
+{
+	background:url(../../images/button/Button_Setting_115pxWidth_disable.png) left top no-repeat !important;
+}
+
+/** refresh BUTTON */
+.icon-button-storerefresh
+{
+    width:100px;
+    border:0px;
+    background:url(../../images/button/ResButton.png) left top no-repeat !important;
+}
+
+.x-btn.x-btn-icon-button-storerefresh-pressed
+{
+    border:0px;
+    background:url(../../images/button/ResButton_down.png) left top no-repeat !important;
+}
+
+.x-btn.x-btn-icon-button-storerefresh-focus
+{
+    border:0px;
+}
+
+.x-icon-button-storerefresh-over
+{
+    border:0px;
+    background:url(../../images/button/ResButton_over.png) left top no-repeat !important;
+}
+
+.icon-button-storerefresh-disable
+{
+    border:0px;
+    background:url(../../images/button/ResButton_disable.png) left top no-repeat !important;
+}
+
+/** history refresh BUTTON */
+.icon-button-storerefresh-his
+{
+    cursor: pointer;
+    font-size: 13pt;
+    padding-top: 1px;
+    padding-left: 0px;
+    text-align: center;
+    width:100px;
+    height:24px;
+    border:0px;
+    background:url(../../images/button/ResButton.png) left top no-repeat !important;
+}
+
+.icon-button-storerefresh-his:action
+{
+    background:url(../../images/button/ResButton_down.png) left top no-repeat !important;
+}
+
+.icon-button-storerefresh-his:hover
+{
+    background:url(../../images/button/ResButton_over.png) left top no-repeat !important;
+}
+
+.icon-button-Execute-OtherSetting
+{
+	width: 115px;
+	cursor: pointer;
+	height: 23px;
+	line-height: 22px;
+	color:#1E3246;
+	text-align:center;
+	font-size:13pt;
+	border:0px;
+	background:url(../../images/button/Button_Setting_115pxWidth.png) left top no-repeat !important;
+}
+.icon-button-Execute-OtherSetting:hover
+{
+	border:0px;
+	background:url(../../images/button/Button_Setting_115pxWidth_over.png) left top no-repeat !important;
+}
+.icon-button-Execute-OtherSetting:active
+{
+	border:0px;
+	background:url(../../images/button/Button_Setting_115pxWidth_down.png) left top no-repeat !important;
+}
+
+
+.icon-button-Open-References
+{
+    width:115px;
+    float: right;
+    cursor: pointer;
+    height: 23px;
+    line-height: 22px;
+    color:#1E3246;
+    text-align:center;
+    font-size:13pt;
+    border:0px;
+    background:url(../../images/button/Button_Setting_115pxWidth.png) left top no-repeat !important;
+}
+.icon-button-Open-References:hover
+ {
+     border:0px;
+     background:url(../../images/button/Button_Setting_115pxWidth_over.png) left top no-repeat !important;
+ }
+.icon-button-Open-References:active
+{
+    border:0px;
+    background:url(../../images/button/Button_Setting_115pxWidth_down.png) left top no-repeat !important;
+}
+
+/** Next Histories BUTTON */
+.icon-button-NextHistories
+{
+    width:260px;
+    border:0px;
+    background:url(../../images/button/HideNoChangesButton.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-NextHistories-pressed
+{
+    background:url(../../images/button/HideNoChangesButton_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-NextHistories-focus{}
+
+.x-icon-button-NextHistories-over
+{
+    background:url(../../images/button/HideNoChangesButton_over.png) left top no-repeat !important;
+}
+
+.icon-button-NextHistories-disable
+{
+    background:url(../../images/button/HideNoChangesButton_disable.png) left top no-repeat !important;
+}

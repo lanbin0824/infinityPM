@@ -1,0 +1,208 @@
+/*modified by lichun*/
+div.Td-conHistory-Manage-img
+{
+	position: relative;
+	height: 23px;
+	margin-top:1px;
+	margin-left:1px;
+}
+
+td.Td-conHistory-Manage
+{	
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:pointer;
+	padding:0px;
+	height:30px;
+	text-align: center;
+	background-color:transparent;
+	color: #FFFFFF;
+	font-size: 13pt;
+	border-right:1px solid #ABC0E2;
+}
+td.Td-conHistory-Status
+{	
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:pointer;
+	padding:0px;
+	height:30px;
+	text-align: center;
+	background-color:transparent;
+	border-right:1px solid #ABC0E2;
+}
+td.Td-conHistory-Type
+{
+	cursor:pointer;
+	padding:0px;
+	height:30px;
+	padding-left: 5px;
+	text-align: left;
+	border-right:1px solid #ABC0E2;
+}
+
+td.Td-conHistory-Name
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:pointer;
+	padding:0px;
+	height:30px;
+	text-align: left;	
+	padding-left:8px;
+	border-right:1px solid #ABC0E2;
+}
+
+td.Td-conHistory-Version
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:pointer;
+	padding:0px;
+	height:30px;
+	text-align: left;
+	padding-left: 8px;
+	border-right:1px solid #ABC0E2;
+}
+
+td.Td-conHistory-Machine
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:pointer;
+	padding:0px;
+	height:30px;
+	text-align: left;
+	padding-left: 8px;
+	border-right:1px solid #ABC0E2;
+}
+td.Td-conHistory-Applicant
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:pointer;
+	padding:0px;
+	height:30px;
+	text-align: left;
+	padding-left: 5px;
+	border-right:1px solid #ABC0E2;
+}
+
+td.Td-conHistory-Time
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:pointer;
+	padding:0px;
+	height:30px;
+	text-align: left;
+	padding-left: 10px;
+	border-right:1px solid #ABC0E2;
+}
+
+td.Td-conHistory-Remark
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:pointer;
+	padding:0px;
+	height:30px;
+	text-align: left;	
+	padding-left:8px;
+	line-height: 20px;
+}
+
+.Td-conHistory-p-span-Remark
+{
+	padding-left:7px;
+	padding-right:5px;
+	font-size: 13pt;
+	color: #1E3246;
+	text-overflow: ellipsis;
+	overflow: hidden; 
+}
+
+p.Td-conHistory-p-Remark
+{
+	margin:0px
+}
+
+span.ConHistory-HideHisItem
+{
+	font-size: 13pt;
+}
+
+
+/* history-header*/
+td.Td-HistoryHeader-Column-Manage
+{
+    overflow: hidden;
+    color : #FFFFFF;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    text-align: center;
+    height:27px;
+    background-color:#93AEDB;
+}
+
+td.Td-HistoryHeader-Column-Applicant
+{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    text-align: left;
+    padding-left: 3px;
+    height:27px;
+    background-color:#93AEDB;
+}
+
+td.Td-HistoryHeader-Column-Version
+{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    height:27px;
+    background-color:#93AEDB;
+}
+
+td.Td-HistoryHeader-Column-Time
+{
+	/*cursor:pointer;*/
+	text-align: left;
+	padding-left : 5px;
+	height:27px;
+	background-color:#93AEDB;
+}
+
+td.Td-HistoryHeader-Column-Time-Sort
+{
+	cursor:pointer;
+	padding:0px;
+	padding-right:5px;
+	text-align: left;
+	width:28px;
+	height:27px;
+	background-color:#93AEDB;
+}
+
+td.Td-HistoryHeader-Column-Remark
+{
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    cursor:default;
+    text-align: left;
+    height:27px;
+    padding-left:3px;
+    background-color:#93AEDB;
+}
+

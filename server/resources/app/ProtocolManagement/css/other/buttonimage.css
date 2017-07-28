@@ -1,0 +1,754 @@
+/*!
+ * Image CSS
+ * Copyright :Copyright(c) 2012 TOSHIBA MEDICAL SYSTEMS CORPORATION All Rights
+ * jiaming
+ * Company:TOSHIBA MEDICAL SYSTEMS CORPORATION
+ */
+/* button */
+.icon-button
+{
+	border:0px;
+	background:url(../../images/button/ActionButton.png) left top no-repeat !important;
+}
+
+.icon-button-large
+{
+	border:0px;
+	background:url(../../images/button/ActionButton_large.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-pressed
+{
+	border:0px;
+	background:url(../../images/button/ActionButton_down.png) left top no-repeat !important;
+}
+
+.x-btn.x-btn-icon-button-focus
+{
+	border:0px;
+	/* background:url(../../images/button/ActionButton.png) left top no-repeat !important; */
+}
+
+.x-icon-button-over
+{
+	border:0px;
+	background:url(../../images/button/ActionButton_over.png) left top no-repeat !important;
+}
+
+.x-icon-button-over-large
+{
+	border:0px;
+	background:url(../../images/button/ActionButton_over_large.png) left top no-repeat !important;
+}
+.icon-button-disable
+{
+	border:0px;
+	background:url(../../images/button/ActionButton_disable.png) left top no-repeat !important;
+}
+.icon-button-disable-large
+{
+	border:0px;
+	background:url(../../images/button/ActionButton_disable_large.png) left top no-repeat !important;
+}
+
+/** delete BUTTON */
+.icon-button-delete
+{
+	width: 80px;
+	height: 23px;
+	padding-top: 3px;
+	padding-left: 4px;
+	padding-right: 14px;
+	margin-top: 1px;
+	font-size: 13pt;
+	color:#1E3246;
+	cursor: pointer;
+	background:url(../../images/button/RestoreButton.png) !important;
+}
+.icon-button-delete:hover
+{
+	width: 80px;
+	height: 23px;
+	padding-top: 3px;
+	padding-left: 4px;
+	padding-right: 14px;
+	margin-top: 1px;
+	font-size: 13pt;
+	color:#1E3246;
+	cursor: pointer;
+	background:url(../../images/button/RestoreButton_over.png) !important;
+}
+.icon-button-delete:active
+{
+	width: 80px;
+	height: 23px;
+	padding-top: 3px;
+	padding-left: 4px;
+	padding-right: 14px;
+	margin-top: 1px;
+	font-size: 13pt;
+	color:#1E3246;
+	cursor: pointer;
+	background:url(../../images/button/RestoreButton_down.png) !important;
+}
+
+/** Hide No change BUTTON */
+.icon-button-hidenochange
+{
+	border:0px solid #7FA7EA;
+	background:url(../../images/button/HideNoChangesButton.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-hidenochange-pressed
+{
+	background:url(../../images/button/HideNoChangesButton_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-hidenochange-focus
+{
+	/* background:url(../../images/button/HideNoChangesButton_focus.png) left top no-repeat !important; */
+}
+
+.x-icon-button-hidenochange-over
+{
+	background:url(../../images/button/HideNoChangesButton_over.png) left top no-repeat !important;
+}
+
+.icon-button-hidenochange-disable
+{
+	background:url(../../images/button/HideNoChangesButton_disable.png) left top no-repeat !important;
+}
+
+/** Back list No change BUTTON */
+.icon-button-BackListButton
+{
+	border:0px;
+	background:url(../../images/button/HideNoChangesButton.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-BackListButton-pressed
+{
+	background:url(../../images/button/HideNoChangesButton_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-BackListButton-focus
+{
+	/* background:url(../../images/button/HideNoChangesButton_focus.png) left top no-repeat !important; */
+}
+
+.x-icon-button-BackListButton-over
+{
+	background:url(../../images/button/HideNoChangesButton_over.png) left top no-repeat !important;
+}
+
+.icon-button-BackListButton-disable
+{
+	background:url(../../images/button/HideNoChangesButton_disable.png) left top no-repeat !important;
+}
+
+/** hide list BUTTON */
+.icon-button-HideListButton
+{
+	border:0px solid #7FA7EA;
+	background:url(../../images/button/Hide.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-HideListButton-pressed
+{
+	background:url(../../images/button/Hide_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-HideListButton-focus
+{
+	/* background:url(../../images/button/Hide_focus.png) left top no-repeat !important; */
+}
+
+.x-icon-button-HideListButton-over
+{
+	background:url(../../images/button/Hide_over.png) left top no-repeat !important;
+}
+
+.icon-button-HideListButton-disable
+{
+	background:url(../../images/button/Hide_disable.png) left top no-repeat !important;
+}
+
+/** Delete BUTTON */
+.icon-button-Delete
+{
+
+    border:0px;
+    background:url(../../images/button/DeleteButton_width138.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Delete-pressed
+{
+    background:url(../../images/button/DeleteButton_width138_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Delete-focus
+{
+
+}
+
+.x-icon-button-Delete-over
+{
+    background:url(../../images/button/DeleteButton_width138_over.png) left top no-repeat !important;
+}
+
+.icon-button-Delete-disable
+{
+    background:url(../../images/button/DeleteButton_width138_disable.png) left top no-repeat !important;
+}
+
+/** Restore BUTTON */
+.icon-button-Restore
+{
+
+    border:0px;
+    background:url(../../images/button/RestoreButton_width138.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Restore-pressed
+{
+    background:url(../../images/button/RestoreButton_width138_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Restore-focus
+{
+
+}
+
+.x-icon-button-Restore-over
+{
+    background:url(../../images/button/RestoreButton_width138_over.png) left top no-repeat !important;
+}
+
+.icon-button-Restore-disable
+{
+    background:url(../../images/button/RestoreButton_width138_disable.png) left top no-repeat !important;
+}
+
+/** Transfer BUTTON */
+.icon-button-Transfer
+{
+
+	border:0px;
+	background:url(../../images/button/TransferButton.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Transfer-pressed
+{
+	background:url(../../images/button/TransferButton_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Transfer-focus
+{
+	/* background:url(../../images/button/TransferButton.png) left top no-repeat !important; */
+}
+
+.x-icon-button-Transfer-over
+{
+	background:url(../../images/button/TransferButton_over.png) left top no-repeat !important;
+}
+
+.icon-button-Transfer-disable
+{
+	background:url(../../images/button/TransferButton_disable.png) left top no-repeat !important;
+}
+
+/** Approve BUTTON */
+.icon-button-Appove
+{
+
+	border:0px;
+	background:url(../../images/button/AppoveButton.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Appove-pressed
+{
+	background:url(../../images/button/AppoveButton_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Appove-focus
+{
+	/* background:url(../../images/button/AppoveButton.png) left top no-repeat !important; */
+}
+
+.x-icon-button-Appove-over
+{
+	background:url(../../images/button/AppoveButton_over.png) left top no-repeat !important;
+}
+
+.icon-button-Appove-disable
+{
+	background:url(../../images/button/AppoveButton_disable.png) left top no-repeat !important;
+}
+
+/** Deleted BUTTON */
+.icon-button-Deleted
+{
+	border:0px;
+	background:url(../../images/button/DeletedButton.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Deleted-pressed
+{
+	background:url(../../images/button/DeletedButton_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Deleted-focus
+{
+	/* background:url(../../images/button/DeletedButton.png) left top no-repeat !important; */
+}
+
+.x-icon-button-Deleted-over
+{
+	background:url(../../images/button/DeletedButton_over.png) left top no-repeat !important;
+}
+
+.icon-button-Deleted-disable
+{
+	background:url(../../images/button/DeletedButton_disable.png) left top no-repeat !important;
+}
+
+/** Reject BUTTON */
+.icon-button-Reject
+{
+	border:0px;
+	background:url(../../images/button/RejectButton.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Reject-pressed
+{
+	background:url(../../images/button/RejectButton_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Reject-focus
+{
+	/* background:url(../../images/button/RejectButton.png) left top no-repeat !important; */
+}
+
+.x-icon-button-Reject-over
+{
+	background:url(../../images/button/RejectButton_over.png) left top no-repeat !important;
+}
+
+.icon-button-Reject-disable
+{
+	background:url(../../images/button/RejectButton_disable.png) left top no-repeat !important;
+}
+
+
+/** setting button **/
+.icon-button-Edit
+{
+	border:0px;
+	background:url(../../images/button/EditButton.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Edit-pressed
+{
+	background:url(../../images/button/EditButton_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Edit-focus
+{
+	/* background:url(../../images/button/EditButton.png) left top no-repeat !important; */
+}
+
+.x-icon-button-Edit-over
+{
+	background:url(../../images/button/EditButton_over.png) left top no-repeat !important;
+}
+
+.icon-button-Edit-disable
+{
+	background:url(../../images/button/EditButton_disable.png) left top no-repeat !important;
+}
+
+.icon-button-Add
+{
+	border:0px;
+	background:url(../../images/button/AddButton.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Add-pressed
+{
+	background:url(../../images/button/AddButton_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Add-focus
+{
+	/* background:url(../../images/button/AddButton.png) left top no-repeat !important; */
+}
+
+.x-icon-button-Add-over
+{
+	background:url(../../images/button/AddButton_over.png) left top no-repeat !important;
+}
+
+.icon-button-Add-disable
+{
+	background:url(../../images/button/AddButton_disable.png) left top no-repeat !important;
+}
+
+
+/** refresh BUTTON */
+.icon-button-refresh
+{
+	width: 80px;
+	height: 23px;
+	padding-top: 3px;
+	padding-left: 4px;
+	padding-right: 14px;
+	margin-top: 1px;
+	font-size: 13pt;
+	color:#1E3246;
+	cursor: pointer;
+	background:url(../../images/button/RestoreButton.png) !important;
+}
+.icon-button-refresh:hover
+{
+	width: 80px;
+	height: 23px;
+	padding-top: 3px;
+	padding-left: 4px;
+	padding-right: 14px;
+	margin-top: 1px;
+	font-size: 13pt;
+	color:#1E3246;
+	cursor: pointer;
+	background:url(../../images/button/RestoreButton_over.png) !important;
+}
+.icon-button-refresh:active
+{
+	width: 80px;
+	height: 23px;
+	padding-top: 3px;
+	padding-left: 4px;
+	padding-right: 14px;
+	margin-top: 1px;
+	font-size: 13pt;
+	color:#1E3246;
+	cursor: pointer;
+	background:url(../../images/button/RestoreButton_down.png) !important;
+}
+
+.icon-button-refresh-disable
+{
+	width: 80px;
+	height: 23px;
+	padding-top: 3px;
+	padding-left: 4px;
+	padding-right: 14px;
+	margin-top: 1px;
+	font-size: 13pt;
+	color:#B1B1B1;
+	cursor: default;
+	background:url(../../images/button/RestoreButton_disable.png) !important;
+}
+
+/*  transfer **/
+.icon-button-Transfer_Left
+{
+	border:0px;
+	background:url(../../images/button/Button_Transfer_Left.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Transfer_Left-pressed
+{
+	background:url(../../images/button/Button_Transfer_Left_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Transfer_Left-focus
+{
+	/* background:url(../../images/button/DeleteButton.png) left top no-repeat !important; */
+}
+
+.x-icon-button-Transfer_Left-over
+{
+	background:url(../../images/button/Button_Transfer_Left_over.png) left top no-repeat !important;
+}
+
+.icon-button-Transfer_Left-disable
+{
+	background:url(../../images/button/Button_Transfer_Left_disable.png) left top no-repeat !important;
+}
+
+.icon-button-Transfer_Right
+{
+	border:0px;
+	background:url(../../images/button/Button_Transfer_Right.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Transfer_Right-pressed
+{
+	background:url(../../images/button/Button_Transfer_Right_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Transfer_Right-focus
+{
+	/* background:url(../../images/button/Button_Transfer_Right.png) left top no-repeat !important; */
+}
+
+.x-icon-button-Transfer_Right-over
+{
+	background:url(../../images/button/Button_Transfer_Right_over.png) left top no-repeat !important;
+}
+
+.icon-button-Transfer_Right-disable
+{
+	background:url(../../images/button/Button_Transfer_Right_disable.png) left top no-repeat !important;
+}
+
+.icon-button-LeftSelect
+{
+    border:0px;
+    background:url(../../images/arrows/LeftSelectButton.png) left top no-repeat !important;
+}
+
+.icon-button-LeftSelect-disable
+{
+    border:0px;
+    background:url(../../images/arrows/LeftSelectButton_disable.png) left top no-repeat !important;
+}
+
+.icon-button-RightSelect
+{
+    border:0px;
+    background:url(../../images/arrows/RightSelectButton.png) left top no-repeat !important;
+}
+
+.icon-button-RightSelect-disable
+{
+    border:0px;
+    background:url(../../images/arrows/RightSelectButton_disable.png) left top no-repeat !important;
+}
+
+.icon-button-Export-OtherSetting
+{
+	cursor: pointer;
+	height: 23px;
+	line-height: 22px;
+	color:#1E3246;
+	text-align:center;
+	font-size:13pt;
+	border:0px;
+	background:url(../../images/button/RestoreButton.png) left top no-repeat !important;
+}
+.icon-button-Export-OtherSetting:hover
+{
+	border:0px;
+	background:url(../../images/button/RestoreButton_over.png) left top no-repeat !important;
+}
+
+.icon-button-Export-OtherSetting:active
+{
+	border:0px;
+	background:url(../../images/button/RestoreButton_down.png) left top no-repeat !important;
+}
+
+.icon-button-Import-OtherSetting
+{
+	cursor: pointer;
+	height: 23px;
+	line-height: 22px;
+	color:#1E3246;
+	text-align:center;
+	font-size:13pt;
+	border:0px;
+	background:url(../../images/button/RestoreButton.png) left top no-repeat !important;
+}
+.icon-button-Import-OtherSetting:hover
+{
+	border:0px;
+	background:url(../../images/button/RestoreButton_over.png) left top no-repeat !important;
+}
+
+.icon-button-Import-OtherSetting:active
+{
+	border:0px;
+	background:url(../../images/button/RestoreButton_down.png) left top no-repeat !important;
+}
+
+
+.icon-button-Next-Histories
+{
+	width:260px;
+	border:0px solid #7FA7EA;
+	background:url(../../images/button/HideNoChangesButton.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Next-Histories-pressed
+{
+	background:url(../../images/button/HideNoChangesButton_down.png) left top no-repeat !important;
+}
+.x-icon-button-Next-Histories-over
+{
+	background:url(../../images/button/HideNoChangesButton_over.png) left top no-repeat !important;
+}
+.icon-button-Next-Histories-disable
+{
+	background:url(../../images/button/HideNoChangesButton_disable.png) left top no-repeat !important;
+}
+
+/** Radlex BUTTON */
+.icon-button-Radlex
+{
+    width:170px;
+    border:0px;
+    background:url(../../images/button/NextHistories.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Radlex-pressed
+{
+    background:url(../../images/button/NextHistories_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Radlex-focus{}
+
+.x-icon-button-Radlex-over
+{
+    background:url(../../images/button/NextHistories_over.png) left top no-repeat !important;
+}
+
+.icon-button-Radlex-disable
+{
+    background:url(../../images/button/NextHistories_disable.png) left top no-repeat !important;
+}
+
+/** Master Back BUTTON */
+.icon-button-Back
+{
+    width:170px;
+    border:0px;
+    background:url(../../images/button/Back.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Back-pressed
+{
+    background:url(../../images/button/Back_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Back-focus{}
+
+.x-icon-button-Back-over
+{
+    background:url(../../images/button/Back_over.png) left top no-repeat !important;
+}
+
+.icon-button-Back-disable
+{
+    background:url(../../images/button/Back_disable.png) left top no-repeat !important;
+}
+/** Master Next BUTTON */
+.icon-button-Next
+{
+    width:170px;
+    border:0px;
+    background:url(../../images/button/Next.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Next-pressed
+{
+    background:url(../../images/button/Next_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Next-focus{}
+
+.x-icon-button-Next-over
+{
+    background:url(../../images/button/Next_over.png) left top no-repeat !important;
+}
+
+.icon-button-Next-disable
+{
+    background:url(../../images/button/Next_disable.png) left top no-repeat !important;
+}
+/** Master Cancel BUTTON */
+.icon-button-Cancel
+{
+    width:170px;
+    border:0px;
+    background:url(../../images/button/Cancel.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Cancel-pressed
+{
+    background:url(../../images/button/Cancel_down.png) left top no-repeat !important;
+}
+.x-btn.x-btn-icon-button-Cancel-focus{}
+
+.x-icon-button-Cancel-over
+{
+    background:url(../../images/button/Cancel_over.png) left top no-repeat !important;
+}
+
+.icon-button-Cancel-disable
+{
+    background:url(../../images/button/Cancel_disable.png) left top no-repeat !important;
+}
+
+/* Master addAll button */
+.icon-button-addAll-Master
+{
+    width:40px;
+    height: 25px;
+    border:0px;
+    margin-left: -8px;
+    background:url(../../images/button/AddAll.png) left top no-repeat !important;
+}
+.icon-button-addAll-Master:hover
+{
+	cursor: pointer;
+    background:url(../../images/button/AddAll_over.png) left top no-repeat !important;
+}
+.icon-button-addAll-Master:active
+{
+    background:url(../../images/button/AddAll_down.png) left top no-repeat !important;
+}
+
+/* menu button */
+.icon-button-menu
+{
+    border:0px;
+    background:url(../../images/button/MenuButton.png) left top no-repeat !important;
+}
+
+.x-btn.x-btn-icon-button-menu-pressed
+{
+    border:0px;
+    background:url(../../images/button/MenuButton_down.png) left top no-repeat !important;
+}
+
+.x-icon-button-menu-over
+{
+    border:0px;
+    background:url(../../images/button/MenuButton_over.png) left top no-repeat !important;
+}
+
+.icon-browse-button{
+	border:0px;
+	background:url(../../images/button/Button_selectPath.png) left top no-repeat !important;
+}
+
+.x-icon-browse-button-over{
+	border:0px;
+	background:url(../../images/button/Button_selectPath_over.png) left top no-repeat !important;
+}
+
+.x-icon-browse-button-pressed{
+	border:0px;
+	background:url(../../images/button/Button_selectPath_down.png) left top no-repeat !important;
+}
+
+.x-icon-browse-button-focus{
+	border:0px;
+	background:url(../../images/button/Button_selectPath_over.png) left top no-repeat !important;
+}
+
+.x-icon-browse-button-disable{
+	border:0px;
+	background:url(../../images/button/Button_selectPath_disable.png) left top no-repeat !important;
+}
+
+.icon-dees-button{
+	border:0px;
+	background:url(../../images/button/DeEs_ActionButton.png) left top no-repeat !important;	
+}
+
+.x-icon-dees-button-over{
+	border:0px;
+	background:url(../../images/button/DeEs_ActionButton_over.png) left top no-repeat !important;	
+}
+
+.x-icon-dees-button-pressed{
+	border:0px;
+	background:url(../../images/button/DeEs_ActionButton_down.png) left top no-repeat !important;	
+}
+
+.x-icon-dees-button-focus{
+	border:0px;
+	background:url(../../images/button/DeEs_ActionButton_over.png) left top no-repeat !important;	
+}
+
+.x-icon-dees-button-disable{
+	border:0px;
+	background:url(../../images/button/DeEs_ActionButton_disable.png) left top no-repeat !important;	
+}
+
+
+#Backup_PathBrowser_TreePanel-body .x-tree-node-text {
+	font-size: 16px;
+	font-family: Meiryo UI, Segoe UI;
+}
+
+#Backup_PathBrowser_TreePanel-body {
+	background-color: white;
+}

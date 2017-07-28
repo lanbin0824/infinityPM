@@ -11,13 +11,24 @@
     <!--<p-footer>Footer</p-footer>-->
     <p-column field="status" [header]="header.status" sortable="true" [style]="{'width':'5%'}" filter="true">
       <ng-template let-col let-row="rowData" let-rowIndex="rowIndex" pTemplate="body">
-        <div #approveDiv *ngIf="isTrue; then approveButton else notSureButton"></div>
+        <div #approveDiv  style="text-align:center" *ngIf="row[col.field]=='APPROVAL_REQUESTED'; then approveButton else notSureButton"></div>
         <!--<span [pTooltip]="row[col.field]" [appendTo]="approveDiv"> {{row[col.field]}} </span>-->
         <ng-template #approveButton>
-          <button pButton type="button" icon="fa-refresh"></button>
+          <div style="text-align:center">
+            <span [pTooltip]="row[col.field]" positionStyle="fixed">
+              <i class="fa fa-exclamation fa-lg" aria-hidden="true" style="color:#ffb300"></i>
+            </span>
+          </div>
         </ng-template>
         <ng-template #notSureButton>
-          <button pButton type="button" icon="fa-search"></button>
+           <div style="text-align:center">
+             <span [pTooltip]="row[col.field]" positionStyle="fixed"> 
+             <span class="fa-stack" style="text-align:center"> 
+              <i class="fa fa-trash fa-stack-2x"></i>
+              <i class="fa fa-exclamation fa-stack-1x" style="color:#ffb300"></i>
+             </span>
+             </span> 
+           </div> 
         </ng-template>
       </ng-template>
 
@@ -74,21 +85,21 @@
         <span> {{row.data.targetvalue}} </span>
       </ng-template>
       <ng-template pTemplate="header" let-col>
-        <div *ngIf="epnames" (click)="onHeaderClick(event,tt)">
-          <span> {{epnames.epname}} </span><br>
+        <div *ngIf="epnames" (click)="disableClick && onHeaderClick(event,tt)">
+          <span><span *ngIf="disableClick; then approveButton else notSureButton "></span> {{epnames.epname}} </span><br>
           <span> {{epnames.modelname}} </span><br>
           <span> V{{epnames.version}} {{epnames.time}} </span><br>
         </div>
       </ng-template>
     </p-column>
-    <div [hidden]="hiddenthirdColumn">
+    <div [hidden]="hiddenthirdColumn && !disableClick">
       <p-column *ngIf="hiddenthirdColumn" field="mastervalue" styleClass="tree-table-row-cls" [header]="">
-        <ng-template pTemplate="body" let-col let-row="rowData" let-ri="rowIndex">
-          <span> {{row.data.targetvalue}} </span>
-        </ng-template>
+         <ng-template pTemplate="body" let-col let-row="rowData" let-ri="rowIndex">
+          <span> {{row.data.mastervalue}} </span>
+        </ng-template> 
         <ng-template pTemplate="header" let-col>
           <div *ngIf="epnames">
-            <span> {{epnames.epname}} </span><br>
+            <span> <span *ngIf="disableClick; then approveButton else notSureButton "></span>{{epnames.epname}} </span><br>
             <span> {{epnames.modelname}} </span><br>
             <span> V{{epnames.version}} {{epnames.time}} </span><br>
           </div>
@@ -110,4 +121,18 @@
     <button pButton type="button" label="Cancel" (click)="onCancelButton()" class="ui-button-primary" style="float:right;top:-0.1em;right:0.5em"></button>
     <button pButton type="button" label="OK" disabled="true" (click)="onOKButton()" class="ui-button-primary" style="float:right;top:-0.1em;right:1.5em"></button></p-footer>
 </p-dialog>
+
+<ng-template #approveButton>
+  <div style="text-align:center">
+      <i class="fa fa-exclamation fa-lg" aria-hidden="true" style="color:#ffb300"></i>
+  </div>
+</ng-template>
+<ng-template #notSureButton>
+    <div style="text-align:center"> 
+      <span class="fa-stack" style="text-align:center"> 
+      <i class="fa fa-trash fa-stack-2x"></i>
+      <i class="fa fa-exclamation fa-stack-1x" style="color:#ffb300"></i>
+    </span> 
+    </div> 
+</ng-template>
 

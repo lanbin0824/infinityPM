@@ -1,0 +1,325 @@
+td.CompareHeaderFontBold {
+	/*color: #FFFFFF;*/
+	
+	font-size: 14pt;
+	font-weight: 200;
+	text-align:center;
+}
+
+td.CompareHeaderYellowFontBold {
+	color: #FFDB46;
+	
+	font-size: 14pt;
+	font-weight: 200;
+	text-align:bottom;
+}
+
+td.CompareHeaderSmallFontBold {
+	/*color: #FFFFFF;*/
+	font-size: 12pt;
+	text-align:center;
+}
+td.CompareHeaderYellowSmallFontBold {
+	color: #FFDB46;
+	font-size: 12pt;
+	text-align:bottom;
+}
+
+
+td.CompareGridFontLeftEvenSmall {
+	color: #1E3246;
+	
+	font-size: 13pt;
+	font-weight: 200;
+	text-align: left;
+	background: #F7F9FF;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	border-spacing: 0px 0px;
+	padding:0px;
+}
+
+td.CompareGridFontCenterEvenSmall {
+	color: #1E3246;
+	
+	font-size: 13pt;
+	font-weight: 200;
+	text-align: center;
+	background: #F7F9FF;
+	border-bottom: 0px solid #ABC0E2;
+	border-left: 1px solid #ABC0E2;
+	border-right: 0px solid #D5D7DF;
+	text-overflow: ellipsis;
+	white-space: pre;
+	overflow: hidden;
+	border-spacing: 0px 0px;
+	padding:0px;
+}
+
+td.CompareGridFontLeftOddSmall {
+	color: #1E3246;
+	
+	font-size: 13pt;
+	font-weight: 200;
+	text-align: left;
+	background: #EBF1FA;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	border-spacing: 0px 0px;
+	padding:0px;
+}
+
+td.CompareGridFontCenterOddSmall {
+	color: #1E3246;
+	
+	font-size: 13pt;
+	font-weight: 200;
+	text-align: center;
+	background: #EBF1FA;
+	border-bottom: 0px solid #ABC0E2;
+	border-left: 1px solid #ABC0E2;
+	border-right: 0px solid #D5D7DF;
+	text-overflow: ellipsis;
+	white-space: pre;
+	overflow: hidden;
+	border-spacing: 0px 0px;
+	padding:0px;
+}
+
+td.CompareGridFontLeftEvenBold {
+	color: #1E3246;
+	
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: left;
+	background: #CCDBF2;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	border-spacing: 0px 0px;
+	padding:0px;
+}
+
+td.CompareGridFontCenterEvenBold {
+	color: #1E3246;
+	
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background: #CCDBF2;
+	border-bottom: 0px solid #ABC0E2;
+	border-left: 1px solid #ABC0E2;
+	text-overflow: ellipsis;
+	white-space: pre;
+	overflow: hidden;
+	border-spacing: 0px 0px;
+	padding:0px;
+}
+
+td.CompareGridFontLeftOddBold {
+	color: #1E3246;
+	
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: left;
+	background: #BBCFEE;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	border-spacing: 0px 0px;
+	padding:0px;
+}
+
+td.CompareGridFontCenterOddBold {
+	color: #1E3246;
+	
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	background: #BBCFEE;
+	border-bottom: 0px solid #ABC0E2;
+	border-left: 1px solid #ABC0E2;
+	text-overflow: ellipsis;
+	white-space: pre;
+	overflow: hidden;
+	border-spacing: 0px 0px;
+	padding:0px;
+}
+
+table.CompareGridHeaderTable {
+	width: 100%;
+	text-align: center;
+	background: #78A0E6;
+	border-spacing: 0px 0px;
+}
+
+/*td.CompareGridHeaderLeftTd {
+	background: #78A0E6;
+	height: 32px;
+	width: 50%;
+	text-align: left;
+}*/
+
+
+
+.CompareHeaderPanel {
+	background-image: -moz-linear-gradient(top, rgb(132, 171, 236),
+		rgb(92, 136, 216) );
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(132,171, 236) ), color-stop(1, rgb(92, 136, 216) ) );
+    background: -ms-linear-gradient(top, rgb(132,171, 236) 0%,rgb(92, 136, 216) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#89A1E5,
+		endColorstr=#5C88D8, GradientType=0 );
+	border: 0px;
+	
+	color: #FFFFFF;
+	font-size: 14pt;
+	padding-left: 28px;
+	padding-top: 4px;
+}
+
+.CompareHeaderBackground {
+	
+	background-image: -moz-linear-gradient(top, rgb(132, 171, 236),
+		rgb(92, 136, 216) );
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(132,
+		171, 236) ), color-stop(1, rgb(92, 136, 216) ) );
+    background: -ms-linear-gradient(top, rgb(132,171, 236) 0%,rgb(92, 136, 216) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#89A1E5,
+		endColorstr=#5C88D8, GradientType=0 );
+	border: 0px;
+	padding-top: 0.5px;
+}
+
+td.CompareHeaderRemark {
+	overflow-y: auto;
+	overflow-x: hidden;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	
+	font-size: 13pt;
+	/* display: inline-block; */
+	height: 100%;
+	padding-left: 10px;
+	border-bottom: 1px solid #ABC0E2;
+	border-left: 1px solid #ABC0E2;
+	border-top: 0px solid #ABC0E2;
+}
+
+td.CompareHeaderRightRemark {
+	overflow-y: auto;
+	overflow-x: hidden;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	
+	font-size: 13pt;
+	/* display: inline-block; */
+	height: 100%;
+	padding-left: 10px;
+	border-bottom: 1px solid #ABC0E2;
+	border-left: 1px solid #ABC0E2;
+	border-right: 0px solid #ABC0E2;
+	border-top: 0px solid #ABC0E2;
+}
+
+td.CompareHeaderRemarkOnly {
+	overflow-y: auto;
+	overflow-x: hidden;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	
+	font-size: 13pt;
+	/* display: inline-block;
+	width: 100%; */
+	height: 100%;
+	padding-left: 10px;
+	border-bottom: 1px solid #ABC0E2;
+	border-left: 1px solid #ABC0E2;
+	border-top: 0px solid #ABC0E2;
+}
+
+td.CompareHeaderTitle {
+	text-align: right;
+	height: 25px;
+	text-overflow: ellipsis;
+	white-space: pre;
+	overflow: hidden
+}
+
+/*td.CompareValueTip {
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden
+}*/
+
+td.CompareHeaderArrowRight {
+	width: 50px;
+	text-align: left;
+	cursor: pointer;
+}
+
+td.CompareHeaderArrowLeft {
+	width: 50px;
+	text-align: right;
+	cursor: pointer;
+}
+
+table.CompareSubHeader {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #2F5988;
+	table-layout: fixed;
+	border-spacing: 0px 0px;
+}
+
+
+table.CompareTextHeader {
+	margin: auto;
+	height: 50px;
+	text-align: center;
+	background: #2F5988;
+	table-layout: fixed;
+	border-spacing: 0px 0px;
+}
+table.CompareTextHeader:hover{
+	color:#FFDB46;
+}
+table.CompareTextHeader-no-hover{
+	margin: auto;
+	height: 50px;
+	text-align: center;
+	background: #2F5988;
+	table-layout: fixed;
+	border-spacing: 0px 0px;
+}
+
+table.CompareTableCommon {
+	color:#FFFFFF;
+	width: 100%;
+	height: 100%;
+	table-layout: fixed;
+	border-spacing: 0px 0px;
+}
+/*table.CompareTableCommon:hover{
+	color:#FFDB46;
+}*/
+
+span.StatusStyle {
+	width: 22px;
+	/** background-image: url('../../images/test/icon_s_app.png');*/
+	
+	font-size: 10pt;
+	display:inline-block;
+	height:22px;
+	padding-left:3px;
+	padding-right:3px;
+	font-weight:bold;	
+	vertical-align:middle;
+	text-align:center;
+}
+td.compare-td-node:hover,td.compare-td-sub-node:hover{
+	cursor: pointer;
+}

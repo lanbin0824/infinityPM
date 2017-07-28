@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+<title>Help</title>
+<script>
+  //get the localized help url
+  var helpUrl = "#localeResourceUrl("pdf/ProtocolManagement.pdf")";
+ 
+  //default to English if the locale is not available
+  helpUrl = helpUrl.replace("RESOURCE-NOT-FOUND-", "en/");
+ 
+  //redirect to the help content
+  window.location = helpUrl;
+</script>
+</head>
+</html>

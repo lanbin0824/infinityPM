@@ -1,0 +1,208 @@
+/*!
+ * Confirm View CSS
+ * Copyright :Copyright(c) 2012 TOSHIBA MEDICAL SYSTEMS CORPORATION All Rights
+ * 
+ * Company:TOSHIBA MEDICAL SYSTEMS CORPORATION
+ */
+.x-Confirm-window
+{		
+	border-radius:0px;	
+	padding:0px;
+	background-color:rgb(93, 140, 212);
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+}
+.x-Confirm-window-body
+{		
+	border-radius:0px;	
+	padding:0px;
+	border:0px;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+}
+
+
+.comfirmIsPalce {
+	color: #F79684;
+	font-size: 13pt;
+	display:inline;
+}
+
+td.comfirm-header
+{
+	width:100%;
+	height:20px;
+	border:0px;
+	font-size: 13pt;
+	padding-top:10px;
+	padding-left:17px;
+}
+
+.panel-comfirm-info-header
+{
+	border:0px;
+	background-color:#EDF0F7;
+ 	padding:0px;
+}
+
+.panel-comfirm-center
+{
+	background-color:#EDF0F7;
+ 	padding:0px 10px 10px 10px;
+}
+
+.panel-comfirm-center-bottom
+{
+	background-color:#EDF0F7;
+	padding:0px 10px 10px 0px;
+}
+
+.panel-comfirm-header-body
+{
+	background-color:#EDF0F7;
+ 	padding:0px 10px 0px 10px;
+}
+
+.panel-comfirm-center-body
+{
+	border:0px;
+	background-color:#EDF0F7;
+ 	padding:5px 10px 0px 10px;
+}
+
+span.spanComfirm
+{
+	font-size: 13pt;
+	padding-right:5px;
+	display:inline;
+}
+
+textarea.Comfirm-input
+{
+	font-size: 13pt;
+}
+
+textarea.Comfirm-input-request
+{
+	height:82px;
+	width:585px;
+	font-size:13pt;
+	resize: none;
+}
+
+table.ComfirmTable
+{
+	table-layout	:fixed;
+	border-collapse	:separate;
+	border-spacing	:0px 0px;
+	padding			:0px;	
+
+	width:100%;	
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;	
+	user-select:none;
+	-ms-user-select:none;
+}
+
+td.Comfirm-Reason-Label
+{
+	vertical-align: middle;
+	width:600px;
+	height:25px;
+}
+
+.confirm-comments
+{
+	text-align:left;
+	border:0px;
+	background-color:#EDF0F7;
+	font-size:13pt;
+	padding-top:3px;
+	padding-left:5px;
+}
+.confirm-comments-left-blank
+{
+	margin-top:5px;
+	padding:0px;
+	border:0px solid red;
+}
+.confirm-comments-background
+{
+	border:0px;
+	background-color:#EDF0F7;
+}
+.confirm-comments-transfer
+{
+	margin-right:10px;
+	background-color:#EDF0F7;
+	border:0px;
+	text-align:right;
+	font-size:13pt;
+	font-size:13pt;
+}
+.confirm-comments-noBorder
+{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+.confirm-comments-left-panel
+{
+	background-color:#EDF0F7;
+	border:0px solid red;
+	padding:0px;
+}
+.confirm-comments-right-panel
+{
+	background-color:#EDF0F7;
+	border:0px;
+	text-align:center;
+	font-size:13pt;
+	padding-top:1px;
+}
+.confirm-comments-transfer-table-td
+{
+	font-size: 13pt;
+	vertical-align:middle;
+	line-height:30px;
+	text-align:left;
+	padding-left:5px;
+}
+.confirm-comments-transfer-arrows
+{
+	width:30px;
+	height:30px;
+	display:inline-block;
+	background-image: url(../images/arrows_button/arrow_left.png);
+	color:#EDF0F7;
+}
+.confirm-comments-transfer-label
+{
+	height:30px;
+	display:inline-block;
+	padding-left:5px;
+}
+
+.confirm-comments-no-transfer-table-td
+{
+	font-size: 13pt;
+	vertical-align:middle;
+	line-height:30px;
+	text-align:right;
+}
+.confirm-comments-no-transfer-arrows
+{
+	width:28px;
+	height:30px;
+	display:inline-block;
+	background-image: url(../images/arrows_button/arrow_right.png);
+	color:#EDF0F7;
+}
+.confirm-comments-no-transfer-label
+{
+	height:30px;
+	display:inline-block;
+}

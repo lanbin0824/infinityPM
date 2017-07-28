@@ -1,0 +1,54 @@
+.columnHeader-Chrome-17
+{
+	border:0px;
+	padding:0px;
+	padding-right:16px;
+	border-bottom:1px solid #ABC0E2;
+	border-right:1px solid #ABC0E2;
+	background-color:#93AEDB;
+}
+.columnHeader-Chrome-15
+{
+	border:0px;
+	padding:0px;
+	padding-right:14px;
+	border-bottom:1px solid #ABC0E2;
+	border-right:1px solid #ABC0E2;
+	background-color:#93AEDB;
+}
+.columnHeader-body-Chrome
+{
+	border-top:0px;
+	border-left:1px solid #93AEDB;
+	border-right:1px solid #93AEDB;
+	border-bottom:0px;
+	background-color:#93AEDB;
+}
+
+.columnHeader-body-Chrome-Master
+{
+	border-top:0px;
+	border-left:1px solid #4F81BD;
+	border-right:1px solid #4F81BD;
+	border-bottom:0px;
+	background-color:#4F81BD;
+}
+
+.columnHeader-nopadding
+{
+	border:0px;
+	padding:0px;
+	border-bottom:1px solid #ABC0E2;
+	border-right:1px solid #ABC0E2;
+	background-color:#93AEDB;
+}
+
+tr.RequestList-ColumnHeader
+{
+	background-color:#93AEDB;
+}
+
+tr.History-ColumnHeader
+{
+	background-color:#93AEDB;
+}

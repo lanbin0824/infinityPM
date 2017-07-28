@@ -1,0 +1,830 @@
+.Header-Color-NoborderPadding
+{
+    padding-right:0px;
+    padding-top:6px;
+    padding-left:30px;
+    padding-bottom: 0px;
+    border:0px;
+    background-color:rgb(185, 205, 229);
+    background:rgb(185, 205, 229);
+}
+
+div.master-status-text
+{
+    border:0px;
+    padding-left:19px;
+}
+
+td.master-status-text-td {
+    border:0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 0px;
+    height: 44px;
+    text-align: center;
+}
+span.master-status-black
+{
+    cursor:default;
+    font-size: 12pt;
+    color: #1E3246;
+}
+span.master-status-white
+{
+    cursor:default;
+    font-size: 12pt;
+    color: white;
+}
+table.Master-List-Table{
+	table-layout	:fixed;
+	border-collapse	:separate;
+	border-spacing	:0px 0px;
+	padding			:0px;
+	background-color:#FFFFFF;
+	width:100%;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+	user-select:none;
+	-ms-user-select:none;
+	color: #1E3246;
+
+	font-size:12pt;
+}
+
+table.Master-List-Table thead tr{
+	border:0;
+	height: 33px;
+	background-color: #4F81BD;
+}
+table.Master-List-Table thead tr td{
+	padding-left:5px;
+	color:#FFFFFF;
+	font-size: 12pt;
+	border-left: 1px solid #ABC0E2;
+}
+
+table.Master-List-Table tr.odd{
+	cursor: default;
+	border:0;
+	background-color : #EBF1FA;
+}
+table.Master-List-Table tr.odd2{
+	border:0;
+	background-color : #EBF1FA;
+}
+table.Master-List-Table tr.odd:hover{
+	border:0;
+	background-color : rgb(192,224,250);
+}
+
+table.Master-List-Table tr.even{
+	cursor: default;
+	border:0;
+	background-color : #F7F9FF;
+}
+table.Master-List-Table tr.even2{
+	border:0;
+	background-color : #F7F9FF;
+}
+table.Master-List-Table tr.even:hover{
+	border:0;
+	background-color : rgb(192,224,250);
+}
+
+table.Master-List-Table tr.master-list-tr{
+	background-color : rgb(192,224,250);
+}
+
+table.Master-List-Table tr td{
+	padding-left:5px;
+	border-left: 1px solid #FFFFFF;
+}
+table.Master-List-Table tr td.start{
+	padding-left:5px;
+	border-left:0;
+}
+table.Master-List-Table tr{
+	border:0;
+	height: 33px;
+}
+
+.scanner_combobox_icon{
+	display: block;
+ 	border:0px;
+ 	margin-top: 4px;
+	background: url('../../images/icon/ico_specific.png') no-repeat;
+}
+
+.master-list-label
+{
+	margin-top:25px;
+	line-height:30px;
+	font-size:14pt;
+	font-weight:600;
+	text-decoration: underline;
+}
+
+div.parameters-compare-div
+{
+	height: 390px;
+	width: 1250px;
+	overflow-y: scroll;
+}
+/* ExamPlan Number Change */
+table.ExamPlan-List-Table
+{
+	table-layout	:fixed;
+	border-collapse	:separate;
+	border-spacing	:0px 0px;
+	padding			:0px;
+	background-color:#FFFFFF;
+	width:100%;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+	user-select:none;
+	-ms-user-select:none;
+	color: #1E3246;
+	font-size:13pt;
+}
+
+table.ExamPlan-List-Table thead tr{
+	border:0;
+	height: 38px;
+	background-color: #4F81BD;
+}
+table.ExamPlan-List-Table thead tr td{
+	padding-left:10px;
+	color:#FFFFFF;
+    border-right: 1px solid #99BCE8;
+	font-size: 14pt;
+}
+table.ExamPlan-List-Table thead tr td.end{
+	padding-left:10px;
+	border-right:none;
+}
+table.ExamPlan-List-Table thead tr td.forbid{
+	cursor: default;
+}
+table.ExamPlan-List-Table tbody tr.odd{
+	border:0;
+	background-color : #EBF1FA;
+}
+
+table.ExamPlan-List-Table tbody tr.even{
+	border:0;
+	background-color : #F7F9FF;
+}
+table.ExamPlan-List-Table tbody tr td{
+	border-right: 1px solid #99BCE8;
+}
+table.ExamPlan-List-Table tbody tr td.end{
+	padding-left:10px;
+	border-right:none;
+}
+table.ExamPlan-List-Table tbody tr td.forbid{
+	padding-left:10px;
+	cursor: default;
+}
+
+tr.no-selectedTr {
+	background-color:#F7F9FF;
+	color:#1E3246;
+	cursor:pointer;
+}
+tr.no-selectedTr-S {
+	background-color:#EBF1FA;
+	color:#1E3246;
+	cursor:pointer;
+}
+tr.no-selectedTr:hover {
+	background-color:#C0E0FA;
+	color:#1E3246;
+	cursor:pointer;
+}
+tr.no-selectedTr-S:hover{
+	background-color:#C0E0FA;
+	color:#1E3246;
+	cursor:pointer;
+}
+tr.selectedTr{
+	background-color: deepskyblue;
+	color:white;
+	cursor:pointer;
+}
+
+table.ExamPlan-List-Table tbody tr{
+	border:0;
+	height: 35px;
+}
+table.PicPanel{
+	background-color:#CEDCF2;
+	border:1px solid gray;
+}
+
+table.ProtocolsList-Table{
+
+	table-layout	:fixed;
+	border-collapse	:separate;
+	border-spacing	:0px 0px;
+	padding			:0px;
+	background-color:#FFFFFF;
+	width:100%;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+	user-select:none;
+	-ms-user-select:none;
+}
+
+tr.ProtocolsList-ColumnHeader
+{
+	height: 35px;
+	background-color:#4F81BD;
+}
+
+tr.ProtocolsList-Tr
+{
+	border			:0px;
+	padding			:0px;
+	background-color:#F7F9FF;
+}
+tr.ProtocolsList-Tr-S {
+	border			:0px;
+	padding			:0px;
+	background-color:#EBF1FA;
+}
+tr.ProtocolsList-Tr-Space {
+	border			:0px;
+	padding			:0px;
+	background-color:#F7F9FF;
+}
+tr.ProtocolsList-Tr-S-Space {
+	border			:0px;
+	padding			:0px;
+	background-color:#EBF1FA;
+}
+
+/* Applicant */
+td.Td-ProtocolsList-Cell-Space
+{
+	border-left:1px solid #ABC0E2;
+}
+
+tr.ProtocolsList-Tr-EndLine{
+	border-bottom:1px solid #ABC0E2;
+}
+
+tr.ProtocolsList-Tr-Select {
+	border			:0px;
+	padding			:0px;
+	background-color:#C0E0FA;
+}
+
+/* Type */
+td.Td-ProtocolsList-Model
+{
+	border-left:1px solid #ABC0E2;
+	/* border-bottom:1px solid #ABC0E2; */
+	cursor:default;
+	padding:0px;
+	height:31px;
+	text-align: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+
+/* Type */
+td.Td-ProtocolsList-Type
+{
+	border-left:1px solid #ABC0E2;
+	cursor:default;
+	padding:0px;
+	height:31px;
+	text-align: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+
+/* PatientType */
+td.Td-ProtocolsList-PatientType
+{
+	border-left:1px solid #ABC0E2;
+	cursor:default;
+	padding:0px;
+	height:31px;
+	text-align: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+
+/* Name */
+td.Td-ProtocolsList-Name
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	border-left:1px solid #ABC0E2;
+	/* border-bottom:1px solid #ABC0E2; */
+	cursor:default;
+	padding:0px;
+	height:31px;
+	text-align: left;
+}
+
+/* Machine */
+td.Td-ProtocolsList-Machine
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	border-left:1px solid #ABC0E2;
+	cursor:default;
+	padding:0px;
+	height:31px;
+	text-align: left;
+	/* width:180px; */
+}
+
+/* Time */
+td.Td-ProtocolsList-Time
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	border-left:1px solid #ABC0E2;
+	cursor:default;
+	padding:0px;
+	height:31px;
+	text-align: left;
+}
+
+/* Column Type */
+td.Td-ProtocolsColumn-Type
+{
+	border-left:1px solid #ABC0E2;
+	padding:0px;
+	height:27px;
+	text-align: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:default;
+	padding-bottom:1px;
+}
+/* Column Patient Type */
+td.Td-ProtocolsColumn-PatientType
+{
+	border-left:1px solid #ABC0E2;
+	padding:0px;
+	height:27px;
+	text-align: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:default;
+	padding-bottom:1px;
+}
+/* Column Name */
+td.Td-ProtocolsColumn-Name
+{
+	border-left:1px solid #ABC0E2;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:default;
+	padding:0px;
+	height:27px;
+	text-align: left;
+	padding-bottom:1px;
+}
+/* Column Machine */
+td.Td-ProtocolsColumn-Machine
+{
+	border-left:1px solid #ABC0E2;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	cursor:default;
+	padding:0px;
+	height:27px;
+	text-align: left;
+	padding-bottom:1px;
+}
+/* Column Applicant */
+
+/* Column Time */
+td.Td-ProtocolsColumn-Time
+{
+	border-left:1px solid #ABC0E2;
+	cursor:default;
+	padding:0px;
+	height:27px;
+	text-align: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	padding-bottom:1px;
+}
+
+.panelExam-Master-List-NoPadding{
+	padding:0px;
+	border:0px;
+	overflow-x:auto;
+	overflow-y:auto;
+	border-left:1px solid #ABC0E2;
+	border-bottom:1px solid #ABC0E2;
+	border-right:1px solid #ABC0E2;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+}
+
+/* master tab*/
+table.tabPanel-header{
+	table-layout	:fixed;
+	border-collapse	:separate;
+	border-spacing	:2px 0px;
+	padding			:0px;
+	background-color:#EDF0F7;
+	width:100%;
+	color: #1E3246;
+	font-size:13pt;
+}
+table.tabPanel-header tr
+{
+	height: 35px;
+}
+table.tabPanel-header tr td
+{
+	color  :#413D3D;
+	text-align: center;
+	font-size: 14pt;
+	font-weight:bold;
+	cursor:pointer;
+	-webkit-border-top-left-radius:  6px;
+	-webkit-border-top-right-radius:  6px;
+    border-top-left-radius:  6px;
+    border-top-right-radius:  6px;
+}
+table.tabPanel-header tr td.selected
+{
+	color : white;
+	background-color: deepskyblue;
+}
+table.tabPanel-header tr td.no-selected
+{
+	background-color: rgb(213, 219, 229);
+}
+table.tabPanel-header tr td.forbid
+{
+	background-color : #D5DBE5;
+	color : #94A1B8 ;
+	cursor: default;
+}
+/* master tab end */
+
+table.tabPanel-body{
+	table-layout	:fixed;
+	border-collapse	:collapse;
+	/*border-collapse :collapse*/
+	border-spacing	:0px 0px;
+	padding			:0px;
+	background-color:#FFFFFF;
+	width:100%;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+	user-select:none;
+	-ms-user-select:none;
+	color: #1E3246;
+	font-size:13pt;
+}
+table.tabPanel-body tbody tr{
+    border :1px solid gray;
+	height: 43px;
+	background-color: #EDF0F7;
+}
+table.tabPanel-body tbody tr td{
+	text-align: center;
+	width: 100px;
+	font-size: 15pt;
+	border :1px solid gray;
+	cursor:pointer;
+	-webkit-border-radius: 8px;
+    border-radius:  8px;
+}
+table.tabPanel-body tbody tr td div{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+table.tabPanel-body tbody tr td.no-selectedTd:hover{
+    border: 1px deepskyblue solid !important;
+	/*background-color: #C0E0FA;*/
+	}
+table.tabPanel-body tbody tr td.selectedTd{
+	-webkit-box-shadow: 0 0 10px #8EABE4;
+	background-color: deepskyblue ;
+    color:white;
+}
+table.tabPanel-body tbody tr td.no-selectedTd{
+	-webkit-box-shadow:inset 0 0 5px #8EABE4;
+	background-color : white;
+}
+table.tabPanel-body tbody tr td.forbid{
+	-webkit-box-shadow:inset 0 0 5px #8EABE4;
+	background-color : #EDF0F7;
+	cursor: default;
+
+}
+.radioSelected{
+	border:0
+}
+.radioClickable{
+	padding-right: 10px;
+	cursor:pointer;
+}
+
+.EP-headerSouthPanel-transparent{
+	border:0px;
+	background-color:transparent;
+}
+table.table_in
+{
+	table-layout:fixed;
+	border-collapse:collapse;
+	border-spacing:0px 0px;
+	padding:0px;
+	cursor:default;
+
+}
+table.tabPanel-body tbody tr td.childTdTr
+{
+	border:0px;
+	cursor: default;
+}
+table.tabPanel-body tbody tr.childTdTr{
+	height: 39px;
+	border:0;
+}
+table.table_in tbody tr td.masChildTdTr
+{
+	border:0px;
+	cursor:pointer;
+}
+table.table_in tbody tr.masChildTdTr{
+	height: 31px;
+	border:0;
+	color: dimgrey;
+}
+
+.add-highlight{
+	border: 1px deepskyblue solid !important;
+    -webkit-box-shadow: 0 0 10px #8EABE4 !important;
+    /*background-color : white !important;*/
+}
+
+
+/* master Ep header*/
+.Master-Setting-Header
+{
+    background-color:#4F81BD;
+    color:#FFFFFF;
+    font-size: 14pt;
+    padding-top: 6px;
+    padding-left:10px;
+    border:0px;
+}
+
+/* Column patienttype */
+td.Master-Column-patienttype
+{
+	cursor:pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    padding:0px;
+    height:31px;
+    text-align: left;
+    background-color:transparent;
+}
+/* Column organ */
+td.Master-Column-organ
+{
+	cursor:pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    padding:0px;
+    height:31px;
+    text-align: left;
+    background-color:transparent;
+}
+/* Column protocolname */
+td.Master-Column-protocolname
+{
+	cursor:pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    padding:0px;
+    height:31px;
+    text-align: left;
+    background-color:transparent;
+}
+/* Column machinename */
+td.Master-Column-machinename
+{
+	cursor:pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    padding:0px;
+    height:31px;
+    text-align: left;
+    background-color:transparent;
+}
+
+/* Column Sort */
+td.Master-Column-Sort
+{
+    cursor:pointer;
+    padding:0px;
+    padding-right:5px;
+    height:31px;
+    text-align: left;
+    width:28px;
+}
+
+img.Img-Master-Column-Sort
+{
+    padding:0px;
+    margin-top:-2px;
+    vertical-align:middle;
+}
+
+.Master-Left-panel
+{
+    border:0;
+    background-color:#EDF0F7;
+    padding-left:12px;
+    padding-bottom:12px;
+}
+.Master-right-panel
+{
+    border:0;
+    padding-right:12px;
+    padding-bottom:12px;
+    padding-left:12px;
+    background-color:#EDF0F7;
+}
+table.Master-Header
+{
+    table-layout    :fixed;
+    border-collapse :separate;
+    border-spacing  :0px 0px;
+    padding         :0px;
+    background-color:#4F81BD;
+    width:100%;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    user-select:none;
+    -ms-user-select:none;
+}
+
+table.Master-Header tr
+{
+    background-color: #4F81BD;
+}
+
+table.Master-Grid-Table
+{
+    table-layout    :fixed;
+    border-collapse :separate;
+    border-spacing  :0px 0px;
+    padding         :0px;
+    background-color:#F7F9FF;
+    width:100%;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    user-select:none;
+    -ms-user-select:none;
+}
+
+table.Master-Grid-Table tr
+{
+    border:0;
+}
+
+table.Master-Grid-Table tr.odd
+{
+    border:0;
+    background-color : #EBF1FA;
+}
+
+table.Master-Grid-Table tr.even
+{
+    cursor: default;
+    border:0;
+    background-color : #F7F9FF;
+}
+
+table.Master-Grid-Table tr.odddiff
+{
+	font-weight: bold;
+	border:0;
+	background-color : #BBCFEE;
+}
+
+table.Master-Grid-Table tr.evendiff
+{
+	font-weight: bold;
+	cursor: default;
+	border:0;
+	background-color : #CCDBF2;
+}
+
+table.Master-Grid-Table tr td
+{
+    border:0;
+    border-right: 1px solid #FFFFFF;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    color: #1E3246;
+    font-size: 12pt;
+}
+
+table.Master-Grid-Table tr td.unselect
+{
+    cursor: pointer;
+    color:rgb(30, 50, 70);
+}
+
+table.Master-Grid-Table tr td.unselect:hover
+{
+    background-color : rgb(192,224,250);
+}
+table.Master-Grid-Table tr td.onselect
+{
+    cursor: pointer;
+    color:#FFFFFF;
+    background-color : rgb(38, 147, 238);
+}
+
+table.Master-Grid-Table tr td.added
+{
+    cursor: pointer;
+    color:rgb(165,165,165);
+}
+table.Master-Grid-Table tr td.added:hover
+{
+    cursor: pointer;
+    background-color : rgb(192,224,250);
+}
+
+table.Master-Grid-Table tr td.end
+{
+    border:0;
+}
+
+table.Master-Grid-Table tr td span
+{
+    padding-left:5px;
+    padding-right:5px;
+}
+table.Master-Grid-Table tr td span.no-mouse
+{
+    cursor: default;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+table.Master-Header tr td.addbutton
+{
+    padding:0px;
+    height:31px;
+    text-align: right;
+}
+
+.serviceStyle
+{
+	/*color:#ed9646;*/
+	padding-left: 0px !important;
+}
+
+.parameters-Scanner-Protocolname
+{
+	font-size: 14pt;
+	font-weight: bold;
+}

@@ -90,9 +90,9 @@ export class ComparedetailpanelComponent implements OnInit {
       this.comparelist = comparelist.result;
       console.log(comparelist)
     });
-    this.requestListService.getCompareData().then(parameterList => {
-      this.parameterList = parameterList.result.changelist;
-    });
+    // this.requestListService.getCompareData().then(parameterList => {
+    //   this.parameterList = parameterList.result.changelist;
+    // });
     // console.log(this.organArray)
   }
   onImgClick(event) {

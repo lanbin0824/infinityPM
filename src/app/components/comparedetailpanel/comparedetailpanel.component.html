@@ -5,7 +5,7 @@
     </div>
   </div>
   <div class="ui-sm-12 ui-md-8 ui-lg-8 ui-xl-8">
-    <p-dataTable #cl id="cl" [value]="comparelist" [rows]="12" [alwaysShowPaginator]="true" selectionMode="single" rowHover="true"
+    <p-dataTable #cl id="cl" [value]="comparelist" [rows]="8" [alwaysShowPaginator]="true" selectionMode="single" rowHover="true"
       [paginator]="true">
       <p-column field="patienttype" [header]="header.patienttype" sortable="true">
         <ng-template pTemplate="body" let-col let-row="rowData">
@@ -40,9 +40,9 @@
   <p-treeTable #tt [value]="parameterList" styleClass="parameter-list-cls" toggleColumnIndex="1">
     <p-column field="name" styleClass="tree-table-row-cls"></p-column>
     <p-column field="targetvalue" styleClass="tree-table-row-cls">
-      <ng-template pTemplate="body" let-col let-row="rowData" let-ri="rowIndex">
+      <!-- <ng-template pTemplate="body" let-col let-row="rowData" let-ri="rowIndex">
         <span> {{row.data.targetvalue}} </span>
-      </ng-template>
+      </ng-template> -->
     </p-column>
   </p-treeTable>
 </div>
